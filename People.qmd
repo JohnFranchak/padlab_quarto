@@ -1,6 +1,11 @@
 ---
 title: "People"
 listing:
+  type: grid
   contents:
     - "people/*.qmd"
 ---
+
+![](images/lab_photo.jpg) 
+
+## Lab Member Pages

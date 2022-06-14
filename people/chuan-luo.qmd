@@ -1,0 +1,18 @@
+---
+title: "Chuan Luo"
+image: chuan-luo.jpg
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com
+---
+
+Doctoral Student
+
+## Education
+
+University of California, San Diego \| San Diego, CA PhD in Mathematics \| Sep 2011 - June 2015
+
+Macalester College \| St. Paul MA B.A in Economics \| Sep 2007 - June 2011
