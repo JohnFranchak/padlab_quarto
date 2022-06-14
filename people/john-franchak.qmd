@@ -1,6 +1,7 @@
 ---
 title: "Dr. John Franchak"
 image: john-franchak.png
+order: 2014
 about:
   template: trestles
   links:

@@ -2,10 +2,11 @@
 title: "People"
 listing:
   type: grid
+  sort: "order"
   contents:
     - "people/*.qmd"
 ---
 
-![](images/lab_photo.jpg) 
+![](images/lab_photo.jpg)
 
-## Lab Member Pages
+## Current Lab Members
