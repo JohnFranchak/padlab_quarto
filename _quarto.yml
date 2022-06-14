@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: ""
+  navbar:
+    background: secondary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - Publications.qmd
+      - People.qmd
+      - Contact.qmd
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+
+editor: visual
+

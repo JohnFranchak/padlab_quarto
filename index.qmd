@@ -1,0 +1,17 @@
+---
+title: "Perception, Action, and Development Lab"
+---
+
+::: {layout-ncol="3"}
+![](images/hmet2.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"}
+
+![](images/hmet1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"}
+
+![](images/ret1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"}
+:::
+
+The UCR PADLAB studies:
+
+-   Natural visual and motor experiences of infants, children, and adults in everyday tasks
+-   Visual exploration of complex scenes and natural environments
+-   Perceptual recalibration to changing motor abilities
