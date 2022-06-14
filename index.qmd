@@ -2,28 +2,19 @@
 title: ""
 ---
 
-<!-- ::: {layout-ncol="3"} -->
-<!-- ![](images/hmet2.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
+::: {layout-ncol="3"}
+![](images/hmet2.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"}
 
-<!-- ![](images/hmet1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
+![](images/hmet1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"}
 
-<!-- ![](images/ret1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
-<!-- ::: -->
-
-::: panel-tabset
-#### Mobile ET
-![](images/hmet2.jpg)
-
-#### Remote ET
-![](images/ret1.jpg)
-#### Affordances
-![](images/hmet1.jpg)
+![](images/ret1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"}
 :::
+
 
 
 
 #### The UCR Perception, Action, & Development Lab studies:
 
--   **Natural visual and motor** experiences of infants and children in everyday tasks
--   **Visual exploration** of complex scenes and natural environments
--   **Perceptual recalibration** to changing motor abilities
+-   [**Natural visual and motor experiences**]{.text-primary} of infants, children, and adults in activities of daily living
+-   [**Visual exploration**]{.text-primary} of complex scenes and everyday environments
+-   [**Perceptual recalibration**]{.text-primary} to changing motor abilities

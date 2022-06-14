@@ -1,9 +1,6 @@
 ---
 title: "People"
+listing:
+  contents:
+    - "people/*.qmd"
 ---
-
-About this site
-
-```{r}
-1 + 1
-```
