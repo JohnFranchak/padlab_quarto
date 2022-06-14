@@ -10,7 +10,17 @@ title: ""
 <!-- ![](images/ret1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
 <!-- ::: -->
 
-![](images/hmet2.jpg){style="border: 2px solid rgba(0, 0, 0, .8);border-radius: 0px; width: 75%"}
+::: panel-tabset
+#### Mobile ET
+![](images/hmet2.jpg)
+
+#### Remote ET
+![](images/ret1.jpg)
+#### Affordances
+![](images/hmet1.jpg)
+:::
+
+
 
 #### The UCR Perception, Action, & Development Lab studies:
 
