@@ -5,12 +5,18 @@ order: 2014
 about:
   template: trestles
   links:
+    - icon: google
+      text: scholar
+      href: https://scholar.google.com/citations?user=R-w4kRcAAAAJ
     - icon: twitter
       text: twitter
       href: https://twitter.com/JohnFranchak
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/JohnFranchak
+    - icon: envelope
+      text: email
+      href: mailto:franchak@ucr.edu
 ---
 
 Principal Investigator
