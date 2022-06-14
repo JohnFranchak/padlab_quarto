@@ -19,12 +19,13 @@ about:
       href: mailto:franchak@ucr.edu
 ---
 
-[**Principal Investigator**]{.text-primary} <br/>
+[**Principal Investigator**]{.text-primary} 
+
 [**Associate Professor of Psychology**]{.text-primary}
 
 **Office:** Psychology 2125 <br/>
 **Phone:** 951.827.3898 <br/>
 
-[**Biography**]{.text-primary}
+**Biography**
 
 Dr. Franchak earned a BA in Cognitive Science from the University of Virginia in 2005 and a PhD in Experimental Psychology from New York University in 2011. Afterwards, Dr. Franchak completed postdoctoral fellowships at New York University (2011-2013) and Indiana University (2013-2014) before joining the UCR Department of Psychology in 2014.
