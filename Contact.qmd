@@ -2,8 +2,19 @@
 title: "Contact"
 ---
 
-About this site
+**Lab phone:** 951.827.5295 
 
-```{r}
-1 + 1
-```
+**Mailing address**<br/>
+Department of Psychology <br/>
+University of California, Riverside <br/>
+900 University Avenue <br/>
+Riverside, CA 92521 <br/>
+
+**Lab address**<br/>
+Olmsted Hall, Rooms 2136 <br/>
+Riverside, CA 92507 <br/>
+Parking: Lot 6 on West Campus Drive <br/>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.8283744976966!2d-117.32823350000005!3d33.97125049999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcae4fbbd50911%3A0xd237c633ae6a0efd!2sOlmsted+Hall%2C+University+of+California%2C+Riverside%2C+Riverside%2C+CA+92507!5e0!3m2!1sen!2sus!4v1405438650299" width="500" height="300" frameborder="0" style="border:0"></iframe>
+

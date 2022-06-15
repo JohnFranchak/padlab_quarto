@@ -2,7 +2,7 @@
 title: ""
 ---
 
-::: {layout-ncol="3"}
+::: {layout-ncol="3" .column-body-outset}
 ![](images/hmet2.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"}
 
 ![](images/hmet1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"}
@@ -10,11 +10,13 @@ title: ""
 ![](images/ret1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"}
 :::
 
-
-
-
 #### The UCR Perception, Action, & Development Lab studies:
 
 -   [**Natural visual and motor experiences**]{.text-primary} of infants, children, and adults in activities of daily living
 -   [**Visual exploration**]{.text-primary} of complex scenes and everyday environments
 -   [**Perceptual recalibration**]{.text-primary} to changing motor abilities
+
+
+#### See our research in action:
+<iframe width="720" height="405" src="https://www.youtube.com/embed/57_gxR8GmGM" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+        
