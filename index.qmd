@@ -5,40 +5,39 @@ title: ""
 <!-- #### The UCR Perception, Action, & Development Lab studies: -->
 
 <!-- -   [**Natural visual and motor experiences**]{.text-primary} of infants, children, and adults in activities of daily living -->
+
 <!-- -   [**Visual exploration**]{.text-primary} of complex scenes and everyday environments -->
+
 <!-- -   [**Perceptual recalibration**]{.text-primary} to changing motor abilities -->
 
 <!-- ::: {layout-ncol="3" } -->
+
 <!-- ![](images/hmet2.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
 
 <!-- ![](images/hmet1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
 
 <!-- ![](images/ret1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
+
 <!-- ::: -->
 
-:::: {.columns .column-body-outset}
-
+::: {.columns .column-body-outset}
 ::: {.column width="33%"}
-
-<i class="bi-house-fill" style="font-size:100px; text-align: center;"></i>
-[text text text text]{style="font-size:25px; text-align: center;"}
+<i class="bi-house-fill" style="font-size:100px; text-align: center;"></i> [text text text text]{style="font-size:25px; text-align: center;"}
 :::
 
 ::: {.column width="33%"}
-<i class="bi-eye-fill" style="font-size:100px; text-align:center;"></i>
-text text
+<i class="bi-eye-fill" style="font-size:100px; text-align:center;"></i> text text
 :::
 
 ::: {.column width="33%"}
-<i class="bi-door-open-fill" style="font-size:100px; text-align:center;"></i>
-text text
+<i class="bi-door-open-fill" style="font-size:100px; text-align:center;"></i> text text
+:::
 :::
 
-::::
+[See our research in action:]{.text-secondary style="font-size: 1.7em; text-align: center;"}
 
+<iframe width="605" height="385" src="https://www.youtube.com/embed/57_gxR8GmGM" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen>
 
+</iframe>
 
-[See our research in action: ]{.text-secondary style="font-size: 1.7em; text-align: center;"}
-
-<iframe width="605" height="385" src="https://www.youtube.com/embed/57_gxR8GmGM" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
-  
+</p>
