@@ -2,9 +2,12 @@ project:
   type: website
 
 website:
-  title: "Perception, Action, & Development Lab"
+  title: "Perception, Action, and Development Lab"
+  
   navbar:
     background: primary
+    logo: images/logo.png
+    title: false
     search: true
     left:
       - text: "Home"

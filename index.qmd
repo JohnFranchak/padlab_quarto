@@ -2,29 +2,13 @@
 title: ""
 ---
 
-<!-- #### The UCR Perception, Action, & Development Lab studies: -->
+## Who are we?
 
-<!-- -   [**Natural visual and motor experiences**]{.text-primary} of infants, children, and adults in activities of daily living -->
-
-<!-- -   [**Visual exploration**]{.text-primary} of complex scenes and everyday environments -->
-
-<!-- -   [**Perceptual recalibration**]{.text-primary} to changing motor abilities -->
-
-<!-- ::: {layout-ncol="3" } -->
-
-<!-- ![](images/hmet2.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
-
-<!-- ![](images/hmet1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
-
-<!-- ![](images/ret1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
-
-<!-- ::: -->
-
-## Who we are
+![](images/logo-with-text.svg)
 
 The Perception, Action, & Development Lab is directed by [Dr. John Franchak](people/john-franchak.qmd) in the UC Riverside Department of Psychology. 
 
-## What we study
+## What do we study?
 
 ::: {.columns .column-page-inset style="text-align: center; background-color: WhiteSmoke;" }
 ::: {.column width="32%"}
@@ -52,4 +36,22 @@ The Perception, Action, & Development Lab is directed by [Dr. John Franchak](peo
 
 </iframe>
 
-</p>
+
+
+<!-- #### The UCR Perception, Action, & Development Lab studies: -->
+
+<!-- -   [**Natural visual and motor experiences**]{.text-primary} of infants, children, and adults in activities of daily living -->
+
+<!-- -   [**Visual exploration**]{.text-primary} of complex scenes and everyday environments -->
+
+<!-- -   [**Perceptual recalibration**]{.text-primary} to changing motor abilities -->
+
+<!-- ::: {layout-ncol="3" } -->
+
+<!-- ![](images/hmet2.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
+
+<!-- ![](images/hmet1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
+
+<!-- ![](images/ret1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
+
+<!-- ::: -->
