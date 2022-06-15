@@ -2,21 +2,43 @@
 title: ""
 ---
 
-::: {layout-ncol="3" .column-body-outset}
-![](images/hmet2.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"}
+<!-- #### The UCR Perception, Action, & Development Lab studies: -->
 
-![](images/hmet1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"}
+<!-- -   [**Natural visual and motor experiences**]{.text-primary} of infants, children, and adults in activities of daily living -->
+<!-- -   [**Visual exploration**]{.text-primary} of complex scenes and everyday environments -->
+<!-- -   [**Perceptual recalibration**]{.text-primary} to changing motor abilities -->
 
-![](images/ret1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"}
+<!-- ::: {layout-ncol="3" } -->
+<!-- ![](images/hmet2.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
+
+<!-- ![](images/hmet1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
+
+<!-- ![](images/ret1.jpg){style="border: 1px solid rgba(0, 0, 0, .8);border-radius: 0px;"} -->
+<!-- ::: -->
+
+:::: {.columns .column-body-outset}
+
+::: {.column width="33%"}
+
+<i class="bi-house-fill" style="font-size:100px; text-align: center;"></i>
+[text text text text]{style="font-size:25px; text-align: center;"}
 :::
 
-#### The UCR Perception, Action, & Development Lab studies:
+::: {.column width="33%"}
+<i class="bi-eye-fill" style="font-size:100px; text-align:center;"></i>
+text text
+:::
 
--   [**Natural visual and motor experiences**]{.text-primary} of infants, children, and adults in activities of daily living
--   [**Visual exploration**]{.text-primary} of complex scenes and everyday environments
--   [**Perceptual recalibration**]{.text-primary} to changing motor abilities
+::: {.column width="33%"}
+<i class="bi-door-open-fill" style="font-size:100px; text-align:center;"></i>
+text text
+:::
+
+::::
 
 
-#### See our research in action:
-<iframe width="720" height="405" src="https://www.youtube.com/embed/57_gxR8GmGM" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
-        
+
+[See our research in action: ]{.text-secondary style="font-size: 1.7em; text-align: center;"}
+
+<iframe width="605" height="385" src="https://www.youtube.com/embed/57_gxR8GmGM" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+  
