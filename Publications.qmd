@@ -1,9 +1,13 @@
 ---
 title: "Publications"
+bibliography: my_refs.bib
+csl: apa-cv.csl
 ---
 
-About this site
+---
+nocite: |
+  @*
+---
 
-```{r}
-1 + 1
-```
+::: {#refs}
+:::
