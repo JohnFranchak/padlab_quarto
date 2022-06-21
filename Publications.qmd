@@ -38,7 +38,12 @@ reactable(refs, filterable = TRUE, searchable = TRUE, elementId = "cars-select",
           "aria-label" = sprintf("Filter %s", name),
           style = "width: 100%; height: 28px;"
         )
-      }
+      },
+    cell = function(value, index) {
+    # Render as a link
+    url <- sprintf("https://wikipedia.org/wiki/%s_%s", refs[index, "type"], value)
+    htmltools::tags$a(href = url, target = "_blank", as.character(value))
+  }
     )
   ))
 ```
