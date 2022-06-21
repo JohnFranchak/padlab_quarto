@@ -2,12 +2,43 @@
 title: "Publications"
 bibliography: my_refs.bib
 csl: apa-cv.csl
+execute:
+  echo: false
+  warning: false
 ---
 
----
-nocite: |
-  @*
----
+<!-- --- -->
+<!-- nocite: | -->
+<!--   @* -->
+<!-- --- -->
 
-::: {#refs}
-:::
+<!-- ::: {#refs} -->
+<!-- ::: -->
+
+```{r}
+#|output: false
+#|echo: false
+library(reactable)
+library(tidyverse)
+library(htmltools)
+refs <- tibble(cite = c("Franchak, J.M. & Adolph, K. E. (2014)", "Kretch, K. S. & Adolph, K. E. (2014)"), link = c("google.com", "padlab.ucr.edu"), type = c("Chapter", "Journal"))
+```
+
+```{r}
+reactable(refs, filterable = TRUE, searchable = TRUE, elementId = "cars-select",
+          columns = list(
+    type = colDef(
+      filterInput = function(values, name) {
+        tags$select(
+          # Set to undefined to clear the filter
+          onchange = sprintf("Reactable.setFilter('cars-select', '%s', event.target.value || undefined)", name),
+          # "All" has an empty value to clear the filter, and is the default option
+          tags$option(value = "", "All"),
+          lapply(unique(values), tags$option),
+          "aria-label" = sprintf("Filter %s", name),
+          style = "width: 100%; height: 28px;"
+        )
+      }
+    )
+  ))
+```
