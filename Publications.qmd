@@ -16,8 +16,9 @@ refs <- read_csv("publications/publications.csv")
 
 ```{r}
 refs_clean <- refs %>% 
-  mutate(citation = sprintf("%s. (%d). %s. %s.", authors, year, title, venue), .before = type) %>% 
-           select(-abstract, -editors, -numbers, -title, -venue)
+  mutate(citation = sprintf("%s. (%d). %s %s.", authors, year, title, venue), .before = type) %>% 
+           select(-abstract, -editors, -numbers, -title, -venue) %>% 
+  relocate(type, .after = url)
          
 reactable(refs_clean, filterable = TRUE, searchable = TRUE, defaultSorted = c("year", "authors"), elementId = "cars-select",
           columns = list(
@@ -25,11 +26,11 @@ reactable(refs_clean, filterable = TRUE, searchable = TRUE, defaultSorted = c("y
     year = colDef(show = FALSE),
     authors = colDef(show = FALSE),
     inpress = colDef(show = FALSE),
-    citation = colDef(minWidth = 300),
-    url = colDef(cell = function(value, index) {
+    citation = colDef(minWidth = 350, filterable = FALSE),
+    url = colDef(filterable = FALSE, cell = function(value, index) {
     # Render as a link
     url <- sprintf("publications/%s", refs[index, "url"], value)
-    htmltools::tags$a(href = url, target = "_blank", "download")
+    htmltools::tags$a(href = url, target = "_blank", '\U21A7')
   }),
     type = colDef(
       filterInput = function(values, name) {
