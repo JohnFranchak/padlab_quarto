@@ -11,39 +11,46 @@ execute:
 library(reactable)
 library(tidyverse)
 library(htmltools)
+library(reactablefmtr)
 refs <- read_csv("publications/publications.csv")
 ```
 
 ```{r}
 refs_clean <- refs %>% 
-  mutate(citation = sprintf("%s. (%d). %s %s.", authors, year, title, venue), .before = type) %>% 
-           select(-abstract, -editors, -numbers, -title, -venue) %>% 
-  relocate(type, .after = url)
+  mutate(citation = sprintf("%s (%d). %s %s.", authors, year, title, venue), .after = url) %>% 
+  select(-abstract, -editors, -numbers, -title, -venue) %>% 
+  relocate(type, .after = citation)
          
-reactable(refs_clean, filterable = TRUE, searchable = TRUE, defaultSorted = c("year", "authors"), elementId = "cars-select",
+reactable(refs_clean, 
+          filterable = TRUE, 
+          searchable = TRUE, 
+          defaultSorted = c("year", "authors"), defaultSortOrder = "desc", 
+          elementId = "cars-select", 
+          theme = no_lines(),
+          defaultColDef = colDef(show = FALSE, name = ""),
           columns = list(
-    doi = colDef(show = FALSE),
-    year = colDef(show = FALSE),
-    authors = colDef(show = FALSE),
-    inpress = colDef(show = FALSE),
-    citation = colDef(minWidth = 350, filterable = FALSE),
-    url = colDef(filterable = FALSE, cell = function(value, index) {
-    # Render as a link
-    url <- sprintf("publications/%s", refs[index, "url"], value)
-    htmltools::tags$a(href = url, target = "_blank", '\U21A7')
-  }),
-    type = colDef(
-      filterInput = function(values, name) {
-        tags$select(
-          # Set to undefined to clear the filter
-          onchange = sprintf("Reactable.setFilter('cars-select', '%s', event.target.value || undefined)", name),
-          # "All" has an empty value to clear the filter, and is the default option
-          tags$option(value = "", "All"),
-          lapply(unique(values), tags$option),
-          "aria-label" = sprintf("Filter %s", name),
-          style = "width: 100%; height: 28px;"
-        )
-      }
+              citation = colDef(show = TRUE, minWidth = 350, filterable = FALSE),
+              url = colDef(maxWidth = 25, show = TRUE, filterable = FALSE, cell = function(value, index) {
+                url <- sprintf("publications/%s", refs[index, "url"])
+                htmltools::tags$a(href = url, target = "_blank", '\u21E9')
+              }),
+          type = colDef(maxWidth = 85, show = TRUE,
+            filterInput = function(values, name) {
+            tags$select(
+            # Set to undefined to clear the filter
+            onchange = sprintf("Reactable.setFilter('cars-select', '%s', event.target.value || undefined)", name),
+            # "All" has an empty value to clear the filter, and is the default option
+            tags$option(value = "", "All"),
+            lapply(unique(values), tags$option),
+            "aria-label" = sprintf("Filter %s", name),
+            style = "width: 100%; height: 28px;"
+          )}
     )
   ))
+                # htmltools::tags$div(sprintf("%s (%i). %s", refs[index, "authors"], as.integer(refs[index, "year"]), refs[index, "title"]), tags$span(refs[index, "venue"], .noWS="outside"), .noWS="after-begin")
+
+# cell = function(value, index) {
+#                   htmltools::tags$a(href = "www.google.com", refs[index, "title"])
+#                   # tags$p(refs[index, "authors"], '(',as.character(refs[index, "year"]),').',strong(refs[index, "title"]))
+#                 }
 ```
