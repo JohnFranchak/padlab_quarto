@@ -30,9 +30,9 @@ reactable(refs_clean,
           defaultColDef = colDef(show = FALSE, name = ""),
           columns = list(
               citation = colDef(show = TRUE, minWidth = 350, filterable = FALSE),
-              url = colDef(maxWidth = 25, show = TRUE, filterable = FALSE, cell = function(value, index) {
+              url = colDef(maxWidth = 20, show = TRUE, filterable = FALSE, cell = function(value, index) {
                 url <- sprintf("publications/%s", refs[index, "url"])
-                htmltools::tags$a(href = url, target = "_blank", '\u21E9')
+                htmltools::tags$a(href = url, target = "_blank", '\U2193')
               }),
           type = colDef(maxWidth = 85, show = TRUE,
             filterInput = function(values, name) {
