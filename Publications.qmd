@@ -26,15 +26,18 @@ reactable(refs_clean,
           searchable = TRUE, 
           defaultSorted = c("year", "authors"), defaultSortOrder = "desc", 
           elementId = "cars-select", 
-          theme = no_lines(),
+          theme = no_lines(font_size = 18),
           defaultColDef = colDef(show = FALSE, name = ""),
           columns = list(
-              citation = colDef(show = TRUE, minWidth = 350, filterable = FALSE),
+              citation = colDef(show = TRUE, minWidth = 350, filterable = FALSE, 
+                                details = function(index) {
+                                  paste("Abstract: ", refs[index, "abstract"])
+                                  }),
               url = colDef(maxWidth = 20, show = TRUE, filterable = FALSE, cell = function(value, index) {
                 url <- sprintf("publications/%s", refs[index, "url"])
                 htmltools::tags$a(href = url, target = "_blank", '\U2193')
               }),
-          type = colDef(maxWidth = 85, show = TRUE,
+          type = colDef(maxWidth = 105, show = TRUE,
             filterInput = function(values, name) {
             tags$select(
             # Set to undefined to clear the filter
@@ -47,10 +50,4 @@ reactable(refs_clean,
           )}
     )
   ))
-                # htmltools::tags$div(sprintf("%s (%i). %s", refs[index, "authors"], as.integer(refs[index, "year"]), refs[index, "title"]), tags$span(refs[index, "venue"], .noWS="outside"), .noWS="after-begin")
-
-# cell = function(value, index) {
-#                   htmltools::tags$a(href = "www.google.com", refs[index, "title"])
-#                   # tags$p(refs[index, "authors"], '(',as.character(refs[index, "year"]),').',strong(refs[index, "title"]))
-#                 }
 ```
