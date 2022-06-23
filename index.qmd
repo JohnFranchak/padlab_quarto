@@ -6,27 +6,21 @@ title: ""
 
 ![](images/logo-wide.png)
 
-The Perception, Action, & Development Lab is directed by [Dr. John Franchak](people/john-franchak.qmd) in the UC Riverside [Department of Psychology](https://psychology.ucr.edu/). Dr. Franchak advises students in the  [Developmental](https://psychology.ucr.edu/faculty-research/areas-of-study/#tab-id-3) and [Cognition and Cognitive Neuroscience](https://psychology.ucr.edu/faculty-research/areas-of-study/#tab-id-2) areas of the Psychology Department. 
+The Perception, Action, & Development Lab is directed by [Dr. John Franchak](people/john-franchak.qmd) in the UC Riverside [Department of Psychology](https://psychology.ucr.edu/). Dr. Franchak advises students in the [Developmental](https://psychology.ucr.edu/faculty-research/areas-of-study/#tab-id-3) and [Cognition and Cognitive Neuroscience](https://psychology.ucr.edu/faculty-research/areas-of-study/#tab-id-2) areas of the Psychology Department.
 
 ## What do we study?
 
-::: {.columns .column-page-inset style="text-align: center; background-color: WhiteSmoke;" }
+::: {.columns .column-page-inset style="text-align: center; background-color: WhiteSmoke;"}
 ::: {.column width="32%"}
-<i class="bi-house-fill" style="font-size:75px; text-align: center;"></i> <br/>
-[Everyday Experiences]{style="font-size:25px;"} <br/>
-[How does motor development shape infants' opportunities for learning about objects and people? ]{.text-secondary style="font-size:18px;"}
+<i class="bi-house-fill" style="font-size:75px; text-align: center;"></i> <br/> [Everyday Experiences]{style="font-size:25px;"} <br/> [How does motor development shape infants' opportunities for learning about objects and people?]{.text-secondary style="font-size:18px;"}
 :::
 
 ::: {.column width="32%"}
-<i class="bi-eye-fill" style="font-size:75px; text-align:center;"></i> <br/>
-[Visual Exploration]{style="font-size:25px;"} <br/>
-[How do people coordinate eyes, head, and body to gather task-relevant visual information?]{.text-secondary style="font-size:18px;"}
+<i class="bi-eye-fill" style="font-size:75px; text-align:center;"></i> <br/> [Visual Exploration]{style="font-size:25px;"} <br/> [How do people coordinate eyes, head, and body to gather task-relevant visual information?]{.text-secondary style="font-size:18px;"}
 :::
 
 ::: {.column width="32%"}
-<i class="bi-door-open-fill" style="font-size:75px; text-align:center;"></i> <br/>
-[Action Possibilities]{style="font-size:25px;"} <br/>
-[How do people adapt to changes in the body to decide what actions---like fitting through doorways---are possible?]{.text-secondary style="font-size:18px;"}
+<i class="bi-door-open-fill" style="font-size:75px; text-align:center;"></i> <br/> [Action Possibilities]{style="font-size:25px;"} <br/> [How do people adapt to changes in the body to decide what actions---like fitting through doorways---are possible?]{.text-secondary style="font-size:18px;"}
 :::
 :::
 
@@ -35,8 +29,6 @@ The Perception, Action, & Development Lab is directed by [Dr. John Franchak](peo
 <iframe width="605" height="385" src="https://www.youtube.com/embed/57_gxR8GmGM" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen>
 
 </iframe>
-
-
 
 <!-- #### The UCR Perception, Action, & Development Lab studies: -->
 

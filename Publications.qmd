@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: ""
 execute:
   echo: false
   warning: false
@@ -15,6 +15,9 @@ library(reactablefmtr)
 refs <- read_csv("publications/publications.csv")
 ```
 
+::: {.column-page-inset}
+# Publications
+
 ```{r}
 refs_clean <- refs %>% 
   mutate(citation = sprintf("%s (%d). %s %s.", authors, year, title, venue), .after = url) %>% 
@@ -26,7 +29,7 @@ reactable(refs_clean,
           searchable = TRUE, 
           defaultSorted = c("year", "authors"), defaultSortOrder = "desc", 
           elementId = "cars-select", 
-          theme = no_lines(font_size = 18),
+          theme = no_lines(font_size = 20),
           defaultColDef = colDef(show = FALSE, name = ""),
           columns = list(
               citation = colDef(show = TRUE, minWidth = 350, filterable = FALSE, 
@@ -37,7 +40,7 @@ reactable(refs_clean,
                 url <- sprintf("publications/%s", refs[index, "url"])
                 htmltools::tags$a(href = url, target = "_blank", '\U2193')
               }),
-          type = colDef(maxWidth = 105, show = TRUE,
+          type = colDef(maxWidth = 115, show = TRUE,
             filterInput = function(values, name) {
             tags$select(
             # Set to undefined to clear the filter
@@ -51,3 +54,4 @@ reactable(refs_clean,
     )
   ))
 ```
+:::
