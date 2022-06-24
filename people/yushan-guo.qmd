@@ -1,6 +1,6 @@
 ---
-title: "Hailey Rousey"
-image: hailey-rousey.jpg
+title: "Yushan Guo"
+image: yushan-guo.jpeg
 order: 2022
 about:
   template: trestles

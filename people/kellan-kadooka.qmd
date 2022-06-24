@@ -1,7 +1,7 @@
 ---
-title: "Hailey Rousey"
-image: hailey-rousey.jpg
-order: 2022
+title: "Kellan Kadooka"
+image: kellan-kadooka.jpg
+order: 2016
 about:
   template: trestles
 ---

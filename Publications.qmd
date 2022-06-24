@@ -5,6 +5,9 @@ execute:
   warning: false
 ---
 
+::: {.column-page-inset}
+# Publications
+
 ```{r}
 #|output: false
 #|echo: false
@@ -14,9 +17,6 @@ library(htmltools)
 library(reactablefmtr)
 refs <- read_csv("publications/publications.csv")
 ```
-
-::: {.column-page-inset}
-# Publications
 
 ```{r}
 refs_clean <- refs %>% 

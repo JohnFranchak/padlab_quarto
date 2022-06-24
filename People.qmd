@@ -3,6 +3,7 @@ title: "People"
 listing:
   type: grid
   sort: "order"
+  image-height: "200"
   contents:
     - "people/*.qmd"
 ---

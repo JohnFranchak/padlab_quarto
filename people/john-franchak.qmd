@@ -19,12 +19,11 @@ about:
       href: mailto:franchak@ucr.edu
 ---
 
-[**Principal Investigator**]{.text-primary} 
+[**Principal Investigator**]{.text-primary}
 
 [**Associate Professor of Psychology**]{.text-primary}
 
-**Office:** Psychology 2125 <br/>
-**Phone:** 951.827.3898 <br/>
+**Office:** Psychology 2125 <br/> **Phone:** 951.827.3898 <br/>
 
 **Biography**
 
