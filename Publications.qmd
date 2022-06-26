@@ -28,7 +28,7 @@ refs_clean <- refs %>%
          
 reactable(refs_clean, 
           filterable = TRUE, 
-          searchable = FALSE, 
+          searchable = TRUE, 
           defaultSorted = c("year"), 
           defaultSortOrder = "desc", 
           elementId = "cars-select", 
@@ -55,7 +55,7 @@ reactable(refs_clean,
                   "aria-label" = sprintf("Filter %s", name),
                   style = "width: 100%; height: 28px;"
                 )}),
-              authors = colDef(show = TRUE, minWidth = 350, filterable = TRUE, 
+              authors = colDef(show = TRUE, minWidth = 350, filterable = FALSE, 
                                       cell = function(value, index) {
                                         title <- refs$title[index]
                                         div(
