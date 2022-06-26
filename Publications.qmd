@@ -22,11 +22,12 @@ refs <- read_csv("publications/publications.csv")
 refs_clean <- refs %>% 
   mutate(citation = sprintf("%s (%d). %s %s.", authors, year, title, venue), .after = url) %>% 
   select(-abstract, -editors, -numbers, -title, -venue) %>% 
-  relocate(type, .after = citation)
+  relocate(type, .after = citation) %>%
+  relocate(year, .before = authors)
          
 reactable(refs_clean, 
           filterable = TRUE, 
-          searchable = TRUE, 
+          searchable = FALSE, 
           defaultSorted = c("year", "authors"), 
           defaultSortOrder = "desc", 
           elementId = "cars-select", 
@@ -36,10 +37,31 @@ reactable(refs_clean,
           defaultPageSize = 10,
           defaultColDef = colDef(show = FALSE, name = ""),
           columns = list(
-              citation = colDef(show = TRUE, minWidth = 350, filterable = FALSE, 
-                                details = function(index) {
+              abstract = colDef(show = TRUE, 
+              cell = function(value, index) {
+                s <- " "
+              }, details = function(index) {
                                   paste("Abstract: ", refs[index, "abstract"])
                                   }),
+              year = colDef(show = TRUE, maxWidth  = 70,
+                filterInput = function(values, name) {
+                  tags$select(
+                  # Set to undefined to clear the filter
+                  onchange = sprintf("Reactable.setFilter('cars-select', '%s', event.target.value || undefined)", name),
+                  # "All" has an empty value to clear the filter, and is the default option
+                  tags$option(value = "", "All"),
+                  lapply(unique(values), tags$option),
+                  "aria-label" = sprintf("Filter %s", name),
+                  style = "width: 100%; height: 28px;"
+                )}),
+              authors = colDef(show = TRUE, minWidth = 350, filterable = TRUE, 
+                                      cell = function(value, index) {
+                                        title <- refs$title[index]
+                                        div(
+                                            div(title),
+                                            div(style = "font-weight: 200", value),
+                                            div(style = "font-weight: 200", refs$venue[index]),
+                                          )}),
               url = colDef(maxWidth = 20, show = TRUE, filterable = FALSE, cell = function(value, index) {
                 url <- sprintf("publications/%s", refs[index, "url"])
                 htmltools::tags$a(href = url, target = "_blank", '\U2193')
