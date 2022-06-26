@@ -21,26 +21,27 @@ refs <- read_csv("publications/publications.csv")
 ```{r}
 refs_clean <- refs %>% 
   mutate(citation = sprintf("%s (%d). %s %s.", authors, year, title, venue), .after = url) %>% 
-  select(-abstract, -editors, -numbers, -title, -venue) %>% 
+  select(-editors, -numbers, -title, -venue) %>% 
   relocate(type, .after = citation) %>%
-  relocate(year, .before = authors)
+  relocate(year, .before = authors) %>%
+  relocate(abstract, .after = year)
          
 reactable(refs_clean, 
           filterable = TRUE, 
           searchable = FALSE, 
-          defaultSorted = c("year", "authors"), 
+          defaultSorted = c("year"), 
           defaultSortOrder = "desc", 
           elementId = "cars-select", 
           showPageSizeOptions = TRUE,
-          pageSizeOptions = c(10, 20, 40),
+          pageSizeOptions = c(20, 40, 60, 80),
           paginationType = "jump",
-          defaultPageSize = 10,
+          defaultPageSize = 20,
           defaultColDef = colDef(show = FALSE, name = ""),
           columns = list(
-              abstract = colDef(show = TRUE, 
-              cell = function(value, index) {
-                s <- " "
-              }, details = function(index) {
+              abstract = colDef(show = TRUE, maxWidth = 22, filterable = FALSE,
+                  cell = function(value, index) {
+                  s <- ""
+                  }, details = function(index) {
                                   paste("Abstract: ", refs[index, "abstract"])
                                   }),
               year = colDef(show = TRUE, maxWidth  = 70,
