@@ -6,4 +6,6 @@
 /.quarto/
 
 /_site/
-/htdocs/publications/
+/htdocs/
+
+*.pdf

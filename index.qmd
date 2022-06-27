@@ -10,18 +10,30 @@ The Perception, Action, & Development Lab is directed by [Dr. John Franchak](peo
 
 ## What do we study?
 
+::: {.column width="2%"}
+:::
+
 ::: {.columns .column-page-inset style="text-align: center; background-color: WhiteSmoke;"}
-::: {.column width="32%"}
+::: {.column width="30%"}
 <i class="bi-house-fill" style="font-size:70px; text-align: center;"></i> <br/> [Everyday Experiences]{style="font-size:25px;"} <br/> [How does motor development shape infants' opportunities for learning about objects and people?]{.text-secondary style="font-size:18px;"}
 :::
 
-::: {.column width="32%"}
+::: {.column width="3%"}
+:::
+
+::: {.column width="30%"}
 <i class="bi-eye-fill" style="font-size:70px; text-align:center;"></i> <br/> [Visual Exploration]{style="font-size:25px;"} <br/> [How do people coordinate eyes, head, and body to gather task-relevant visual information?]{.text-secondary style="font-size:18px;"}
 :::
 
-::: {.column width="32%"}
+::: {.column width="3%"}
+:::
+
+::: {.column width="30%"}
 <i class="bi-door-open-fill" style="font-size:70px; text-align:center;"></i> <br/> [Action Possibilities]{style="font-size:25px;"} <br/> [How do people adapt to changes in the body to decide what actions---like fitting through doorways---are possible?]{.text-secondary style="font-size:18px;"}
 :::
+:::
+
+::: {.column width="2%"}
 :::
 
 ## See our research in action
