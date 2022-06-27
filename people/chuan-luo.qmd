@@ -5,14 +5,17 @@ order: 2017
 about:
   template: trestles
   links:
-    - icon: github
-      text: Github
-      href: https://github.com
+    - icon: envelope
+      text: email
+      href: mailto:cluo009@ucr.edu
+    - icon: house-fill
+      text: homepage
+      href: https://sites.google.com/ucr.edu/chuanluo/home
 ---
 
 [**Doctoral Student**]{.text-primary}
 
-**Office:** Olmsted 2136 <br/> **Phone:** TBD <br/>
+**Office:** Olmsted 2136 <br/>
 
 **Biography**
 

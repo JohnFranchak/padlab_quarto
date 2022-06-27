@@ -1,5 +1,7 @@
 project:
   type: website
+  output-dir: htdocs
+  resources: publications
 
 website:
   title: "Perception, Action, and Development Lab"
