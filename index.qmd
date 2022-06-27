@@ -26,7 +26,7 @@ The Perception, Action, & Development Lab is directed by [Dr. John Franchak](peo
 
 ## See our research in action
 
-<iframe width="500" height="300" src="https://www.youtube.com/embed/57_gxR8GmGM" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen>
+<iframe src="https://www.youtube.com/embed/57_gxR8GmGM" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen>
 
 </iframe>
 
