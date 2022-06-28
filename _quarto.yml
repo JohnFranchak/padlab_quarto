@@ -22,6 +22,10 @@ website:
     right:
       - icon: github
         href: https://github.com/JohnFranchak/padlab_quarto
+      - icon: twitter
+        href: https://twitter.com/JohnFranchak
+      - icon: envelope
+        href: mailto:padlab.UCR@gmail.com
 
 format:
   html:
