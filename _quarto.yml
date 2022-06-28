@@ -5,6 +5,7 @@ project:
 
 website:
   title: "Perception, Action, and Development Lab"
+  google-analytics: UA-61037683-2
   
   navbar:
     background: primary
@@ -18,6 +19,9 @@ website:
         file: Publications.qmd
       - People.qmd
       - Contact.qmd
+    right:
+      - icon: github
+        href: https://github.com/JohnFranchak/padlab_quarto
 
 format:
   html:
