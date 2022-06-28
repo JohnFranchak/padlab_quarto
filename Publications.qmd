@@ -63,9 +63,14 @@ reactable(refs_clean,
                                             div(style = "font-weight: 200", value),
                                             div(style = "font-weight: 200", refs$venue[index]),
                                           )}),
-              url = colDef(maxWidth = 20, show = TRUE, filterable = FALSE, cell = function(value, index) {
-                url <- sprintf("publications/%s", refs[index, "url"])
-                htmltools::tags$a(href = url, target = "_blank", '\U2193')
+              url = colDef(maxWidth = 23, show = TRUE, filterable = FALSE, cell = function(value, index) {
+                if (is.na(refs[index, "url"])) {
+                  url <- as.character(refs[index, "doi"])
+                  htmltools::tags$a(href = url, target = "_blank", '\U29C9')
+                } else {
+                  url <- sprintf("publications/%s", refs[index, "url"])
+                  htmltools::tags$a(href = url, target = "_blank", '\U2193')
+                }
               }),
           type = colDef(maxWidth = 115, show = TRUE,
             filterInput = function(values, name) {
