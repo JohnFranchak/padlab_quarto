@@ -1,0 +1,9 @@
+---
+title: "News"
+listing:
+  type: default
+  sort: "date"
+  contents:
+    - "posts/*.qmd"
+---
+

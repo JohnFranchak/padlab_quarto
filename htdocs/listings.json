@@ -8,5 +8,11 @@
       "/people/hailey-rousey.html",
       "/people/yushan-guo.html"
     ]
+  },
+  {
+    "listing": "/News.html",
+    "items": [
+      "/posts/2022-06-29-job-posting.html"
+    ]
   }
 ]

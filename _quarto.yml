@@ -16,8 +16,8 @@ website:
     left:
       - text: "Home"
         file: index.qmd
-      - text: "Publications"
-        file: Publications.qmd
+      - News.qmd
+      - Publications.qmd
       - People.qmd
       - Contact.qmd
     right:
