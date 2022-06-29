@@ -1,0 +1,14 @@
+---
+title: "Maximilian Tang"
+image: maximilian-tang.jpg
+order: 2022.5
+about:
+  template: trestles
+---
+
+[**Research Coordinator**]{.text-primary}
+
+**Office:** Olmsted 2136 <br/>
+
+**Biography**
+
