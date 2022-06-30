@@ -1,0 +1,13 @@
+---
+title: "Grant Awarded"
+description: "Developmental cascades: How motor development alters everyday learning experiences"
+author: "PADLAB"
+date: "07/31/2020"
+draft: true
+---
+
+The Perception, Action, and Development Lab was awarded a 4-year, $755,000 [grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1941449&HistoricalAwards=false) from the Developmental Sciences and Perception, Action, and Cognition Programs from the National Science Foundation. The goal of the grant is to study infants' everyday visual, motor, and language experiences using novel recording technologies. By combining LENA audio recording with inertial sensing of infants' body position (driven by machine learning categorization), the grant studies will generate a multimodal dataset about how movement intersects with language in the home. 
+
+Read more on [UCR news](https://news.ucr.edu/articles/2020/07/31/psychologist-study-how-motor-development-changes-infants-learning-experiences)
+
+![](/images/nsf.png){width="25%"}

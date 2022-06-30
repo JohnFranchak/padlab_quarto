@@ -1,7 +1,7 @@
 ---
 title: "Article In Press"
 description: "Age differences in orienting to faces in dynamic scenes depend on face centering, not visual saliency"
-# author: "John Franchak"
+author: "PADLAB"
 date: "06/21/2022"
 ---
 
