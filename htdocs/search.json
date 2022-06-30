@@ -81,7 +81,7 @@
     "href": "News.html",
     "title": "News",
     "section": "",
-    "text": "The PADLAB is looking to hire a full-time research coordinator in Summer 2022 to work on NSF-funded projects of infants’ daily experiences\n\n\n\n\n\n\nJun 29, 2022\n\n\nJohn Franchak\n\n\n\n\n\n\nNo matching items"
+    "text": "Age differences in orienting to faces in dynamic scenes depend on face centering, not visual saliency\n\n\n\n\n\n\nJun 21, 2022\n\n\nJohn Franchak\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe PADLAB is looking to hire a full-time research coordinator in Summer 2022 to work on NSF-funded projects of infants’ daily experiences\n\n\n\n\n\n\nJun 29, 2022\n\n\nJohn Franchak\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2022-06-29-job-posting.html",
@@ -96,5 +96,12 @@
     "title": "Maximilian Tang",
     "section": "",
     "text": "Office: Olmsted 2136 \nBiography"
+  },
+  {
+    "objectID": "posts/2022-06-21-infancy.html",
+    "href": "posts/2022-06-21-infancy.html",
+    "title": "Article In Press",
+    "section": "",
+    "text": "In the article, we used a previously-collected dataset from a recent paper (Kadooka & Franchak, 2020) to investigate whether infants, children, and adults differed in the use of the centering and saliency of faces as cues for gazing at faces in television clips. The analysis took advantage of variations in centering and saliency of faces over time within videos.\n\n\n\nFaces vary over time in how salient (shaded areas) and centered (orange lines) they are in a scene.\n\n\nParticipants from 6 months to 12 years and adults watched 7 videos while their eyes were tracked. We determined each frame that each face was looked at by every participant. We used each a mixed-effect generalized linear model to predict the likelihood that each face was looked on a given frame based on salience and centering.\n\n\n\nModel estimates showing whether saliency/centering increased the likelihood of face looking within each age group.\n\n\nFor infants and toddlers, only face salience served as a cue. They were more likely to fixate more salient faces. With age, centering emerged as a significant cue. By adulthood, salience and centering interact to boost the likelihood of face looking.\nMore work is needed to determine why older but not younger participants prioritize centered faces. Possibly, experience with television as a medium plays a role. Viewers may learn the conventions of television, such as that important characters are often framed in the center of view."
   }
 ]
