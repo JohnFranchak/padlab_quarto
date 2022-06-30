@@ -7,11 +7,11 @@ date: "06/21/2022"
 
 A new article, *Age differences in orienting to faces in dynamic scenes depend on face centering, not visual saliency*, was accepted at the journal *Infancy* with authors [John Franchak](/people/john-franchak.qmd) and [Kellan Kadooka](/people/kellan-kadooka.qmd). We used a previously-collected dataset from a recent paper ([Kadooka \& Franchak, 2020](/publications/2020-KadookaFranchak-DP.pdf)) to investigate whether infants, children, and adults differed in the use of the centering and saliency of faces as cues for gazing at faces in television clips. The analysis took advantage of variations in centering and saliency of faces over time within videos.
 
-![Figure. Faces vary over time in how salient (shaded areas) and centered (orange lines) they are in a scene.](/posts/2022-infancy-images/face-example.png){width="75%"}
+![Figure. Faces vary over time in how salient (shaded areas) and centered (orange lines) they are in a scene.](/posts/2022-images/face-example.png){width="75%"}
 
 Participants from 6 months to 12 years and adults watched 7 videos while their eyes were tracked. We determined each frame that each face was looked at by every participant. We used each a mixed-effect generalized linear model to predict the likelihood that each face was looked on a given frame based on salience and centering.  
 
-![Figure. Model estimates showing whether saliency/centering increased the likelihood of face looking within each age group.](/posts/2022-infancy-images/result.png){width="85%"}
+![Figure. Model estimates showing whether saliency/centering increased the likelihood of face looking within each age group.](/posts/2022-images/result.png){width="85%"}
 
 For infants and toddlers, only face salience served as a cue. They were more likely to fixate more salient faces. With age, centering emerged as a significant cue. By adulthood, salience and centering interact to boost the likelihood of face looking. 
 

@@ -2,8 +2,11 @@
 title: "Understanding Vision Conference Talk"
 description: "Visual exploratory development in screen-based and natural tasks"
 author: "John Franchak"
+image: 2022-images/understanding-vision.png
 date: "06/24/2022"
 ---
+
+<!-- ![](https://understandingvision2021.weebly.com/uploads/1/3/6/9/136942432/logo-4_orig.png){width="50%"} -->
 
 I had the pleasure to speak as part of the invited program in the 2022 virtual conference, [Understanding Vision: Social, Cognitive, and Clinical Perspectives](https://understandingvision2021.weebly.com/). It was a great program with speakers focusing on visual attention and eye movements:
 
