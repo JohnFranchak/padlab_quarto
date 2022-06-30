@@ -1,0 +1,19 @@
+---
+title: "Understanding Vision Conference Talk"
+description: "Visual exploratory development in screen-based and natural tasks"
+author: "John Franchak"
+date: "06/24/2022"
+---
+
+I had the pleasure to speak as part of the invited program in the 2022 virtual conference, [Understanding Vision: Social, Cognitive, and Clinical Perspectives](https://understandingvision2021.weebly.com/). It was a great program with speakers focusing on visual attention and eye movements:
+
+![](https://understandingvision2021.weebly.com/uploads/1/3/6/9/136942432/uvc-2022-schedule_orig.png){width="75%"}
+
+COVID was going around in my family the day before the conference, so fearing that I'd miss the live presentation I recorded a version to share in case I was absent. Luckily I was able to present the talk live, but I kept the recording to share (embedded below). It was fun to engage with an audience interested in eye tracking, and I took the time to talk about some issues about ecological validity in eye tracking research that have been cropping up in my papers for years. This talk in particular followed 3 facets of ecological validity that I wrote about in [this chapter](/publications/2020-Franchak-PLM.pdf).
+
+<iframe width="100%" height="400px" src="https://www.youtube.com/embed/VQcrWpaOAJo" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen>
+
+</iframe>
+
+**Abstract**: Laboratory studies of attention examine how visual features in photographic and video stimuli shape visual exploration over development. However, exploration in daily life differs from the laboratory in several ways that impact ecological validity. First, real-world visual scenes are more diverse and complex compared with laboratory stimuli. Second, real-world tasks offer opportunities for interaction as opposed to passive viewing. Third, real-world visual exploration depends on full-body movement to coordinate the eyes, head, and body when orienting to different locations in the world. In this talk, I will describe two sets of studies to illustrate how these aspects of ecological validity impact our understanding of visual exploration. The first set of studies highlights the role of video stimuli in drawing conclusions about visual attention development through screen-based eye tracking. The second set of studies employs head-mounted eye tracking and inertial sensing of head rotation to reveal the role that interactive tasks and motor control play in determining how infants and adults gather visual information. 
+
