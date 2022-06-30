@@ -59,7 +59,7 @@ ul.task-list{list-style: none;}
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-People .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -72,7 +72,7 @@ ul.task-list{list-style: none;}
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-People'] = new List('listing-People', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -161,6 +161,7 @@ ga('send', {
    
   <ul>
   <li><a href="#current-lab-members" id="toc-current-lab-members" class="nav-link active" data-scroll-target="#current-lab-members">Current Lab Members</a></li>
+  <li><a href="#lab-alumni" id="toc-lab-alumni" class="nav-link" data-scroll-target="#lab-alumni">Lab Alumni</a></li>
   </ul>
 </nav>
     </div>
@@ -186,12 +187,7 @@ ga('send', {
 <p><img src="images/lab_photo.jpg" class="img-fluid"></p>
 <section id="current-lab-members" class="level2">
 <h2 class="anchored" data-anchor-id="current-lab-members">Current Lab Members</h2>
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div id="listing-People" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-listing-file-modified-sort="1656106216142" data-listing-reading-time-sort="0.305">
 <a href="./people/john-franchak.html" class="quarto-grid-link">
@@ -329,7 +325,26 @@ Maximilian Tang
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+</section>
+<section id="lab-alumni" class="level2">
+<h2 class="anchored" data-anchor-id="lab-alumni">Lab Alumni</h2>
+<ul>
+<li>Brianna McGee (doctoral student)</li>
+<li>Tasnia Haider (research staff)</li>
+<li>Ishatpreet Kaur (research staff)</li>
+<li>Geethanjali Chandroth (research staff)</li>
+<li>Tramanh Troung (research staff)</li>
+<li>Iman Feghhi (doctoral student)</li>
+<li>Jenna Monson (doctoral student)</li>
+<li>Morvareed Rezaian (research staff)</li>
+</ul>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const icon = "";

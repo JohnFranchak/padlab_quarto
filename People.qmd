@@ -2,6 +2,7 @@
 title: "People"
 listing:
   type: grid
+  id: People
   sort: "order"
   image-height: "200"
   contents:
@@ -11,3 +12,16 @@ listing:
 ![](images/lab_photo.jpg)
 
 ## Current Lab Members
+:::{#People}
+:::
+
+## Lab Alumni
+
+- Brianna McGee (doctoral student)
+- Tasnia Haider (research staff)
+- Ishatpreet Kaur (research staff)
+- Geethanjali Chandroth (research staff)
+- Tramanh Troung (research staff)
+- Iman Feghhi (doctoral student)
+- Jenna Monson (doctoral student)
+- Morvareed Rezaian (research staff)
