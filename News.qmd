@@ -2,7 +2,7 @@
 title: "News"
 listing:
   type: default
-  sort: "date"
+  sort: "date desc"
   contents:
     - "posts/*.qmd"
 ---
