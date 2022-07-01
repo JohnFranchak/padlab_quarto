@@ -18,5 +18,14 @@
       "/posts/2022-06-21-infancy.html",
       "/posts/2020-07-31-nsf.html"
     ]
+  },
+  {
+    "listing": "/Tools.html",
+    "items": [
+      "/tools/accuracy.html",
+      "/tools/roi.html",
+      "/tools/et_tools.html",
+      "/tools/escalator.html"
+    ]
   }
 ]

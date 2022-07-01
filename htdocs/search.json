@@ -124,5 +124,47 @@
     "title": "People",
     "section": "Lab Alumni",
     "text": "Lab Alumni\n\nBrianna McGee (doctoral student)\nTasnia Haider (research staff)\nIshatpreet Kaur (research staff)\nGeethanjali Chandroth (research staff)\nTramanh Troung (research staff)\nIman Feghhi (doctoral student)\nJenna Monson (doctoral student)\nMorvareed Rezaian (research staff)"
+  },
+  {
+    "objectID": "tools/chuan-luo.html",
+    "href": "tools/chuan-luo.html",
+    "title": "Escalator Toolbox",
+    "section": "",
+    "text": "The Escalator Toolbox is a collection of Matlab functions designed for perception-action researchers to run data collections and process the resulting data. Additional functionality lets users simulate data collections to test trial procedures prospectively and explore how trial procedures affect the resulting data."
+  },
+  {
+    "objectID": "Tools.html",
+    "href": "Tools.html",
+    "title": "Tools",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "tools/accuracy.html",
+    "href": "tools/accuracy.html",
+    "title": "Eye Tracking Accuracy Calculator",
+    "section": "",
+    "text": "Shiny App for calculating spatial offset error in degreees by manually tagging the point of gaze and validation target from head-mounted eye tracking videos."
+  },
+  {
+    "objectID": "tools/roi.html",
+    "href": "tools/roi.html",
+    "title": "ROI Coder",
+    "section": "",
+    "text": "The ROI Coder is a Matlab coding/annotation package for defining dynamic regions of interest for eye tracking studies (head-mounted or remote). An intuitive user interface makes coding efficient and quick to learn."
+  },
+  {
+    "objectID": "tools/et_tools.html",
+    "href": "tools/et_tools.html",
+    "title": "Eye Tracking Matlab Tools",
+    "section": "",
+    "text": "Matlab functions for importing and visualizing head-mounted eye tracking data (tailored to the Positive Science system). Includes code for generating heatmap density plots as seen in the image."
+  },
+  {
+    "objectID": "tools/escalator.html",
+    "href": "tools/escalator.html",
+    "title": "Escalator Toolbox",
+    "section": "",
+    "text": "The Escalator Toolbox is a collection of Matlab functions designed for perception-action researchers to run data collections and process the resulting data. Additional functionality lets users simulate data collections to test trial procedures prospectively and explore how trial procedures affect the resulting data."
   }
 ]

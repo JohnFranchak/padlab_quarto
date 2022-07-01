@@ -18,6 +18,7 @@ website:
         file: index.qmd
       - News.qmd
       - Publications.qmd
+      - Tools.qmd
       - People.qmd
       - Contact.qmd
     right:

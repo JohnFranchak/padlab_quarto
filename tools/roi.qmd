@@ -1,0 +1,13 @@
+---
+title: "ROI Coder"
+image: roi.png
+order: 3
+about:
+  template: solana
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/JohnFranchak/roi_coder
+---
+
+The ROI Coder is a Matlab coding/annotation package for defining dynamic regions of interest for eye tracking studies (head-mounted or remote). An intuitive user interface makes coding efficient and quick to learn.

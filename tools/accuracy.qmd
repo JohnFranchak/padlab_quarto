@@ -1,0 +1,16 @@
+---
+title: "Eye Tracking Accuracy Calculator"
+image: accuracy.png
+order: 4
+about:
+  template: solana
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/JohnFranchak/et_accuracy
+    - icon: link
+      text: Application
+      href: https://john-franchak.shinyapps.io/eye-tracking-accuracy-calculator/
+---
+
+Shiny App for calculating spatial offset error in degreees by manually tagging the point of gaze and validation target from head-mounted eye tracking videos. 

@@ -1,0 +1,13 @@
+---
+title: "Eye Tracking Matlab Tools"
+image: heatmap.png
+order: 2
+about:
+  template: solana
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/JohnFranchak/et_tools
+---
+
+Matlab functions for importing and visualizing head-mounted eye tracking data (tailored to the Positive Science system). Includes code for generating heatmap density plots as seen in the image.

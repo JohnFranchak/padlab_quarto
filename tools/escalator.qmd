@@ -1,0 +1,14 @@
+---
+title: "Escalator Toolbox"
+image: escalator.png
+order: 1
+about:
+  template: solana
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/JohnFranchak/escalator_toolbox
+---
+
+The Escalator Toolbox is a collection of Matlab functions designed for perception-action researchers to run data collections and process the resulting data. Additional functionality lets users simulate data collections to test trial procedures prospectively and explore how trial procedures affect the resulting data.
+
