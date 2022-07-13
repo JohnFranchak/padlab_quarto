@@ -1,0 +1,22 @@
+---
+title: "ICIS Eye Tracking Workshop"
+description: "Dr. Franchak co-organized a pre-conference workshop on infant head-mounted eye tracking"
+author: "John Franchak"
+date: "07/07/2022"
+---
+
+During the ICIS 2022 Ottawa pre-conference day, I co-organized a workshop on infant head-mounted eye tracking with Chen Yu (UT Austin) and Irina Castellanos (Ohio State). The workshop had two parts. In the first part, a tutorial covered best practices in collecting and analyzing head-mounted eye tracking data with infant participants. The second part consisted of three talks that showcased the use of head-mounted eye tracking in infant research. 
+
+I gave a presentation in the first part on data collection and coding, highlighting some of the [tools](/Tools.qmd) I've developed to [check eye tracking accuracy](/tools/accuracy.qmd), [import and visualize data](/tools/et_tools.qmd), and perform [region of interest coding](/tools/roi.qmd). A [video recording](https://urldefense.com/v3/__https:/osu.zoom.us/rec/share/5wuD2e5_YkF3c6jkqWMJJmyQKagieBtvjeTZSk-Eu7s4NomtbGBY35HaExTd43et.TeobpHwaHgKHuPBQ__;!!KGKeukY!wUBTINriaktlmhbCQvsQ_rAyIGdlMs7SZmod6FquXeIsUWJz1lg6LzmZwDNi-giNDsyrzHrpgFPlYojJntre8ro$) is available to watch the entire program: 
+
+- Karen Adolph - Introduction 
+- John Franchak - Data Collection
+- Sara Schroer - Data Quality
+- David Crandall- Analyzing egocentric video and gaze data using computer vision
+- Brianna Kaplan, Kelsey West, Justine Hoch, Karen Adolph - Head-mounted eye tracking reveals structure in children’s learning environments
+- Irina Castellanos and Derek Houston- Effects of auditory experience on parent-child interactions
+- Chen Yu - Data Analysis
+
+We’ve created a [Github repository](https://github.com/ICIS-HMET-Workshop/workshop_materials_2022) that contains the schedule and resources to share. This [Github org page](https://github.com/ICIS-HMET-Workshop) links to the software packages that we discussed.
+
+

@@ -81,7 +81,7 @@
     "href": "News.html",
     "title": "News",
     "section": "",
-    "text": "The PADLAB is looking to hire a full-time research coordinator in Summer 2022 to work on NSF-funded projects of infants’ daily experiences\n\n\n\n\n\n\nJun 29, 2022\n\n\nPADLAB\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nVisual exploratory development in screen-based and natural tasks\n\n\n\n\n\n\nJun 24, 2022\n\n\nJohn Franchak\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nAge differences in orienting to faces in dynamic scenes depend on face centering, not visual saliency\n\n\n\n\n\n\nJun 21, 2022\n\n\nPADLAB\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nDevelopmental cascades: How motor development alters everyday learning experiences\n\n\n\n\n\n\nJul 31, 2020\n\n\nPADLAB\n\n\n\n\n\n\nNo matching items"
+    "text": "The PADLAB is looking to hire a full-time research coordinator in Summer 2022 to work on NSF-funded projects of infants’ daily experiences\n\n\n\n\n\n\nJul 14, 2022\n\n\nPADLAB\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr. Franchak co-organized a pre-conference workshop on infant head-mounted eye tracking\n\n\n\n\n\n\nJul 7, 2022\n\n\nJohn Franchak\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nVisual exploratory development in screen-based and natural tasks\n\n\n\n\n\n\nJun 24, 2022\n\n\nJohn Franchak\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nAge differences in orienting to faces in dynamic scenes depend on face centering, not visual saliency\n\n\n\n\n\n\nJun 21, 2022\n\n\nPADLAB\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nDevelopmental cascades: How motor development alters everyday learning experiences\n\n\n\n\n\n\nJul 31, 2020\n\n\nPADLAB\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2022-06-29-job-posting.html",
@@ -166,5 +166,12 @@
     "title": "Escalator Toolbox",
     "section": "",
     "text": "The Escalator Toolbox is a collection of Matlab functions designed for perception-action researchers to run data collections and process the resulting data. Additional functionality lets users simulate data collections to test trial procedures prospectively and explore how trial procedures affect the resulting data."
+  },
+  {
+    "objectID": "posts/2022-07-07-hmet-workshop.html",
+    "href": "posts/2022-07-07-hmet-workshop.html",
+    "title": "ICIS Eye Tracking Workshop",
+    "section": "",
+    "text": "I gave a presentation on data collection and coding, highlighting some of the tools I’ve developed to check eye tracking accuracy, import and visualize data, and perform region of interest coding. A video recording is available to watch the entire program:\n\nKaren Adolph - Introduction\nJohn Franchak - Data Collection\nSara Schroer - Data Quality\nDavid Crandall- Analyzing egocentric video and gaze data using computer vision\nBrianna Kaplan, Kelsey West, Justine Hoch, Karen Adolph - Head-mounted eye tracking reveals structure in children’s learning environments\nIrina Castellanos and Derek Houston- Effects of auditory experience on parent-child interactions\nChen Yu - Data Analysis\n\nWe’ve created a Github repository that contains the schedule and resources to share. This Github org page links to the software packages that we discussed."
   }
 ]
