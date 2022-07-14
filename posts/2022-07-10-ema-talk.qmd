@@ -1,0 +1,22 @@
+---
+title: "ICIS Talk"
+description: "Longitudinal effects of independent walking on postural and object experiences in home life"
+author: "John Franchak"
+date: "07/10/2022"
+---
+
+On the last day of ICIS 2022 Ottawa, I gave a talk "Longitudinal effects of independent walking on postural and object experiences in home life" with co-authors Kellan Kadooka and Caitlin Fausey. We were part of a symposia organized by Sara Schroer called "Moving to learn: Sensorimotor influences on early learning" with talks from Sara Schroer, Kelsey West, and Joshua Schneider.
+
+Our [talk](https://johnfranchak.github.io/walking_ema/#/section) focused on changes in the time infants spend in different body positions and holding objects after they learn to walk independently. We used ecological momentary assessment (EMA) to ask caregivers to look at their infants multiple times per day in response to text message prompts; caregivers acted as reporters to tell us what infants were doing at the moment. Caregivers reported behaviors over 4 days when infants were 10, 11, 12, and 13 months old so that we could see what changed in infants who began to walk over that period.
+
+![Figure. If infants were locomoting or stationary, caregivers answered a follow-up question about infants' body position](2022-images/ema-questions.png){width="75%" fig-align="center"}
+
+Even at the same age, infants who could walk had different motor experiences compared with infants who could not. Walkers spent less time prone, less time sitting, and less time restrained (held by caregivers or placed in a seating device). What increased was how much time walkers spent upright, standing or walking on two feet.
+
+![Figure. Extrapolated changes in time spent in different activities for 10-month-old non-walkers, 13-month-old non-walkers, and 13-month-old walkers](2022-images/summary-body-position.png){width="75%" fig-align="center"}
+
+Learning to walk changed the context of everyday object holding. Although the time spent holding objects did not change with age or with walking ability (all infants held objects for about 4.5 hours/day), walking infants spent more time holding objects in an upright position, but non-walkers held objects far more while sitting. 
+
+![Figure. Extrapolated changes object holding for non-walkers vs. walkers](2022-images/summary-objects.png){width="75%" fig-align="center"}
+
+If you want to see more, the [slides](https://johnfranchak.github.io/walking_ema/#/section) are up on Github. I made the presentation using Quarto's reveal.js option. I never gave a talk without Keynote or Powerpoint before, and I had a lot of fun building it (all the graphs and statistics are coded in R to create the slides, similar to Rmarkdown). 
