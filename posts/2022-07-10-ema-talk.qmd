@@ -5,7 +5,7 @@ author: "John Franchak"
 date: "07/10/2022"
 ---
 
-On the last day of ICIS 2022 Ottawa, I gave a talk "Longitudinal effects of independent walking on postural and object experiences in home life" with co-authors Kellan Kadooka and Caitlin Fausey. We were part of a symposia organized by Sara Schroer called "Moving to learn: Sensorimotor influences on early learning" with talks from Sara Schroer, Kelsey West, and Joshua Schneider.
+On the last day of ICIS 2022 Ottawa, I gave a talk "Longitudinal effects of independent walking on postural and object experiences in home life" with co-authors Kellan Kadooka and [Caitlin Fausey](https://psychology.uoregon.edu/profile/fausey). We were part of a symposia organized by Sara Schroer called "Moving to learn: Sensorimotor influences on early learning" with talks from Sara Schroer, Kelsey West, and Joshua Schneider.
 
 Our [talk](https://johnfranchak.github.io/walking_ema/#/section) focused on changes in the time infants spend in different body positions and holding objects after they learn to walk independently. We used ecological momentary assessment (EMA) to ask caregivers to look at their infants multiple times per day in response to text message prompts; caregivers acted as reporters to tell us what infants were doing at the moment. Caregivers reported behaviors over 4 days when infants were 10, 11, 12, and 13 months old so that we could see what changed in infants who began to walk over that period.
 
