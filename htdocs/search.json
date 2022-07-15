@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "tools/accuracy.html",
+    "href": "tools/accuracy.html",
+    "title": "Eye Tracking Accuracy Calculator",
+    "section": "",
+    "text": "Shiny App for calculating spatial offset error in degreees by manually tagging the point of gaze and validation target from head-mounted eye tracking videos."
+  },
+  {
+    "objectID": "tools/roi.html",
+    "href": "tools/roi.html",
+    "title": "ROI Coder",
+    "section": "",
+    "text": "The ROI Coder is a Matlab coding/annotation package for defining dynamic regions of interest for eye tracking studies (head-mounted or remote). An intuitive user interface makes coding efficient and quick to learn."
+  },
+  {
+    "objectID": "tools/et_tools.html",
+    "href": "tools/et_tools.html",
+    "title": "Eye Tracking Matlab Tools",
+    "section": "",
+    "text": "Matlab functions for importing and visualizing head-mounted eye tracking data (tailored to the Positive Science system). Includes code for generating heatmap density plots as seen in the image."
+  },
+  {
+    "objectID": "tools/escalator.html",
+    "href": "tools/escalator.html",
+    "title": "Escalator Toolbox",
+    "section": "",
+    "text": "The Escalator Toolbox is a collection of Matlab functions designed for perception-action researchers to run data collections and process the resulting data. Additional functionality lets users simulate data collections to test trial procedures prospectively and explore how trial procedures affect the resulting data."
+  },
+  {
     "objectID": "Contact.html",
     "href": "Contact.html",
     "title": "Contact",
@@ -7,46 +35,60 @@
     "text": "Lab email: padlab.UCR@gmail.com\nMailing address Department of Psychology  University of California, Riverside  900 University Avenue  Riverside, CA 92521 \nLab address Olmsted Hall, Rooms 2136  Riverside, CA 92507  Parking: Lot 6 on West Campus Drive"
   },
   {
-    "objectID": "People.html#current-lab-members",
-    "href": "People.html#current-lab-members",
-    "title": "People",
-    "section": "Current Lab Members",
-    "text": "Current Lab Members\n\n\n\n\n\n\n\n\n\n\nDr. John Franchak\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKellan Kadooka\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChuan Luo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHailey Rousey\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYushan Guo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaximilian Tang\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "objectID": "posts/2022-06-24-understanding-vision.html",
+    "href": "posts/2022-06-24-understanding-vision.html",
+    "title": "Understanding Vision Conference Talk",
+    "section": "",
+    "text": "COVID was going around in my family the day before the conference, so fearing that I’d miss the live presentation I recorded a version to share in case I was absent. Luckily I was able to present the talk live, but I kept the recording to share (embedded below). It was fun to engage with an audience interested in eye tracking, and I took the time to talk about some issues about ecological validity in eye tracking research that have been cropping up in my papers for years. This talk in particular followed 3 facets of ecological validity that I wrote about in this chapter.\n\n\nAbstract: Laboratory studies of attention examine how visual features in photographic and video stimuli shape visual exploration over development. However, exploration in daily life differs from the laboratory in several ways that impact ecological validity. First, real-world visual scenes are more diverse and complex compared with laboratory stimuli. Second, real-world tasks offer opportunities for interaction as opposed to passive viewing. Third, real-world visual exploration depends on full-body movement to coordinate the eyes, head, and body when orienting to different locations in the world. In this talk, I will describe two sets of studies to illustrate how these aspects of ecological validity impact our understanding of visual exploration. The first set of studies highlights the role of video stimuli in drawing conclusions about visual attention development through screen-based eye tracking. The second set of studies employs head-mounted eye tracking and inertial sensing of head rotation to reveal the role that interactive tasks and motor control play in determining how infants and adults gather visual information."
   },
   {
-    "objectID": "people/chuan-luo.html",
-    "href": "people/chuan-luo.html",
-    "title": "Chuan Luo",
+    "objectID": "posts/2022-07-10-ema-talk.html",
+    "href": "posts/2022-07-10-ema-talk.html",
+    "title": "ICIS Talk",
     "section": "",
-    "text": "Office: Olmsted 2136 \nBiography\nChuan Luo is a sixth year graduate student in Psychology at the University of California, Riverside working under Dr. John Franchak. Before coming to UCR, she received a MS in Learning and Developmental Sciences (2017) from the Indiana University Bloomington, and a dual bachelor’s degree in English and Applied Psychology (2015) from the Southern Medical University in China. Her research project in the first two years of the doctoral program investigated infant everyday visual experiences. Her dissertation project will explore the trade-off between eye-head-body movements and use of memory."
+    "text": "Our talk focused on changes in the time infants spend in different body positions and holding objects after they learn to walk independently. We used ecological momentary assessment (EMA) to ask caregivers to look at their infants multiple times per day in response to text message prompts; caregivers acted as reporters to tell us what infants were doing at the moment. Caregivers reported behaviors over 4 days when infants were 10, 11, 12, and 13 months old so that we could see what changed in infants who began to walk over that period.\n\n\n\nFigure. If infants were locomoting or stationary, caregivers answered a follow-up question about infants’ body position\n\n\nEven at the same age, infants who could walk had different motor experiences compared with infants who could not. Walkers spent less time prone, less time sitting, and less time restrained (held by caregivers or placed in a seating device). What increased was how much time walkers spent upright, standing or walking on two feet.\n\n\n\nFigure. Extrapolated changes in time spent in different activities for 10-month-old non-walkers, 13-month-old non-walkers, and 13-month-old walkers\n\n\nLearning to walk changed the context of everyday object holding. Although the time spent holding objects did not change with age or with walking ability (all infants held objects for about 4.5 hours/day), walking infants spent more time holding objects in an upright position, but non-walkers held objects far more while sitting.\n\n\n\nFigure. Extrapolated changes object holding for non-walkers vs. walkers\n\n\nIf you want to see more, the slides are up on Github. I made the presentation using Quarto’s reveal.js option. I never gave a talk without Keynote or Powerpoint before, and I had a lot of fun building it (all the graphs and statistics are coded in R to create the slides, similar to Rmarkdown)."
   },
   {
-    "objectID": "people/hailey-rousey.html",
-    "href": "people/hailey-rousey.html",
-    "title": "Hailey Rousey",
+    "objectID": "posts/2020-07-31-nsf.html",
+    "href": "posts/2020-07-31-nsf.html",
+    "title": "Grant Awarded",
     "section": "",
-    "text": "Office: Olmsted 2136 \nBiography"
+    "text": "Read more on UCR news"
   },
   {
-    "objectID": "people/john-franchak.html",
-    "href": "people/john-franchak.html",
-    "title": "Dr. John Franchak",
+    "objectID": "posts/2022-07-07-hmet-workshop.html",
+    "href": "posts/2022-07-07-hmet-workshop.html",
+    "title": "ICIS Eye Tracking Workshop",
     "section": "",
-    "text": "Associate Professor of Psychology\nOffice: Psychology 2125  Phone: 951.827.3898 \nBiography\nDr. Franchak earned a BA in Cognitive Science from the University of Virginia in 2005 and a PhD in Experimental Psychology from New York University in 2011. Afterwards, Dr. Franchak completed postdoctoral fellowships at New York University (2011-2013) and Indiana University (2013-2014) before joining the UCR Department of Psychology in 2014."
+    "text": "Figure. Infant wearing head-mounted eye tracker\n\n\nI gave a presentation in the first part on data collection and coding, highlighting some of the tools I’ve developed to check eye tracking accuracy, import and visualize data, and perform region of interest coding. A video recording is available to watch the entire program (Chen Yu’s data analysis part got pushed to the end because of a flight delay):\n\nKaren Adolph - Introduction\nJohn Franchak - Data Collection\nSara Schroer - Data Quality\nDavid Crandall- Analyzing egocentric video and gaze data using computer vision\nBrianna Kaplan, Kelsey West, Justine Hoch, Karen Adolph - Head-mounted eye tracking reveals structure in children’s learning environments\nIrina Castellanos and Derek Houston- Effects of auditory experience on parent-child interactions\nChen Yu - Data Analysis\n\nWe’ve created a Github repository that contains the schedule and resources to share. This Github org page links to the software packages that we discussed. Drop me a line if you end up trying out any of the software or have questions—I’m always happy to chat mobile eye tracking with friends, colleagues, or strangers!\nI recorded my practice talk (didn’t think I was going to make the conference due to COVID), so I shared that as a stand-alone presentation in case the Zoom recording expires"
   },
   {
-    "objectID": "people/yushan-guo.html",
-    "href": "people/yushan-guo.html",
-    "title": "Yushan Guo",
+    "objectID": "posts/2022-06-21-infancy.html",
+    "href": "posts/2022-06-21-infancy.html",
+    "title": "Article In Press",
     "section": "",
-    "text": "Office: Olmsted 2136 \nBiography"
+    "text": "Figure. Faces vary over time in how salient (shaded areas) and centered (orange lines) they are in a scene.\n\n\nParticipants from 6 months to 12 years and adults watched 7 videos while their eyes were tracked. We determined each frame that each face was looked at by every participant. We used each a mixed-effect generalized linear model to predict the likelihood that each face was looked on a given frame based on salience and centering.\n\n\n\nFigure. Model estimates showing whether saliency/centering increased the likelihood of face looking within each age group.\n\n\nFor infants and toddlers, only face salience served as a cue. They were more likely to fixate more salient faces. With age, centering emerged as a significant cue. By adulthood, salience and centering interact to boost the likelihood of face looking.\nMore work is needed to determine why older but not younger participants prioritize centered faces. Possibly, experience with television as a medium plays a role. Viewers may learn the conventions of television, such as that important characters are often framed in the center of view.\nA preprint of the accepted article is available here."
   },
   {
-    "objectID": "people/kellan-kadooka.html",
-    "href": "people/kellan-kadooka.html",
-    "title": "Kellan Kadooka",
+    "objectID": "posts/2022-06-29-job-posting.html",
+    "href": "posts/2022-06-29-job-posting.html",
+    "title": "Job Opportunity",
     "section": "",
-    "text": "Office: Olmsted 2136 \nBiography"
+    "text": "The research coordinator will have opportunities to master a variety of recording techniques—wearable inertial sensors, head-mounted eye trackers, and LENA audio recorders—and gain experience with in-demand machine learning analyses. To see the full list of responsibilities/requirements and to apply to the position, please visit the UCR Jobs portal. Expected starting pay is $23.23/hour (approximately $36k annually plus benefits). Start date is flexible, but we are aiming to hire someone by the end of the summer. Please direct any questions about the position to John Franchak.\nPlease note that the job posting might appear closed, but you can apply with an “expression of interest”. We expect to review applications in mid-July, so please apply by then for full consideration. We hope to see your application to join our team!"
+  },
+  {
+    "objectID": "Tools.html",
+    "href": "Tools.html",
+    "title": "Tools",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "News.html",
+    "href": "News.html",
+    "title": "News",
+    "section": "",
+    "text": "The PADLAB is looking to hire a full-time research coordinator in Summer 2022 to work on NSF-funded projects of infants’ daily experiences\n\n\n\n\n\n\nJul 14, 2022\n\n\nPADLAB\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nLongitudinal effects of independent walking on postural and object experiences in home life\n\n\n\n\n\n\nJul 10, 2022\n\n\nJohn Franchak\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nDr. Franchak co-organized a pre-conference workshop on infant head-mounted eye tracking\n\n\n\n\n\n\nJul 7, 2022\n\n\nJohn Franchak\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nVisual exploratory development in screen-based and natural tasks\n\n\n\n\n\n\nJun 24, 2022\n\n\nJohn Franchak\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nAge differences in orienting to faces in dynamic scenes depend on face centering, not visual saliency\n\n\n\n\n\n\nJun 21, 2022\n\n\nPADLAB\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nDevelopmental cascades: How motor development alters everyday learning experiences\n\n\n\n\n\n\nJul 31, 2020\n\n\nPADLAB\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -77,46 +119,11 @@
     "text": "Join our team\nWe are hiring a new full-time staff researcher in Summer 2022. Please check the job posting for more details.\nWe are accepting applications for undergraduate research assistants on a rolling basis. Please fill out the form, and we will get back to you when we have openings."
   },
   {
-    "objectID": "News.html",
-    "href": "News.html",
-    "title": "News",
-    "section": "",
-    "text": "The PADLAB is looking to hire a full-time research coordinator in Summer 2022 to work on NSF-funded projects of infants’ daily experiences\n\n\n\n\n\n\nJul 14, 2022\n\n\nPADLAB\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nLongitudinal effects of independent walking on postural and object experiences in home life\n\n\n\n\n\n\nJul 10, 2022\n\n\nJohn Franchak\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nDr. Franchak co-organized a pre-conference workshop on infant head-mounted eye tracking\n\n\n\n\n\n\nJul 7, 2022\n\n\nJohn Franchak\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nVisual exploratory development in screen-based and natural tasks\n\n\n\n\n\n\nJun 24, 2022\n\n\nJohn Franchak\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nAge differences in orienting to faces in dynamic scenes depend on face centering, not visual saliency\n\n\n\n\n\n\nJun 21, 2022\n\n\nPADLAB\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\nDevelopmental cascades: How motor development alters everyday learning experiences\n\n\n\n\n\n\nJul 31, 2020\n\n\nPADLAB\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2022-06-29-job-posting.html",
-    "href": "posts/2022-06-29-job-posting.html",
-    "title": "Job Opportunity",
-    "section": "",
-    "text": "The research coordinator will have opportunities to master a variety of recording techniques—wearable inertial sensors, head-mounted eye trackers, and LENA audio recorders—and gain experience with in-demand machine learning analyses. To see the full list of responsibilities/requirements and to apply to the position, please visit the UCR Jobs portal. Expected starting pay is $23.23/hour (approximately $36k annually plus benefits). Start date is flexible, but we are aiming to hire someone by the end of the summer. Please direct any questions about the position to John Franchak.\nPlease note that the job posting might appear closed, but you can apply with an “expression of interest”. We expect to review applications in mid-July, so please apply by then for full consideration. We hope to see your application to join our team!"
-  },
-  {
-    "objectID": "people/maximilian-tang.html",
-    "href": "people/maximilian-tang.html",
-    "title": "Maximilian Tang",
-    "section": "",
-    "text": "Office: Olmsted 2136 \nBiography"
-  },
-  {
-    "objectID": "posts/2022-06-21-infancy.html",
-    "href": "posts/2022-06-21-infancy.html",
-    "title": "Article In Press",
-    "section": "",
-    "text": "Figure. Faces vary over time in how salient (shaded areas) and centered (orange lines) they are in a scene.\n\n\nParticipants from 6 months to 12 years and adults watched 7 videos while their eyes were tracked. We determined each frame that each face was looked at by every participant. We used each a mixed-effect generalized linear model to predict the likelihood that each face was looked on a given frame based on salience and centering.\n\n\n\nFigure. Model estimates showing whether saliency/centering increased the likelihood of face looking within each age group.\n\n\nFor infants and toddlers, only face salience served as a cue. They were more likely to fixate more salient faces. With age, centering emerged as a significant cue. By adulthood, salience and centering interact to boost the likelihood of face looking.\nMore work is needed to determine why older but not younger participants prioritize centered faces. Possibly, experience with television as a medium plays a role. Viewers may learn the conventions of television, such as that important characters are often framed in the center of view.\nA preprint of the accepted article is available here."
-  },
-  {
-    "objectID": "posts/2022-06-24-understanding-vision.html",
-    "href": "posts/2022-06-24-understanding-vision.html",
-    "title": "Understanding Vision Conference Talk",
-    "section": "",
-    "text": "COVID was going around in my family the day before the conference, so fearing that I’d miss the live presentation I recorded a version to share in case I was absent. Luckily I was able to present the talk live, but I kept the recording to share (embedded below). It was fun to engage with an audience interested in eye tracking, and I took the time to talk about some issues about ecological validity in eye tracking research that have been cropping up in my papers for years. This talk in particular followed 3 facets of ecological validity that I wrote about in this chapter.\n\n\nAbstract: Laboratory studies of attention examine how visual features in photographic and video stimuli shape visual exploration over development. However, exploration in daily life differs from the laboratory in several ways that impact ecological validity. First, real-world visual scenes are more diverse and complex compared with laboratory stimuli. Second, real-world tasks offer opportunities for interaction as opposed to passive viewing. Third, real-world visual exploration depends on full-body movement to coordinate the eyes, head, and body when orienting to different locations in the world. In this talk, I will describe two sets of studies to illustrate how these aspects of ecological validity impact our understanding of visual exploration. The first set of studies highlights the role of video stimuli in drawing conclusions about visual attention development through screen-based eye tracking. The second set of studies employs head-mounted eye tracking and inertial sensing of head rotation to reveal the role that interactive tasks and motor control play in determining how infants and adults gather visual information."
-  },
-  {
-    "objectID": "posts/2020-07-31-nsf.html",
-    "href": "posts/2020-07-31-nsf.html",
-    "title": "Grant Awarded",
-    "section": "",
-    "text": "Read more on UCR news"
+    "objectID": "People.html#current-lab-members",
+    "href": "People.html#current-lab-members",
+    "title": "People",
+    "section": "Current Lab Members",
+    "text": "Current Lab Members\n\n\n\n\n\n\n\n\n\n\nDr. John Franchak\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKellan Kadooka\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChuan Luo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHailey Rousey\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYushan Guo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMaximilian Tang\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "People.html#lab-alumni",
@@ -126,59 +133,45 @@
     "text": "Lab Alumni\n\nBrianna McGee (doctoral student)\nTasnia Haider (research staff)\nIshatpreet Kaur (research staff)\nGeethanjali Chandroth (research staff)\nTramanh Troung (research staff)\nIman Feghhi (doctoral student)\nJenna Monson (doctoral student)\nMorvareed Rezaian (research staff)"
   },
   {
-    "objectID": "tools/chuan-luo.html",
-    "href": "tools/chuan-luo.html",
-    "title": "Escalator Toolbox",
+    "objectID": "people/chuan-luo.html",
+    "href": "people/chuan-luo.html",
+    "title": "Chuan Luo",
     "section": "",
-    "text": "The Escalator Toolbox is a collection of Matlab functions designed for perception-action researchers to run data collections and process the resulting data. Additional functionality lets users simulate data collections to test trial procedures prospectively and explore how trial procedures affect the resulting data."
+    "text": "Office: Olmsted 2136 \nBiography\nChuan Luo is a sixth year graduate student in Psychology at the University of California, Riverside working under Dr. John Franchak. Before coming to UCR, she received a MS in Learning and Developmental Sciences (2017) from the Indiana University Bloomington, and a dual bachelor’s degree in English and Applied Psychology (2015) from the Southern Medical University in China. Her research project in the first two years of the doctoral program investigated infant everyday visual experiences. Her dissertation project will explore the trade-off between eye-head-body movements and use of memory."
   },
   {
-    "objectID": "Tools.html",
-    "href": "Tools.html",
-    "title": "Tools",
+    "objectID": "people/hailey-rousey.html",
+    "href": "people/hailey-rousey.html",
+    "title": "Hailey Rousey",
     "section": "",
-    "text": "No matching items"
+    "text": "Office: Olmsted 2136 \nBiography"
   },
   {
-    "objectID": "tools/accuracy.html",
-    "href": "tools/accuracy.html",
-    "title": "Eye Tracking Accuracy Calculator",
+    "objectID": "people/maximilian-tang.html",
+    "href": "people/maximilian-tang.html",
+    "title": "Maximilian Tang",
     "section": "",
-    "text": "Shiny App for calculating spatial offset error in degreees by manually tagging the point of gaze and validation target from head-mounted eye tracking videos."
+    "text": "Office: Olmsted 2136 \nBiography"
   },
   {
-    "objectID": "tools/roi.html",
-    "href": "tools/roi.html",
-    "title": "ROI Coder",
+    "objectID": "people/john-franchak.html",
+    "href": "people/john-franchak.html",
+    "title": "Dr. John Franchak",
     "section": "",
-    "text": "The ROI Coder is a Matlab coding/annotation package for defining dynamic regions of interest for eye tracking studies (head-mounted or remote). An intuitive user interface makes coding efficient and quick to learn."
+    "text": "Associate Professor of Psychology\nOffice: Psychology 2125  Phone: 951.827.3898 \nBiography\nDr. Franchak earned a BA in Cognitive Science from the University of Virginia in 2005 and a PhD in Experimental Psychology from New York University in 2011. Afterwards, Dr. Franchak completed postdoctoral fellowships at New York University (2011-2013) and Indiana University (2013-2014) before joining the UCR Department of Psychology in 2014."
   },
   {
-    "objectID": "tools/et_tools.html",
-    "href": "tools/et_tools.html",
-    "title": "Eye Tracking Matlab Tools",
+    "objectID": "people/yushan-guo.html",
+    "href": "people/yushan-guo.html",
+    "title": "Yushan Guo",
     "section": "",
-    "text": "Matlab functions for importing and visualizing head-mounted eye tracking data (tailored to the Positive Science system). Includes code for generating heatmap density plots as seen in the image."
+    "text": "Office: Olmsted 2136 \nBiography"
   },
   {
-    "objectID": "tools/escalator.html",
-    "href": "tools/escalator.html",
-    "title": "Escalator Toolbox",
+    "objectID": "people/kellan-kadooka.html",
+    "href": "people/kellan-kadooka.html",
+    "title": "Kellan Kadooka",
     "section": "",
-    "text": "The Escalator Toolbox is a collection of Matlab functions designed for perception-action researchers to run data collections and process the resulting data. Additional functionality lets users simulate data collections to test trial procedures prospectively and explore how trial procedures affect the resulting data."
-  },
-  {
-    "objectID": "posts/2022-07-07-hmet-workshop.html",
-    "href": "posts/2022-07-07-hmet-workshop.html",
-    "title": "ICIS Eye Tracking Workshop",
-    "section": "",
-    "text": "Figure. Infant wearing head-mounted eye tracker\n\n\nI gave a presentation in the first part on data collection and coding, highlighting some of the tools I’ve developed to check eye tracking accuracy, import and visualize data, and perform region of interest coding. A video recording is available to watch the entire program (Chen Yu’s data analysis part got pushed to the end because of a flight delay):\n\nKaren Adolph - Introduction\nJohn Franchak - Data Collection\nSara Schroer - Data Quality\nDavid Crandall- Analyzing egocentric video and gaze data using computer vision\nBrianna Kaplan, Kelsey West, Justine Hoch, Karen Adolph - Head-mounted eye tracking reveals structure in children’s learning environments\nIrina Castellanos and Derek Houston- Effects of auditory experience on parent-child interactions\nChen Yu - Data Analysis\n\nWe’ve created a Github repository that contains the schedule and resources to share. This Github org page links to the software packages that we discussed. Drop me a line if you end up trying out any of the software or have questions—I’m always happy to chat mobile eye tracking with friends, colleagues, or strangers!\nI recorded my practice talk (didn’t think I was going to make the conference due to COVID), so I shared that as a stand-alone presentation in case the Zoom recording expires"
-  },
-  {
-    "objectID": "posts/2022-07-10-ema-talk.html",
-    "href": "posts/2022-07-10-ema-talk.html",
-    "title": "ICIS Talk",
-    "section": "",
-    "text": "Our talk focused on changes in the time infants spend in different body positions and holding objects after they learn to walk independently. We used ecological momentary assessment (EMA) to ask caregivers to look at their infants multiple times per day in response to text message prompts; caregivers acted as reporters to tell us what infants were doing at the moment. Caregivers reported behaviors over 4 days when infants were 10, 11, 12, and 13 months old so that we could see what changed in infants who began to walk over that period.\n\n\n\nFigure. If infants were locomoting or stationary, caregivers answered a follow-up question about infants’ body position\n\n\nEven at the same age, infants who could walk had different motor experiences compared with infants who could not. Walkers spent less time prone, less time sitting, and less time restrained (held by caregivers or placed in a seating device). What increased was how much time walkers spent upright, standing or walking on two feet.\n\n\n\nFigure. Extrapolated changes in time spent in different activities for 10-month-old non-walkers, 13-month-old non-walkers, and 13-month-old walkers\n\n\nLearning to walk changed the context of everyday object holding. Although the time spent holding objects did not change with age or with walking ability (all infants held objects for about 4.5 hours/day), walking infants spent more time holding objects in an upright position, but non-walkers held objects far more while sitting.\n\n\n\nFigure. Extrapolated changes object holding for non-walkers vs. walkers\n\n\nIf you want to see more, the slides are up on Github. I made the presentation using Quarto’s reveal.js option. I never gave a talk without Keynote or Powerpoint before, and I had a lot of fun building it (all the graphs and statistics are coded in R to create the slides, similar to Rmarkdown)."
+    "text": "Office: Olmsted 2136 \nBiography"
   }
 ]

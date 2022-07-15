@@ -1,13 +1,11 @@
 [
   {
-    "listing": "/People.html",
+    "listing": "/Tools.html",
     "items": [
-      "/people/john-franchak.html",
-      "/people/kellan-kadooka.html",
-      "/people/chuan-luo.html",
-      "/people/hailey-rousey.html",
-      "/people/yushan-guo.html",
-      "/people/maximilian-tang.html"
+      "/tools/accuracy.html",
+      "/tools/roi.html",
+      "/tools/et_tools.html",
+      "/tools/escalator.html"
     ]
   },
   {
@@ -22,12 +20,14 @@
     ]
   },
   {
-    "listing": "/Tools.html",
+    "listing": "/People.html",
     "items": [
-      "/tools/accuracy.html",
-      "/tools/roi.html",
-      "/tools/et_tools.html",
-      "/tools/escalator.html"
+      "/people/john-franchak.html",
+      "/people/kellan-kadooka.html",
+      "/people/chuan-luo.html",
+      "/people/hailey-rousey.html",
+      "/people/yushan-guo.html",
+      "/people/maximilian-tang.html"
     ]
   }
 ]
