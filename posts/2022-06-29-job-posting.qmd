@@ -9,7 +9,7 @@ The UCR Perception, Action, and Development laboratory (padlab.ucr.edu) is looki
 
 The research coordinator will have opportunities to master a variety of recording techniques---wearable inertial sensors, head-mounted eye trackers, and LENA audio recorders---and gain experience with in-demand machine learning analyses. To see the full list of responsibilities/requirements and to apply to the position, please visit the [UCR Jobs portal](https://irecruitportal.ucr.edu/irecruit/!Controller?action=jobs_webui.show_page&page=jobs_detail&requisition_id=26226796&profile_id=&module=jobs). Expected starting pay is $23.23/hour (approximately $36k annually plus benefits). Start date is flexible, but we are aiming to hire someone by the end of the summer. Please direct any questions about the position to [John Franchak](mailto:franchak@ucr.edu).
 
-Please note that the job posting might appear closed, but you can apply with an "expression of interest". We expect to review applications in mid-July, so please apply by then for full consideration. We hope to see your application to join our team!
+Please note that the job posting might appear closed, but you can apply with an "expression of interest". We expect to review applications in late July, so please apply soon for full consideration. We hope to see your application to join our team!
 
 ![](/images/lab_photo.jpg){width="50%" fig-align="center"}
 
