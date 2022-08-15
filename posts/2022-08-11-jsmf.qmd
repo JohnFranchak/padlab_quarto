@@ -1,14 +1,14 @@
 ---
 title: "Grant Awarded"
-description: "Developmental cascades: How motor development alters everyday learning experiences"
+description: "Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys"
 author: "PADLAB"
 image: /images/jsmf.png
 date: "08/11/2022"
 ---
 
-The Perception, Action, and Development Lab was awarded a 3-year, $250,000 Opportunity Award from the James S. McDonnell Foundation's [Understanding Human Cognition](https://www.jsmf.org/programs/uhc/) program. 
+The Perception, Action, and Development Lab was awarded a 3-year, $250,000 Opportunity Award from the James S. McDonnell Foundation's [Understanding Human Cognition](https://www.jsmf.org/programs/uhc/) program to carry out a new project, "Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys". 
 
 
-<!-- Read more on [UCR news](https://news.ucr.edu/articles/2020/07/31/psychologist-study-how-motor-development-changes-infants-learning-experiences) -->
+Read more on [UCR news](https://news.ucr.edu/articles/2022/08/15/what-guides-our-attention-faces-videos-changes-age)
 
 ![](/images/jsmf-long.jpg){width="75%"}
