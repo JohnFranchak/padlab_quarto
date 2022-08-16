@@ -3,12 +3,23 @@ title: "Grant Awarded"
 description: "Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys"
 author: "PADLAB"
 image: /images/jsmf.png
-date: "08/11/2022"
+date: "08/16/2022"
 ---
 
 The Perception, Action, and Development Lab was awarded a 3-year, $250,000 Opportunity Award from the James S. McDonnell Foundation's [Understanding Human Cognition](https://www.jsmf.org/programs/uhc/) program to carry out a new project, "Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys". 
 
+For the past few years, the lab has been using ecological momentary assessment (EMA) to measure infants' everyday experiences by prompting parents throughout the day to respond to short surveys about infants' body position, object manipulation, and activity. We published one paper showing how the proportion of time infants spend held and supine decreases while time spent sitting and upright increases over the first year of life ([Franchak, 2019](/publications/2019-Franchak-Infancy.pdf)), and at the recent ICIS Dr. Franchak [presented](/posts/2022-07-10-ema-talk.qmd) longitudinal work showing how motor and object experiences change when infants learn to walk. Although EMA is a promising technique for characterizing infants' experiences across the day without direct observation, it's limiting to only know the answers to a few text-based questions.
 
-Read more on [UCR news](https://news.ucr.edu/articles/2022/08/15/what-guides-our-attention-faces-videos-changes-age)
+The JSMF Opportunity Award funds a new project that will ask caregivers to record 10-second video snippets using their mobile phones in a new "video EMA" (vEMA) procedure. Gathering vEMA clips across the day and over multiple days will provide richer data than text-based methods while still avoiding the limitations of brief home or lab visits. One aim of the project is to automatically classify infants' body position (sitting, supine, prone, upright) from videos by using computer vision algorithms that automatically detect body landmarks.
+
+![Figure. Open-pose detection of body landmarks in an infant in different positions](2022-images/open-pose.jpg){width="75%" fig-align="center"}
+
+Data from the new vEMA method will allow the lab to answer new questions about how learning to walk alters infants' everyday experiences. The project will track infants from 11 months when they cannot yet walk to 13 months, when about half of infants will have learned to walk. An advantage of the new video EMA method is that it will allow coders to examine not just *whether* infants are holding an object, but *what* object they are holding.
+
+![Figure. vEMA data for coding object holding](2022-images/vema-holding.jpg){width="75%" fig-align="center"}
+
+The richer data captured by vEMA will allow the lab to assess whether learning to walk changes the frequency that infants explore or encouter different kinds of objects in their homes. 
+
+<!-- Read more on [UCR news](https://news.ucr.edu/articles/2022/08/15/what-guides-our-attention-faces-videos-changes-age) -->
 
 ![](/images/jsmf-long.jpg){width="75%"}

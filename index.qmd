@@ -6,7 +6,7 @@ title: ""
 
 ![](images/logo-wide.png)
 
-The Perception, Action, & Development Lab is directed by [Dr. John Franchak](people/john-franchak.qmd) in the UC Riverside [Department of Psychology](https://psychology.ucr.edu/). Dr. Franchak advises students in the [Developmental](https://psychology.ucr.edu/faculty-research/areas-of-study/#tab-id-3) and [Cognition and Cognitive Neuroscience](https://psychology.ucr.edu/faculty-research/areas-of-study/#tab-id-2) areas of the Psychology Department.
+The Perception, Action, & Development Lab is directed by [Dr. John Franchak](people/john-franchak.qmd) in the UC Riverside [Department of Psychology](https://psychology.ucr.edu/). Dr. Franchak advises students in the [Developmental](https://psychology.ucr.edu/faculty-research/areas-of-study/#tab-id-3) and [Cognition and Cognitive Neuroscience](https://psychology.ucr.edu/faculty-research/areas-of-study/#tab-id-2) areas of the Psychology Department. The lab's research is funded by grants from the [National Science Foundation](posts/2020-07-31-nsf.qmd) and [James S. McDonnell Foundation]()
 
 ## What do we study?
 
@@ -45,6 +45,8 @@ The Perception, Action, & Development Lab is directed by [Dr. John Franchak](peo
 
 ## Join our team
 
-We are hiring a new full-time staff researcher in Summer 2022. Please check the [job posting](posts/2022-06-29-job-posting.qmd) for more details. 
+<!-- We are hiring a new full-time staff researcher in Summer 2022. Please check the [job posting](posts/2022-06-29-job-posting.qmd) for more details.  -->
 
-We are accepting applications for undergraduate research assistants on a rolling basis. Please fill out the [form](https://forms.gle/QJgJk5CZxzj8qufr5), and we will get back to you when we have openings.
+We are accepting applications for undergraduate research assistants on a rolling basis. Please fill out the [form](https://forms.gle/QJgJk5CZxzj8qufr5), and we will get back to you when we have openings. 
+
+Dr. Franchak plans to accept a doctoral student for the 2023-2024 academic year. If you are a prospective graduate student, feel free to email him to express your interest in applying.
