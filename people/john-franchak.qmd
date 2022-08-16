@@ -6,16 +6,19 @@ about:
   template: trestles
   links:
     - icon: google
-      text: scholar
+      text: Scholar
       href: https://scholar.google.com/citations?user=R-w4kRcAAAAJ
+    - icon: file-text
+      text: CV
+      href: https://padlab.ucr.edu/people/Franchak_CV.pdf
     - icon: twitter
-      text: twitter
+      text: Twitter
       href: https://twitter.com/JohnFranchak
     - icon: github
       text: Github
       href: https://github.com/JohnFranchak
     - icon: envelope
-      text: email
+      text: Email
       href: mailto:franchak@ucr.edu
 ---
 
@@ -27,4 +30,6 @@ about:
 
 **Biography**
 
-Dr. Franchak earned a BA in Cognitive Science from the University of Virginia in 2005 and a PhD in Experimental Psychology from New York University in 2011. Afterwards, Dr. Franchak completed postdoctoral fellowships at New York University (2011-2013) and Indiana University (2013-2014) before joining the UCR Department of Psychology in 2014.
+Dr. Franchak earned a BA in Cognitive Science from the University of Virginia in 2005 and a PhD in Experimental Psychology from New York University in 2011. Afterwards, Dr. Franchak completed postdoctoral fellowships at New York University (2011-2013) and Indiana University (2013-2014) before joining the UCR Department of Psychology in 2014. Dr. Franchak was named a Rising Star by the Association for Psychological Science in 2015 and a Visiting Scholar by the McPherson Eye Research Institute in 2020. In 2022, he was promoted to Associate Professor at UC Riverside. 
+
+
