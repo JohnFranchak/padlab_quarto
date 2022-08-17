@@ -3,6 +3,7 @@ title: "Job Opportunity"
 description: "The PADLAB is looking to hire a full-time research coordinator in Summer 2022 to work on NSF-funded projects of infants' daily experiences"
 author: "PADLAB"
 date: "07/14/2022"
+draft: true
 ---
 
 *Please note, this posting has been filled*
