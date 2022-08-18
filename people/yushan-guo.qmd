@@ -4,6 +4,10 @@ image: yushan-guo.jpeg
 order: 2022
 about:
   template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:null@ucr.edu
 ---
 
 [**Doctoral Student**]{.text-primary}

@@ -1,0 +1,19 @@
+---
+title: "Aylin Luna"
+image: aylin-luna.jpg
+order: 2022.75
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:aylin.luna@email.ucr.edu
+---
+
+[**Research Coordinator**]{.text-primary}
+
+**Office:** Olmsted A0126 <br/>
+
+**Biography**
+
+Aylin Luna is a Research Coordinator in the Perception, Action, & Development Lab. She earned a Bachelor of Science in Psychology from UCR in 2022 and her goal is to pursue a graduate degree. Her research interests include infant sensory play and fine motor skill development, specifically as it relates to confidence in exploration.

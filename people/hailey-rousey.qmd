@@ -4,6 +4,10 @@ image: hailey-rousey.jpg
 order: 2022
 about:
   template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:hrous002@ucr.edu
 ---
 
 [**Doctoral Student**]{.text-primary}

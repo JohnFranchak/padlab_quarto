@@ -4,11 +4,15 @@ image: maximilian-tang.jpg
 order: 2022.5
 about:
   template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:mtang057@ucr.edu
 ---
 
 [**Research Coordinator**]{.text-primary}
 
-**Office:** Olmsted 2136 <br/>
+**Office:** Olmsted A0126 <br/>
 
 **Biography**
 
