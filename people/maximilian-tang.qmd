@@ -8,6 +8,9 @@ about:
     - icon: envelope
       text: Email
       href: mailto:mtang057@ucr.edu
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/maximilian-tang-362635189/
 ---
 
 [**Research Coordinator**]{.text-primary}
@@ -16,3 +19,4 @@ about:
 
 **Biography**
 
+Maximilian Tang is a research coordinator who helps with various projects that PADLAB is currently conducting. Recently graduating from UCR with a B.S. in psychology, Max is looking to eventually attend graduate school for psychology, and is interested in exploring different influences on child development.

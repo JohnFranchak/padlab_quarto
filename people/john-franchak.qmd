@@ -8,6 +8,9 @@ about:
     - icon: google
       text: Scholar
       href: https://scholar.google.com/citations?user=R-w4kRcAAAAJ
+    - icon: bank
+      text: UCR Profile
+      href: https://profiles.ucr.edu/app/home/profile/franchak
     - icon: file-text
       text: CV
       href: https://padlab.ucr.edu/people/Franchak_CV.pdf
