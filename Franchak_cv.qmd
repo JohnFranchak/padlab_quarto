@@ -38,6 +38,7 @@ format:
 - Visual exploration in infants', children's, and adults' everyday behaviors
 - Development of visual attention while viewing complex, dynamic media
 - Motor learning and control (affordances, visual guidance of walking and reaching) 
+- Ambulatory assessment (mobile eye tracking, accelerometry, ecological momentary assessment)
 
 # Honors and Awards
 | | |
@@ -82,15 +83,8 @@ format:
 library(tidyverse)
 library(knitr)
 
-refs <- read_csv("publications/publications.csv") 
-
-refs_clean <- refs  %>%  
-  mutate(authors = str_replace(authors, "Franchak, J.M.", "**Franchak, J.M.**")) %>% 
-  mutate(citation = sprintf("%s (%d). %s *%s*, %s.", authors, year, title, venue, numbers), .after = url) %>% 
-  select(-editors, -numbers, -title, -venue) %>% 
-  relocate(type, .after = citation) %>%
-  relocate(year, .before = authors) %>%
-  relocate(abstract, .after = year)
+refs <- read_csv("publications/publications.csv") %>% 
+  mutate(authors = str_replace(authors, "Franchak, J.M.", "**Franchak, J.M.**")) 
 
 # put links in html version
 # link to pubs page in pdf version
@@ -98,7 +92,6 @@ refs_clean <- refs  %>%
 ### Manuscripts Invited/Under Review/In Revision
 ```{r}
 refs  %>%  
-  mutate(authors = str_replace(authors, "Franchak, J.M.", "**Franchak, J.M.**")) %>% 
   filter(type %in% c("Prep")) %>% 
   mutate(citation = sprintf("%s (under review). %s", authors, title), .after = url) %>% 
   select(citation) %>% 
@@ -108,13 +101,19 @@ refs  %>%
 ### Peer-Reviewed Publications
 \renewcommand{\arraystretch}{1.5}
 ```{r}
-refs_clean %>% filter(type %in% c("Journal","Proceedings")) %>% select(citation) %>% kable(col.names = "")
+refs %>% filter(type %in% c("Journal","Proceedings")) %>% 
+  mutate(numbers = str_c(", ", numbers)) %>% 
+  mutate(numbers = replace_na(numbers, "")) %>% 
+  mutate(citation = sprintf("%d.  %s (%d). %s *%s* %s", row_number(), authors, year, title, venue, numbers)) %>% 
+  select(citation) %>% kable(col.names = "")
 ```
 
 ### Book Chapters
 
 ```{r}
-refs_clean %>% filter(type %in% c("Chapter")) %>% select(citation) %>% kable(col.names = "")
+refs %>% filter(type %in% c("Chapter")) %>% 
+  mutate(citation = sprintf("%d.  %s (%d). %s *%s* %s", row_number(), authors, year, title, venue, numbers)) %>% 
+  select(citation) %>% kable(col.names = "")
 ```
 
 ### Shared Datasets
