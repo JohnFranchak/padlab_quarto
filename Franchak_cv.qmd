@@ -1,14 +1,41 @@
 ---
-title: "John Franchak CV"
+title: "Curriculum Vitae - John Franchak"
 execute:
   echo: false
   warning: false
 format:
   html:
     code-fold: false
-  pdf: 
-    number-sections: false
+  pdf: default
 ---
 
-# Publications
-# Employment
+# Employment and Education
+
+ | 
+|--|--------|
+| 2022- | Associate Professor, Dept. of Psychology, **University of California, Riverside** |
+| 2014-2022 | Assistant Professor, Dept. of Psychology, **University of California, Riverside** |
+| 2013-2014 | Post-Doctoral Fellow, Dept. of Psychological and Brain Sciences, **Indiana University** (Sponsors: Chen Yu & Linda Smith) |
+| 2011-2013 | Post-Doctoral Researcher, Dept. of Psychology, **New York University** (Sponsors: Karen Adolph & David Heeger)|
+| 2009-2011 | Ph.D., Experimental Psychology, **New York University** (Advisor: Karen Adolph)|
+| 2006-2009| M.A., Experimental Psychology, **New York University** |
+| 2005-2006| Lab Coordinator, Dept. of Psychology, **Rutgers University, Newark** |
+| 2001-2005| B.A., Cognitive Science, **University of Virginia** |
+
+# Honors and Awards
+| | |
+|-|--------|
+| 2020		| Visiting Scholar, McPherson Eye Research Institute, University of Wisconsin-Madison |
+| 2015		| Rising Star, Association for Psychological Science |
+| 2014		| Intel Best Paper Award "This hand is my hand: A probabilistic approach to hand disambiguation in egocentric video", IEEE Computer Vision and Pattern Recognition |
+| 2013		| Postdoctoral Fellowship, NICHD Training Grant, 5T32HD7475-17, "Training Program in Integrative Developmental Process", Indiana University |
+| 2012		| Best Methodological Paper ``Understanding the development of motion processing by characterizing optic flow experienced by infants and their mothers”, International Conference on Learning and Development |
+| 2011		| Martin Braine Dissertation Award, New York University |
+| 2010		| Best Paper Award "Head-mounted eye-tracking of infants’ natural interactions:  A new method", Eye Tracking Research & Applications |
+| 2009		| Sandra G. Wiener Student Investigator Award, International Society  for Developmental Psychobiology |
+
+# Research Interests
+- Perceptual-motor development (posture, locomotion, reaching)
+- Visual exploration in infants', children's, and adults' everyday behaviors
+- Development of visual attention while viewing complex, dynamic media
+- Motor learning and control (affordances, visual guidance of walking and reaching) 
