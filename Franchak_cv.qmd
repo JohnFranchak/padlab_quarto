@@ -1,8 +1,13 @@
 ---
-title: ""
+title: "John Franchak CV"
 execute:
   echo: false
   warning: false
+format:
+  html:
+    code-fold: false
+  pdf: 
+    number-sections: false
 ---
 
 # Publications
