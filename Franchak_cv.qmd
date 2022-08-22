@@ -42,14 +42,14 @@ format:
 # Honors and Awards
 | | |
 |-|--------|
-| 2020		| Visiting Scholar, McPherson Eye Research Institute, University of Wisconsin-Madison |
-| 2015		| Rising Star, Association for Psychological Science |
-| 2014		| Intel Best Paper Award "This hand is my hand: A probabilistic approach to hand disambiguation in egocentric video", IEEE Computer Vision and Pattern Recognition |
-| 2013		| Postdoctoral Fellowship, NICHD Training Grant, 5T32HD7475-17, "Training Program in Integrative Developmental Process", Indiana University |
-| 2012		| Best Methodological Paper ``Understanding the development of motion processing by characterizing optic flow experienced by infants and their mothers”, International Conference on Learning and Development |
-| 2011		| Martin Braine Dissertation Award, New York University |
-| 2010		| Best Paper Award "Head-mounted eye-tracking of infants’ natural interactions:  A new method", Eye Tracking Research & Applications |
-| 2009		| Sandra G. Wiener Student Investigator Award, International Society  for Developmental Psychobiology |
+| 2020		| Visiting Scholar, **McPherson Eye Research Institute, University of Wisconsin-Madison** |
+| 2015		| Rising Star, **Association for Psychological Science** |
+| 2014		| Intel Best Paper Award *This hand is my hand: A probabilistic approach to hand disambiguation in egocentric video*, **IEEE Computer Vision and Pattern Recognition** |
+| 2013		| Postdoctoral Fellowship, NICHD Training Grant, 5T32HD7475-17, *Training Program in Integrative Developmental Process*, **Indiana University** |
+| 2012		| Best Methodological Paper *Understanding the development of motion processing by characterizing optic flow experienced by infants and their mothers*, **International Conference on Learning and Development** |
+| 2011		| Martin Braine Dissertation Award, **New York University** |
+| 2010		| Best Paper Award *Head-mounted eye-tracking of infants’ natural interactions:  A new method*, **ACM Eye Tracking Research & Applications** |
+| 2009		| Sandra G. Wiener Student Investigator Award, **International Society for Developmental Psychobiology** |
 
 # Grant Support
 
@@ -74,3 +74,44 @@ format:
 | 2019 to 2021	| UCR Regents Faculty Development Fellowship: *Characterizing everyday opportunities for learning in the second year of life*. **John Franchak, PI, $5,000 2-year total**. |
 | 2015 to 2017	| UCR Regents Faculty Fellowship: *Developmental changes in visual experiences over the first year of life*. **John Franchak, PI, $6,000 2-year award total**. |
 
+# Research 
+
+```{r}
+#|output: false
+#|echo: false
+library(tidyverse)
+library(knitr)
+
+refs <- read_csv("publications/publications.csv")
+
+refs_clean <- refs %>% 
+  mutate(authors = str_replace(authors, "Franchak, J.M.", "**Franchak, J.M.**")) %>% 
+  mutate(citation = sprintf("%s (%d). %s *%s*.", authors, year, title, venue), .after = url) %>% 
+  select(-editors, -numbers, -title, -venue) %>% 
+  relocate(type, .after = citation) %>%
+  relocate(year, .before = authors) %>%
+  relocate(abstract, .after = year)
+
+# put bold markers around my name
+# put links in html version
+# link to pubs page in pdf version
+```
+### Manuscripts Invited/Under Review/In Revision
+
+### Peer-Reviewed Publications
+\renewcommand{\arraystretch}{1.5}
+```{r}
+refs_peer <- refs_clean %>% filter(type %in% c("Journal","Proceedings"))
+kable(refs_peer$citation, col.names = "")
+```
+
+### Book Chapters
+
+```{r}
+refs_peer <- refs_clean %>% filter(type == "Chapter")
+kable(refs_peer$citation, col.names = "")
+```
+
+### Shared Datasets
+
+### Media Coverage
