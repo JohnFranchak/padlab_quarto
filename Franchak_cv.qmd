@@ -82,34 +82,39 @@ format:
 library(tidyverse)
 library(knitr)
 
-refs <- read_csv("publications/publications.csv")
+refs <- read_csv("publications/publications.csv") 
 
-refs_clean <- refs %>% 
+refs_clean <- refs  %>%  
   mutate(authors = str_replace(authors, "Franchak, J.M.", "**Franchak, J.M.**")) %>% 
-  mutate(citation = sprintf("%s (%d). %s *%s*.", authors, year, title, venue), .after = url) %>% 
+  mutate(citation = sprintf("%s (%d). %s *%s*, %s.", authors, year, title, venue, numbers), .after = url) %>% 
   select(-editors, -numbers, -title, -venue) %>% 
   relocate(type, .after = citation) %>%
   relocate(year, .before = authors) %>%
   relocate(abstract, .after = year)
 
-# put bold markers around my name
 # put links in html version
 # link to pubs page in pdf version
 ```
 ### Manuscripts Invited/Under Review/In Revision
+```{r}
+refs  %>%  
+  mutate(authors = str_replace(authors, "Franchak, J.M.", "**Franchak, J.M.**")) %>% 
+  filter(type %in% c("Prep")) %>% 
+  mutate(citation = sprintf("%s (under review). %s", authors, title), .after = url) %>% 
+  select(citation) %>% 
+  kable(col.names = "")
+```
 
 ### Peer-Reviewed Publications
 \renewcommand{\arraystretch}{1.5}
 ```{r}
-refs_peer <- refs_clean %>% filter(type %in% c("Journal","Proceedings"))
-kable(refs_peer$citation, col.names = "")
+refs_clean %>% filter(type %in% c("Journal","Proceedings")) %>% select(citation) %>% kable(col.names = "")
 ```
 
 ### Book Chapters
 
 ```{r}
-refs_peer <- refs_clean %>% filter(type == "Chapter")
-kable(refs_peer$citation, col.names = "")
+refs_clean %>% filter(type %in% c("Chapter")) %>% select(citation) %>% kable(col.names = "")
 ```
 
 ### Shared Datasets
