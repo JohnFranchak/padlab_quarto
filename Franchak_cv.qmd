@@ -76,6 +76,7 @@ format:
 | 2015 to 2017	| UCR Regents Faculty Fellowship: *Developmental changes in visual experiences over the first year of life*. **John Franchak, PI, $6,000 2-year award total**. |
 
 # Research 
+\renewcommand{\arraystretch}{1.5}
 
 ```{r}
 #|output: false
@@ -99,12 +100,11 @@ refs  %>%
 ```
 
 ### Peer-Reviewed Publications
-\renewcommand{\arraystretch}{1.5}
 ```{r}
 refs %>% filter(type %in% c("Journal","Proceedings")) %>% 
   mutate(numbers = str_c(", ", numbers)) %>% 
   mutate(numbers = replace_na(numbers, "")) %>% 
-  mutate(citation = sprintf("%d.  %s (%d). %s *%s* %s", row_number(), authors, year, title, venue, numbers)) %>% 
+  mutate(citation = sprintf("%d.  %s (%d). %s *%s*%s", row_number(), authors, year, title, venue, numbers)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 
@@ -117,5 +117,12 @@ refs %>% filter(type %in% c("Chapter")) %>%
 ```
 
 ### Shared Datasets
+
+```{r}
+read_csv("publications/datasets.csv") %>% 
+  mutate(citation = sprintf("%d. (%d) *%s* %s. ```doi:%s```", row_number(), year, title, venue, doi)) %>% 
+  select(citation) %>% kable(col.names = "")
+  
+```
 
 ### Media Coverage
