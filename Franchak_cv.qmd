@@ -1,13 +1,24 @@
 ---
-title: "Curriculum Vitae - John Franchak"
+title: "Curriculum Vitae: John Franchak"
 execute:
   echo: false
   warning: false
 format:
   html:
     code-fold: false
-  pdf: default
+  pdf: 
+    # fontfamily: cochineal
+    include-in-header: 
+      text: |
+        \usepackage{array,colortbl}
+        \arrayrulecolor{white}
 ---
+| Department of Psychology
+| University of California, Riverside  
+| 900 University Avenue
+| Riverside, CA 92521
+| Email: franchak@ucr.edu
+| Web: padlab.ucr.edu
 
 # Employment and Education
 
@@ -22,6 +33,12 @@ format:
 | 2005-2006| Lab Coordinator, Dept. of Psychology, **Rutgers University, Newark** |
 | 2001-2005| B.A., Cognitive Science, **University of Virginia** |
 
+# Research Interests
+- Perceptual-motor development (posture, locomotion, reaching)
+- Visual exploration in infants', children's, and adults' everyday behaviors
+- Development of visual attention while viewing complex, dynamic media
+- Motor learning and control (affordances, visual guidance of walking and reaching) 
+
 # Honors and Awards
 | | |
 |-|--------|
@@ -34,8 +51,17 @@ format:
 | 2010		| Best Paper Award "Head-mounted eye-tracking of infants’ natural interactions:  A new method", Eye Tracking Research & Applications |
 | 2009		| Sandra G. Wiener Student Investigator Award, International Society  for Developmental Psychobiology |
 
-# Research Interests
-- Perceptual-motor development (posture, locomotion, reaching)
-- Visual exploration in infants', children's, and adults' everyday behaviors
-- Development of visual attention while viewing complex, dynamic media
-- Motor learning and control (affordances, visual guidance of walking and reaching) 
+# Grant Support
+
+### Extramural
+
+ | 
+|--|--------|
+2022 to 2025 | James S. McDonnell Foundation Opportunity Award: *Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys.* **John Franchak, PI, $250,000 3-year project.** |
+2020 to 2024 | NSF BCS-1941449: *Developmental cascades: How motor development alters everyday learning*. **John Franchak, PI, $754,957 4-year total.** |
+2018 to 2023	| NICHD R01-HD-094830: *PLAY (Play and Learning Across a Year)*. Karen Adolph, PI, $6,341,419 total award. **John Franchak, sub-award PI, $18,527 5-year total.** |
+2018 to 2022	| NSF IIS-1763966: *CHS: Medium: Collaborative research: Designing virtual worlds for children - A developmental study of how children act, perceive, and reason spatially*. Robert Bodenheimer, PI, $539,504 total award. **John Franchak, consultant, $24,000 4-year total.** |	
+2018 to 2021	| NSF BCS-1749594: *Picture book reading: Investigating a key source of linguistic input for early language development*. Jessica Montag, PI, $427,933 total award. **John Franchak, consultant, $5000 3-year total.** |
+2018 to 2023	| NICHD R01-HD-033486: *Flexibility of learning in infant skill acquisition*, Karen Adolph, PI, total award $3,086,397. **John Franchak, consultant, $25,000 5-year total.** |
+
+### Intramural
