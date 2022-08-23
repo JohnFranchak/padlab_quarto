@@ -126,12 +126,24 @@ refs %>% filter(type %in% c("Journal","Proceedings")) %>%
 :::
 
 ### Book Chapters
-
+::: {.content-visible when-format="pdf"}
 ```{r}
 refs %>% filter(type %in% c("Chapter")) %>% 
-  mutate(citation = sprintf("%d.  %s (%d). [%s](https://padlab.ucr.edu/publications/%s) *%s* %s", row_number(), authors, year, title, url, venue, numbers)) %>% 
+  mutate(numbers = str_c(", ", numbers)) %>% 
+  mutate(numbers = replace_na(numbers, "")) %>% 
+  mutate(citation = sprintf("%d.  %s (%d). [%s](https://padlab.ucr.edu/publications/%s) *%s*%s", row_number(), authors, year, title, url, venue, numbers)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
+:::
+::: {.content-visible when-format="html"}
+```{r}
+refs %>% filter(type %in% c("Chapter")) %>% 
+  mutate(numbers = str_c(", ", numbers)) %>% 
+  mutate(numbers = replace_na(numbers, "")) %>% 
+  mutate(citation = sprintf("[{{< fa file-pdf >}}](https://padlab.ucr.edu/publications/%s) %s (%d). %s *%s*%s", url, authors, year, title, venue, numbers)) %>% 
+  select(citation) %>% kable(col.names = "")
+```
+:::
 
 ### Shared Datasets
 
