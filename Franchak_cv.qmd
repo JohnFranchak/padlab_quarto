@@ -5,7 +5,7 @@ execute:
   warning: false
 format:
   html:
-    code-fold: false
+    toc-location: left
   pdf: 
     # fontfamily: cochineal
     include-in-header: 
@@ -13,12 +13,17 @@ format:
         \usepackage{array,colortbl}
         \arrayrulecolor{white}
 ---
-| Department of Psychology
-| University of California, Riverside  
-| 900 University Avenue
-| Riverside, CA 92521
-| Email: franchak@ucr.edu
-| Web: padlab.ucr.edu
+| Department of Psychology, University of California, Riverside  
+| 900 University Avenue, Riverside, CA 92521
+
+::: {.content-visible when-format="pdf"}
+Email: [franchak@ucr.edu](franchak@ucr.edu)
+Web: [padlab.ucr.edu](padlab.ucr.edu)
+:::
+::: {.content-visible when-format="html"}
+|{{< fa envelope title="Email" >}} [franchak@ucr.edu](franchak@ucr.edu)
+|{{< fa house-user title="Homepage" >}} [padlab.ucr.edu](padlab.ucr.edu)
+:::
 
 # Employment and Education
 
@@ -104,7 +109,7 @@ refs  %>%
 refs %>% filter(type %in% c("Journal","Proceedings")) %>% 
   mutate(numbers = str_c(", ", numbers)) %>% 
   mutate(numbers = replace_na(numbers, "")) %>% 
-  mutate(citation = sprintf("%d.  %s (%d). %s *%s*%s", row_number(), authors, year, title, venue, numbers)) %>% 
+  mutate(citation = sprintf("%d.  %s (%d). [%s](https://padlab.ucr.edu/publications/%s) *%s*%s", row_number(), authors, year, title, url, venue, numbers)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 
@@ -112,7 +117,7 @@ refs %>% filter(type %in% c("Journal","Proceedings")) %>%
 
 ```{r}
 refs %>% filter(type %in% c("Chapter")) %>% 
-  mutate(citation = sprintf("%d.  %s (%d). %s *%s* %s", row_number(), authors, year, title, venue, numbers)) %>% 
+  mutate(citation = sprintf("%d.  %s (%d). [%s](https://padlab.ucr.edu/publications/%s) *%s* %s", row_number(), authors, year, title, url, venue, numbers)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 
@@ -124,5 +129,23 @@ read_csv("publications/datasets.csv") %>%
   select(citation) %>% kable(col.names = "")
   
 ```
+# Open Source Research and Teaching Materials
 
-### Media Coverage
+- *Eye Tracking Accuracy Calculator*, [https://github.com/JohnFranchak/et_accuracy](https://github.com/JohnFranchak/et_accuracy)
+- *Dynamic ROI Coder for Matlab*, [https://github.com/JohnFranchak/roi_coder](https://github.com/JohnFranchak/roi_coder)
+- *Principles of Data Science Course*, [https://github.com/psych-259-data-science-2022](https://github.com/psych-259-data-science-2022)
+- *ICIS Head-Mounted Eye Tracking Workshop*, [https://github.com/ICIS-HMET-Workshop](https://github.com/ICIS-HMET-Workshop)
+- *Matlab Utilities for Eye Tracking*, [https://github.com/JohnFranchak/et_tools](https://github.com/JohnFranchak/et_tools)
+- *Escalator Psychophysical Toolbox*, [https://github.com/JohnFranchak/escalator_toolbox](https://github.com/JohnFranchak/escalator_toolbox)
+
+# Presentations
+
+### Conference Organizing
+
+### Conference Papers
+
+### Conference Posters
+
+### Invited Colloquia
+
+# Media Coverage
