@@ -9,7 +9,8 @@ format:
     toc-location: left
     email-obfuscation: javascript
   pdf: 
-    # fontfamily: cochineal
+    fontfamily: tgpagella
+    fontenc: T1
     colorlinks: false
     include-in-header: 
       text: |
