@@ -8,6 +8,7 @@ format:
     toc-location: left
   pdf: 
     # fontfamily: cochineal
+    colorlinks: false
     include-in-header: 
       text: |
         \usepackage{array,colortbl}
@@ -17,12 +18,12 @@ format:
 | 900 University Avenue, Riverside, CA 92521
 
 ::: {.content-visible when-format="pdf"}
-Email: [franchak@ucr.edu](franchak@ucr.edu)
-Web: [padlab.ucr.edu](padlab.ucr.edu)
+| email: [franchak@ucr.edu](mailto:franchak@ucr.edu)
+| web: [padlab.ucr.edu](padlab.ucr.edu)
 :::
 ::: {.content-visible when-format="html"}
-|{{< fa envelope title="Email" >}} [franchak@ucr.edu](franchak@ucr.edu)
-|{{< fa house-user title="Homepage" >}} [padlab.ucr.edu](padlab.ucr.edu)
+{{< fa envelope title="Email" >}}  [franchak@ucr.edu](mailto:franchak@ucr.edu) 
+{{< fa file-pdf title="Download" >}} [Download CV]("https://padlab.ucr.edu/Franchak_cv.pdf")
 :::
 
 # Employment and Education
@@ -37,6 +38,7 @@ Web: [padlab.ucr.edu](padlab.ucr.edu)
 | 2006-2009| M.A., Experimental Psychology, **New York University** |
 | 2005-2006| Lab Coordinator, Dept. of Psychology, **Rutgers University, Newark** |
 | 2001-2005| B.A., Cognitive Science, **University of Virginia** |
+: {tbl-colwidths="[15,85]"}
 
 # Research Interests
 - Perceptual-motor development (posture, locomotion, reaching)
@@ -56,6 +58,7 @@ Web: [padlab.ucr.edu](padlab.ucr.edu)
 | 2011		| Martin Braine Dissertation Award, **New York University** |
 | 2010		| Best Paper Award *Head-mounted eye-tracking of infants’ natural interactions:  A new method*, **ACM Eye Tracking Research & Applications** |
 | 2009		| Sandra G. Wiener Student Investigator Award, **International Society for Developmental Psychobiology** |
+: {tbl-colwidths="[5,95]"}
 
 # Grant Support
 
@@ -63,22 +66,24 @@ Web: [padlab.ucr.edu](padlab.ucr.edu)
 
  | 
 |--|--------|
-| 2022 to 2025 | James S. McDonnell Foundation Opportunity Award: *Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys.* **John Franchak, PI, $250,000 3-year project.** |
-| 2020 to 2024 | NSF BCS-1941449: *Developmental cascades: How motor development alters everyday learning*. **John Franchak, PI, $754,957 4-year total.** |
-| 2018 to 2023	| NICHD R01-HD-094830: *PLAY (Play and Learning Across a Year)*. Karen Adolph, PI, $6,341,419 total award. **John Franchak, sub-award PI, $18,527 5-year total.** |
-| 2018 to 2022	| NSF IIS-1763966: *CHS: Medium: Collaborative research: Designing virtual worlds for children - A developmental study of how children act, perceive, and reason spatially*. Robert Bodenheimer, PI, $539,504 total award. **John Franchak, consultant, $24,000 4-year total.** |	
-| 2018 to 2021	| NSF BCS-1749594: *Picture book reading: Investigating a key source of linguistic input for early language development*. Jessica Montag, PI, $427,933 total award. **John Franchak, consultant, $5000 3-year total.** |
-| 2018 to 2023	| NICHD R01-HD-033486: *Flexibility of learning in infant skill acquisition*, Karen Adolph, PI, total award $3,086,397. **John Franchak, consultant, $25,000 5-year total.** |
+| 2022-2025 | James S. McDonnell Foundation Opportunity Award: *Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys.* **John Franchak, PI, $250,000 3-year project.** |
+| 2020-2024 | NSF BCS-1941449: *Developmental cascades: How motor development alters everyday learning*. **John Franchak, PI, $754,957 4-year total.** |
+| 2018-2023	| NICHD R01-HD-094830: *PLAY (Play and Learning Across a Year)*. Karen Adolph, PI, $6,341,419 total award. **John Franchak, sub-award PI, $18,527 5-year total.** |
+| 2018-2022	| NSF IIS-1763966: *CHS: Medium: Collaborative research: Designing virtual worlds for children - A developmental study of how children act, perceive, and reason spatially*. Robert Bodenheimer, PI, $539,504 total award. **John Franchak, consultant, $24,000 4-year total.** |	
+| 2018-2021	| NSF BCS-1749594: *Picture book reading: Investigating a key source of linguistic input for early language development*. Jessica Montag, PI, $427,933 total award. **John Franchak, consultant, $5000 3-year total.** |
+| 2018-2023	| NICHD R01-HD-033486: *Flexibility of learning in infant skill acquisition*, Karen Adolph, PI, total award $3,086,397. **John Franchak, consultant, $25,000 5-year total.** |
+: {tbl-colwidths="[15,85]"}
 
 ### Intramural
 
  | 
 |--|--------|
 | Pending | UCR Center for Health Disparities Research FIRST Pilot Grant: *Sociocultural and emotion regulation processes that contextualize health disparities in Latinx children's anxiety*. Elizabeth Davis, PI, $50,000 total award. **John Franchak, co-PI**. |
-|2021 to 2022 | UCR Exploration Center for Innovative Teaching & Engagement: Remote Course Conversion Grant. **John Franchak, PI, $8,000 1-year total**. |
-|2021 to 2022 | UCR Center for Health Disparities Research Interdisciplinary Research Working Group Award: *Contextualizing Latinx children’s developing psychopathology: An interdisciplinary investigation of sociocultural and psychological processes contributing to health disparities in anxiety*. Elizabeth Davis, PI $2,500 total award. **John Franchak, co-PI**. |
-| 2019 to 2021	| UCR Regents Faculty Development Fellowship: *Characterizing everyday opportunities for learning in the second year of life*. **John Franchak, PI, $5,000 2-year total**. |
-| 2015 to 2017	| UCR Regents Faculty Fellowship: *Developmental changes in visual experiences over the first year of life*. **John Franchak, PI, $6,000 2-year award total**. |
+|2021-2022 | UCR Exploration Center for Innovative Teaching & Engagement: Remote Course Conversion Grant. **John Franchak, PI, $8,000 1-year total**. |
+|2021-2022 | UCR Center for Health Disparities Research Interdisciplinary Research Working Group Award: *Contextualizing Latinx children’s developing psychopathology: An interdisciplinary investigation of sociocultural and psychological processes contributing to health disparities in anxiety*. Elizabeth Davis, PI $2,500 total award. **John Franchak, co-PI**. |
+| 2019-2021	| UCR Regents Faculty Development Fellowship: *Characterizing everyday opportunities for learning in the second year of life*. **John Franchak, PI, $5,000 2-year total**. |
+| 2015-2017	| UCR Regents Faculty Fellowship: *Developmental changes in visual experiences over the first year of life*. **John Franchak, PI, $6,000 2-year award total**. |
+: {tbl-colwidths="[15,85]"}
 
 # Research 
 \renewcommand{\arraystretch}{1.5}
@@ -88,23 +93,20 @@ Web: [padlab.ucr.edu](padlab.ucr.edu)
 #|echo: false
 library(tidyverse)
 library(knitr)
-
 refs <- read_csv("publications/publications.csv") %>% 
   mutate(authors = str_replace(authors, "Franchak, J.M.", "**Franchak, J.M.**")) 
-
-# put links in html version
-# link to pubs page in pdf version
 ```
 ### Manuscripts Invited/Under Review/In Revision
 ```{r}
 refs  %>%  
   filter(type %in% c("Prep")) %>% 
-  mutate(citation = sprintf("%s (under review). %s", authors, title), .after = url) %>% 
+  mutate(citation = sprintf("%s (under review). %s", authors, title)) %>% 
   select(citation) %>% 
-  kable(col.names = "")
+  kable(col.names = "") 
 ```
 
 ### Peer-Reviewed Publications
+::: {.content-visible when-format="pdf"}
 ```{r}
 refs %>% filter(type %in% c("Journal","Proceedings")) %>% 
   mutate(numbers = str_c(", ", numbers)) %>% 
@@ -112,6 +114,16 @@ refs %>% filter(type %in% c("Journal","Proceedings")) %>%
   mutate(citation = sprintf("%d.  %s (%d). [%s](https://padlab.ucr.edu/publications/%s) *%s*%s", row_number(), authors, year, title, url, venue, numbers)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
+:::
+::: {.content-visible when-format="html"}
+```{r}
+refs %>% filter(type %in% c("Journal","Proceedings")) %>% 
+  mutate(numbers = str_c(", ", numbers)) %>% 
+  mutate(numbers = replace_na(numbers, "")) %>% 
+  mutate(citation = sprintf("[{{< fa file-pdf >}}](https://padlab.ucr.edu/publications/%s)  %s (%d). %s *%s*%s", url, authors, year, title, venue, numbers)) %>% 
+  select(citation) %>% kable(col.names = "")
+```
+:::
 
 ### Book Chapters
 
@@ -127,7 +139,6 @@ refs %>% filter(type %in% c("Chapter")) %>%
 read_csv("publications/datasets.csv") %>% 
   mutate(citation = sprintf("%d. (%d) *%s* %s. ```doi:%s```", row_number(), year, title, venue, doi)) %>% 
   select(citation) %>% kable(col.names = "")
-  
 ```
 # Open Source Research and Teaching Materials
 
