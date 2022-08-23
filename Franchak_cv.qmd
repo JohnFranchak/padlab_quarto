@@ -1,11 +1,13 @@
 ---
-title: "Curriculum Vitae: John Franchak"
+title: "John Franchak"
+subtitle: "Curriculum Vitae"
 execute:
   echo: false
   warning: false
 format:
   html:
     toc-location: left
+    email-obfuscation: javascript
   pdf: 
     # fontfamily: cochineal
     colorlinks: false
@@ -146,7 +148,7 @@ refs %>% filter(type %in% c("Chapter")) %>%
 :::
 
 ### Shared Datasets
-
+<!-- GET LINKS WORKING HERE -->
 ```{r}
 read_csv("publications/datasets.csv") %>% 
   mutate(citation = sprintf("%d. (%d) *%s* %s. ```doi:%s```", row_number(), year, title, venue, doi)) %>% 

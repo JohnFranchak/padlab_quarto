@@ -11,6 +11,9 @@ about:
     - icon: bank
       text: UCR Profile
       href: https://profiles.ucr.edu/app/home/profile/franchak
+    - icon: file-text
+      text: CV
+      href: https://padlab.ucr.edu/Franchak_cv.pdf
     - icon: twitter
       text: Twitter
       href: https://twitter.com/JohnFranchak
@@ -34,23 +37,12 @@ Dr. Franchak earned a BA in Cognitive Science from the University of Virginia in
 
 ```{r}
 #| echo: false
-#| layout-ncol: 2
   downloadthis::download_link(
   link = "https://padlab.ucr.edu/Franchak_cv.html",
-  button_label = "View CV on WEB",
+  button_label = "Full Curriculum Vitae",
   button_type = "primary",
   has_icon = TRUE,
   icon = "fa fa-file-alt",
-  self_contained = FALSE
-  )
-
-#| echo: false
-  downloadthis::download_link(
-  link = "https://padlab.ucr.edu/Franchak_cv.pdf",
-  button_label = "Download CV",
-  button_type = "default",
-  has_icon = TRUE,
-  icon = "fa fa-file-pdf",
   self_contained = FALSE
   )
 ```
