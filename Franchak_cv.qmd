@@ -283,3 +283,54 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 | International Society for Ecological Psychology 
 | Society for Research in Child Development  
 | Vision Sciences Society 
+
+# Teaching and Advising
+
+### Courses Taught
+
+| **Undergraduate:** 
+| PSYC 12: Psych. Methods: Research Procedures (W15, F15, F16, F17, S19, S20, U20, F20, U21, F21, U22, S23) 
+| PSYC 166A: Infancy (F19, S23) 
+| PSYC 169: Seminar: Perceptual-Motor Development (F14) 
+| PSYC 169: Seminar: Infant Development (S17) 
+
+| **Graduate:** 
+| PSYC 207C: Processes of Cognitive Development (S16, S18, S21, S22) 
+| PSYC 258: Seminar: Vision in Everyday Behavior (S17) 
+| PSYC 258: Seminar: Cascades in Development (W20) 
+| PSYC 259: Principles of Data Science (W21, W22) 
+
+### Student Advisees
+
+| **Doctoral:**
+| Kellan Kadooka (2022)  
+| Brianna McGee (2022)  
+| Chuan Luo (current) 
+| Hailey Rousey (current)
+| Yushan Guo (current)
+
+| **Masters:**
+| Jenna Monson (2018) 
+
+| **Undergraduate Honors Theses:**
+| Madelyn Caufield (2020) 
+| Eli Labinger (2018)
+| Frank Somoano (2017) 
+| Angela Char (2011, as a postdoctoral mentor) 
+| Emma Celano (2011, as a postdoctoral mentor) 
+| Larissa Gabelman (2009, as a graduate mentor) 
+| Dina van der Zalm (2008, as a graduate mentor) 
+
+| **Undergraduate Research Grants Mentored:**
+| Juelle Ford (2022), UCR Student Minigrant
+| Faizah Ahmed (2022), UCR Student Minigrant
+| Vivian Huynh (2022), UCR Student Minigrant
+| Jino Sirivatanarat (2022), UCR Student Minigrant
+| Gabrielle Blanch (2019), UCR Student Travel Grant 
+| Madelyn Caufield (2019), UCR Student Minigrant 
+| Yee Lat (2019), UCR Student Minigrant 
+| Kelsey Michaels (2019), UCR Student Minigrant
+| Gabrielle Blanch (2018), UCR Student Minigrant
+| Tramanh Truong (2018), UCR Student Minigrant 
+| Eli Labinger (2017), Chancellor’s Distinguished Fellowship 
+
