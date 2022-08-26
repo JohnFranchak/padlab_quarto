@@ -153,10 +153,9 @@ refs %>% filter(type %in% c("Chapter")) %>%
 # Open Science 
 
 ### Shared Datasets
-<!-- GET LINKS WORKING HERE -->
 ```{r}
 read_csv("publications/datasets.csv") %>% 
-  mutate(citation = sprintf("(%d) *%s* %s. ```doi:%s```", year, title, venue, doi)) %>% 
+  mutate(citation = sprintf("(%d) *%s* %s. [```doi:%s```](%s)", year, title, venue, doi, paste0("https://doi.org/",doi))) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 
@@ -220,6 +219,21 @@ presentations %>% filter(type %in% c("Poster")) %>%
 :::
 
 ### Invited Colloquia
+
+::: {.content-visible when-format="pdf"}
+```{r}
+presentations %>% filter(type %in% c("Colloquium")) %>% 
+  mutate(citation = sprintf("%d (%d). %s.", row_number(), year, venue)) %>% 
+  select(citation) %>% kable(col.names = "")
+```
+:::
+::: {.content-visible when-format="html"}
+```{r}
+presentations %>% filter(type %in% c("Colloquium")) %>% 
+  mutate(citation = sprintf("(%d) %s.", year, venue)) %>% 
+  select(citation) %>% kable(col.names = "")
+```
+:::
 
 # Media Coverage
 
