@@ -16,13 +16,20 @@ format:
       text: |
         \usepackage{array,colortbl}
         \arrayrulecolor{white}
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhead{}
+        \fancyhead[LO,LE]{\textbf{Franchak CV}}
+        \fancyhead[RO,RE]{\thepage}
+        \fancyfoot{}
 ---
 ```{r}
 library(tidyverse)
 library(lubridate)
 library(knitr)
 ```
-| Department of Psychology, University of California, Riverside  
+| Department of Psychology
+| University of California, Riverside  
 | 900 University Avenue, Riverside, CA 92521
 
 ::: {.content-visible when-format="pdf"}
@@ -35,6 +42,7 @@ library(knitr)
 :::
 
 Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abbr = F)), mday(today()), year(today()))`
+\thispagestyle{empty}
 
 # Employment and Education
 
@@ -50,12 +58,12 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
 | 2001-2005| B.A., Cognitive Science, **University of Virginia** |
 : {tbl-colwidths="[15,85]"}
 
-# Research Interests
-- Perceptual-motor development (posture, locomotion, reaching)
-- Visual exploration in infants', children's, and adults' everyday behaviors
-- Development of visual attention while viewing complex, dynamic media
-- Motor learning and control (affordances, visual guidance of walking and reaching) 
-- Ambulatory assessment (mobile eye tracking, accelerometry, ecological momentary assessment)
+<!-- # Research Interests -->
+<!-- - Perceptual-motor development (posture, locomotion, reaching) -->
+<!-- - Visual exploration in infants', children's, and adults' everyday behaviors -->
+<!-- - Development of visual attention while viewing complex, dynamic media -->
+<!-- - Motor learning and control (affordances, visual guidance of walking and reaching)  -->
+<!-- - Ambulatory assessment (mobile eye tracking, accelerometry, ecological momentary assessment) -->
 
 # Honors and Awards
 | | |
@@ -224,11 +232,11 @@ presentations %>% filter(type %in% c("Poster")) %>%
 :::
 
 ### Invited Colloquia
-
+\renewcommand{\arraystretch}{1.25}
 ::: {.content-visible when-format="pdf"}
 ```{r}
 presentations %>% filter(type %in% c("Colloquium")) %>% 
-  mutate(citation = sprintf("%d. (%d) %s.", row_number(), year, venue)) %>% 
+  mutate(citation = sprintf("%d. %s. (%d)", row_number(), venue, year)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
@@ -239,12 +247,12 @@ presentations %>% filter(type %in% c("Colloquium")) %>%
   select(citation) %>% kable(col.names = "")
 ```
 :::
-
+\renewcommand{\arraystretch}{1.5}
 # Media Coverage
 
 | La Presse. (2018)  [*Les mystères des positions de bébés*](https://bit.ly/2Cqjya7)
 | Science Daily. (2018) [*Study explores infant body position and learning*](https://www.sciencedaily.com/releases/2018/10/181023150036.htm) 
-| Simon’s Foundation Autism Research Initiative. (2011) [*Eye-tracking device travels with toddlers*](http://sfari.org/news-and-opinion/toolbox/2011/eye-tracking-device-travels-with-toddlers) 
+| Simon’s Foundation. (2011) [*Eye-tracking device travels with toddlers*](http://sfari.org/news-and-opinion/toolbox/2011/eye-tracking-device-travels-with-toddlers) 
 | Voices of America, Science/Health News. (2010) [*New studies reveal infants’ world of vision*](http://www.voanews.com/english/news/health/New-Studies-Reveal-Infants-World-Of-Vision-104716684.html) 
 | New York Times. (2010) [*Looking this way and that, and learning to adapt to the world*](http://www.nytimes.com/2010/08/17/science/17gaze.html) 
 
@@ -252,6 +260,7 @@ presentations %>% filter(type %in% c("Colloquium")) %>%
 
 ### Reviewer Positions
 
+\renewcommand{\arraystretch}{1.25}
 | | |
 |-|--------|
 | 2022- | Associate Editor, *Developmental Psychology* | 
@@ -273,12 +282,14 @@ presentations %>% filter(type %in% c("Colloquium")) %>%
 
 ### Ad Hoc Reviewer
 
+\renewcommand{\arraystretch}{1.25}
 ```{r}
 adhoc <- read_csv("publications/adhoc.csv") %>% arrange(journal) %>% unlist()
 col1 <- adhoc[1:ceiling(length(adhoc)/2)]
 col2 <- adhoc[{ceiling(length(adhoc)/2)+1}:length(adhoc)]
 tibble(col1, col2) %>% kable(col.names = c("",""))
 ```
+\renewcommand{\arraystretch}{1.5}
 
 ### Professional Affiliations
 
