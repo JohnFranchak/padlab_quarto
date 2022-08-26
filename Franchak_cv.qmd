@@ -187,14 +187,14 @@ read_csv("publications/datasets.csv") %>%
 ::: {.content-visible when-format="pdf"}
 ```{r}
 presentations %>% filter(type %in% c("Organizing")) %>% 
-  mutate(citation = sprintf("%d.  %s (%d). *%s*. %s %s.", row_number(), authors, year, title, what, venue)) %>% 
+  mutate(citation = sprintf("%d.  %s (%d, %s). *%s*. %s %s.", row_number(), authors, year, month, title, what, venue)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
 ::: {.content-visible when-format="html"}
 ```{r}
 presentations %>% filter(type %in% c("Organizing")) %>% 
-  mutate(citation = sprintf("%s (%d). *%s*. %s %s.", authors, year, title, what, venue)) %>% 
+  mutate(citation = sprintf("%s (%d, %s). *%s*. %s %s.", authors, year, month, title, what, venue)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
@@ -203,14 +203,14 @@ presentations %>% filter(type %in% c("Organizing")) %>%
 ::: {.content-visible when-format="pdf"}
 ```{r}
 presentations %>% filter(type %in% c("Paper")) %>% 
-  mutate(citation = sprintf("%d.  %s (%d). *%s*. %s %s.", row_number(), authors, year, title, what, venue)) %>% 
+  mutate(citation = sprintf("%d.  %s (%d, %s). *%s*. %s %s.", row_number(), authors, year, month, title, what, venue)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
 ::: {.content-visible when-format="html"}
 ```{r}
 presentations %>% filter(type %in% c("Paper")) %>% 
-  mutate(citation = sprintf("%s (%d). *%s*. %s %s.", authors, year, title, what, venue)) %>% 
+  mutate(citation = sprintf("%s (%d, %s). *%s*. %s %s.", authors, year, month, title, what, venue)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
@@ -219,14 +219,14 @@ presentations %>% filter(type %in% c("Paper")) %>%
 ::: {.content-visible when-format="pdf"}
 ```{r}
 presentations %>% filter(type %in% c("Poster")) %>% 
-  mutate(citation = sprintf("%d.  %s (%d). *%s*. %s %s.", row_number(), authors, year, title, what, venue)) %>% 
+  mutate(citation = sprintf("%d.  %s (%d, %s). *%s*. %s %s.", row_number(), authors, year, month, title, what, venue)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
 ::: {.content-visible when-format="html"}
 ```{r}
 presentations %>% filter(type %in% c("Poster")) %>% 
-  mutate(citation = sprintf("%s (%d). *%s*. %s %s.", authors, year, title, what, venue)) %>% 
+  mutate(citation = sprintf("%s (%d, %s). *%s*. %s %s.", authors, year, month, title, what, venue)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
@@ -352,6 +352,7 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 
 # University Service
 
+\renewcommand{\arraystretch}{1.25}
 | | |
 |-|--------|
 | 2022 | Member, UCR Psychology ad hoc Instructional Technology Committee |

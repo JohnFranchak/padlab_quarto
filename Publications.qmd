@@ -15,12 +15,12 @@ library(reactable)
 library(tidyverse)
 library(htmltools)
 library(reactablefmtr)
-refs <- read_csv("publications/publications.csv")
+refs <- read_csv("publications/publications.csv") %>% 
+  filter(type != "Prep")
 ```
 
 ```{r}
-refs_clean <- refs %>% 
-  filter(type != "Prep") |> 
+refs_clean <- refs %>%  
   mutate(citation = sprintf("%s (%d). %s %s.", authors, year, title, venue), .after = url) %>% 
   select(-editors, -numbers, -title, -venue) %>% 
   relocate(type, .after = citation) %>%
