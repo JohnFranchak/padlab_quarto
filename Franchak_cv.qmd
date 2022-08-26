@@ -17,6 +17,11 @@ format:
         \usepackage{array,colortbl}
         \arrayrulecolor{white}
 ---
+```{r}
+library(tidyverse)
+library(lubridate)
+library(knitr)
+```
 | Department of Psychology, University of California, Riverside  
 | 900 University Avenue, Riverside, CA 92521
 
@@ -28,6 +33,8 @@ format:
 {{< fa envelope title="Email" >}}  [franchak@ucr.edu](mailto:franchak@ucr.edu) 
 {{< fa file-pdf title="Download" >}} [Download CV]("https://padlab.ucr.edu/Franchak_cv.pdf")
 :::
+
+Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abbr = F)), mday(today()), year(today()))`
 
 # Employment and Education
 
@@ -94,8 +101,6 @@ format:
 ```{r}
 #|output: false
 #|echo: false
-library(tidyverse)
-library(knitr)
 refs <- read_csv("publications/publications.csv") %>% 
   mutate(authors = str_replace(authors, "Franchak, J.M.", "**Franchak, J.M.**")) 
 presentations <- read_csv("publications/presentations.csv") %>% 
@@ -223,7 +228,7 @@ presentations %>% filter(type %in% c("Poster")) %>%
 ::: {.content-visible when-format="pdf"}
 ```{r}
 presentations %>% filter(type %in% c("Colloquium")) %>% 
-  mutate(citation = sprintf("%d (%d). %s.", row_number(), year, venue)) %>% 
+  mutate(citation = sprintf("%d. (%d) %s.", row_number(), year, venue)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
@@ -289,7 +294,7 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 ### Courses Taught
 
 | **Undergraduate:** 
-| PSYC 12: Psych. Methods: Research Procedures (W15, F15, F16, F17, S19, S20, U20, F20, U21, F21, U22, S23) 
+| PSYC 12: Psychological Methods: Research Procedures (W15, F15, F16, F17, S19, S20, U20, F20, U21, F21, U22, S23) 
 | PSYC 166A: Infancy (F19, S23) 
 | PSYC 169: Seminar: Perceptual-Motor Development (F14) 
 | PSYC 169: Seminar: Infant Development (S17) 
@@ -334,3 +339,17 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 | Tramanh Truong (2018), UCR Student Minigrant 
 | Eli Labinger (2017), Chancellor’s Distinguished Fellowship 
 
+# University Service
+
+| | |
+|-|--------|
+| 2022 | Member, UCR Psychology ad hoc Instructional Technology Committee |
+| 2019- | Member, UC Riverside Academic Integrity Committee |
+| 2019- | Psychology Department Colloquium Series Organizer |
+| 2018 | Judge, Undergraduate Research Symposium |
+| 2017- | Member, Undergraduate Minigrant Review Committee |
+| 2017 | R'Course Facilitator |
+| 2016-2017 | Member, Graduate Admissions Committee (Dept. of Psychology) |
+| 2015- | Chair, Child Studies @ UCR, [childstudies.ucr.edu](https://childstudies.ucr.edu)|
+| 2014-2015 | Member, Faculty Search Committee (Dept. of Psychology) |
+: {tbl-colwidths="[15,85]"}
