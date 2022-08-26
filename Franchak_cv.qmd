@@ -22,7 +22,7 @@ format:
 
 ::: {.content-visible when-format="pdf"}
 | email: [franchak@ucr.edu](mailto:franchak@ucr.edu)
-| web: [padlab.ucr.edu](padlab.ucr.edu)
+| web: [padlab.ucr.edu](https://padlab.ucr.edu)
 :::
 ::: {.content-visible when-format="html"}
 {{< fa envelope title="Email" >}}  [franchak@ucr.edu](mailto:franchak@ucr.edu) 
@@ -98,6 +98,8 @@ library(tidyverse)
 library(knitr)
 refs <- read_csv("publications/publications.csv") %>% 
   mutate(authors = str_replace(authors, "Franchak, J.M.", "**Franchak, J.M.**")) 
+presentations <- read_csv("publications/presentations.csv") %>% 
+  mutate(authors = str_replace(authors, "Franchak, J.M.", "**Franchak, J.M.**")) 
 ```
 ### Manuscripts Invited/Under Review/In Revision
 ```{r}
@@ -148,14 +150,17 @@ refs %>% filter(type %in% c("Chapter")) %>%
 ```
 :::
 
+# Open Science 
+
 ### Shared Datasets
 <!-- GET LINKS WORKING HERE -->
 ```{r}
 read_csv("publications/datasets.csv") %>% 
-  mutate(citation = sprintf("%d. (%d) *%s* %s. ```doi:%s```", row_number(), year, title, venue, doi)) %>% 
+  mutate(citation = sprintf("(%d) *%s* %s. ```doi:%s```", year, title, venue, doi)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
-# Open Source Research and Teaching Materials
+
+### Open Source Research and Teaching Materials
 
 - *Eye Tracking Accuracy Calculator*, [https://github.com/JohnFranchak/et_accuracy](https://github.com/JohnFranchak/et_accuracy)
 - *Dynamic ROI Coder for Matlab*, [https://github.com/JohnFranchak/roi_coder](https://github.com/JohnFranchak/roi_coder)
@@ -167,11 +172,59 @@ read_csv("publications/datasets.csv") %>%
 # Presentations
 
 ### Conference Organizing
+::: {.content-visible when-format="pdf"}
+```{r}
+presentations %>% filter(type %in% c("Organizing")) %>% 
+  mutate(citation = sprintf("%d.  %s (%d). *%s*. %s %s.", row_number(), authors, year, title, what, venue)) %>% 
+  select(citation) %>% kable(col.names = "")
+```
+:::
+::: {.content-visible when-format="html"}
+```{r}
+presentations %>% filter(type %in% c("Organizing")) %>% 
+  mutate(citation = sprintf("%s (%d). *%s*. %s %s.", authors, year, title, what, venue)) %>% 
+  select(citation) %>% kable(col.names = "")
+```
+:::
 
 ### Conference Papers
+::: {.content-visible when-format="pdf"}
+```{r}
+presentations %>% filter(type %in% c("Paper")) %>% 
+  mutate(citation = sprintf("%d.  %s (%d). *%s*. %s %s.", row_number(), authors, year, title, what, venue)) %>% 
+  select(citation) %>% kable(col.names = "")
+```
+:::
+::: {.content-visible when-format="html"}
+```{r}
+presentations %>% filter(type %in% c("Paper")) %>% 
+  mutate(citation = sprintf("%s (%d). *%s*. %s %s.", authors, year, title, what, venue)) %>% 
+  select(citation) %>% kable(col.names = "")
+```
+:::
 
 ### Conference Posters
+::: {.content-visible when-format="pdf"}
+```{r}
+presentations %>% filter(type %in% c("Poster")) %>% 
+  mutate(citation = sprintf("%d.  %s (%d). *%s*. %s %s.", row_number(), authors, year, title, what, venue)) %>% 
+  select(citation) %>% kable(col.names = "")
+```
+:::
+::: {.content-visible when-format="html"}
+```{r}
+presentations %>% filter(type %in% c("Poster")) %>% 
+  mutate(citation = sprintf("%s (%d). *%s*. %s %s.", authors, year, title, what, venue)) %>% 
+  select(citation) %>% kable(col.names = "")
+```
+:::
 
 ### Invited Colloquia
 
 # Media Coverage
+
+| La Presse. (2018)  [*Les mystères des positions de bébés*](https://bit.ly/2Cqjya7)
+| Science Daily. (2018) [*Study explores infant body position and learning*](https://www.sciencedaily.com/releases/2018/10/181023150036.htm) 
+| Simon’s Foundation Autism Research Initiative. (2011) [*Eye-tracking device travels with toddlers*](http://sfari.org/news-and-opinion/toolbox/2011/eye-tracking-device-travels-with-toddlers) 
+| Voices of America, Science/Health News. (2010) [*New studies reveal infants’ world of vision*](http://www.voanews.com/english/news/health/New-Studies-Reveal-Infants-World-Of-Vision-104716684.html) 
+| New York Times. (2010) [*Looking this way and that, and learning to adapt to the world*](http://www.nytimes.com/2010/08/17/science/17gaze.html) 
