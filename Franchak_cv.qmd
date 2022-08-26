@@ -242,3 +242,44 @@ presentations %>% filter(type %in% c("Colloquium")) %>%
 | Simon’s Foundation Autism Research Initiative. (2011) [*Eye-tracking device travels with toddlers*](http://sfari.org/news-and-opinion/toolbox/2011/eye-tracking-device-travels-with-toddlers) 
 | Voices of America, Science/Health News. (2010) [*New studies reveal infants’ world of vision*](http://www.voanews.com/english/news/health/New-Studies-Reveal-Infants-World-Of-Vision-104716684.html) 
 | New York Times. (2010) [*Looking this way and that, and learning to adapt to the world*](http://www.nytimes.com/2010/08/17/science/17gaze.html) 
+
+# Professional Activities and Service
+
+### Reviewer Positions
+
+| | |
+|-|--------|
+| 2022- | Associate Editor, *Developmental Psychology* | 
+| 2022 | Member, National Science Foundation Review Panel |
+| 2021 | Member, National Science Foundation Review Panel |
+| 2020- | Review Editor, Perception Science Editorial Board, *Frontiers in Psychology* and *Frontiers in Neuroscience* |
+| 2022 | Panel Reviewer, International Congress on Infant Studies | 
+| 2020 | Panel Reviewer, Society for Research in Child Development |
+| 2020 | Scientific Committee, International Conference on Perception and Action (conference cancelled)|
+| 2020 | Panel Reviewer, SRCD Special Topics Meeting on Learning Through Play and Imagination |
+| 2020 | Panel Reviewer, International Congress on Infant Studies | 
+| 2019 | Panel Reviewer, Cognitive Development Society |
+| 2018 | Panel Reviewer, International Congress on Infant Studies |
+| 2017 | Panel Reviewer, Society for Research in Child Development |
+| 2016 | Panel Co-Chair, International Congress on Infant Studies | 
+| 2016 | Panel Reviewer, SRCD Special Topics Meeting on Technology and Media in Children’s Development |
+| 2015 | Scientific Committee, International Conference on Perception and Action|
+: {tbl-colwidths="[15,85]"}
+
+### Ad Hoc Reviewer
+
+```{r}
+adhoc <- read_csv("publications/adhoc.csv") %>% arrange(journal) %>% unlist()
+col1 <- adhoc[1:ceiling(length(adhoc)/2)]
+col2 <- adhoc[{ceiling(length(adhoc)/2)+1}:length(adhoc)]
+tibble(col1, col2) %>% kable(col.names = c("",""))
+```
+
+### Professional Affiliations
+
+| Cognitive Development Society 
+| International Congress on Infant Studies 
+| International Society for Developmental Psychobiology 
+| International Society for Ecological Psychology 
+| Society for Research in Child Development  
+| Vision Sciences Society 
