@@ -1,0 +1,19 @@
+---
+title: "Juelle Ford"
+image: juelle-ford.jpeg
+order: 2022.85
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:jford023@ucr.edu
+---
+
+[**Staff Research Assistant**]{.text-primary}
+
+**Office:** Olmsted A0126 <br/>
+
+**Biography**
+
+Juelle Ford is a Staff Research Assistant in the Perception, Action, and Development Lab. She is earning a Bachelor of Science in Psychology from UC Riverside and plans to complete a Ph.D. in psychology. She is interested in researching how social and environmental factors impact infant cognitive and motor development.
