@@ -38,7 +38,7 @@ Dr. Franchak earned a BA in Cognitive Science from the University of Virginia in
 ```{r}
 #| echo: false
   downloadthis::download_link(
-  link = "https://padlab.ucr.edu/Franchak_cv.html",
+  link = "/Franchak_cv.html",
   button_label = "Full Curriculum Vitae",
   button_type = "primary",
   has_icon = TRUE,

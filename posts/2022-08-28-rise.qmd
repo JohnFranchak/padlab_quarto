@@ -1,0 +1,12 @@
+---
+title: "Poster Presentation"
+description: "Relation Between Restraint and Infant Sitting Acquisition"
+author: "PADLAB"
+date: "08/24/2022"
+---
+
+Lynn Domond, a 2022 graduate of UC Riverside, completed a paid internship in UCR's [Research in Science and Engineering](https://stem.ucr.edu/research-opportunities/rise) (RISE) program. The 10-week summer program pairs undergraduate students with faculty mentors to gain research experience and STEM career preparation Lynn worked in the PADLAB with Dr. Franchak on a project using ecological momentary assessment to track infants' everyday experiences from 4 to 7 months.
+
+![Figure. Lynn Domond presenting during the 2022 Summer RISE Undergraduate Research Symposium ](2022-images/lynn_poster.jpeg){width="75%" fig-align="center"}
+
+The culmination of the internship was a poster presentation at the RISE Undergraduate Research Symposium, where Lynn shared a poster entitled *Relation Between Restraint and Infant Sitting Acquisition*. In her poster, Lynn tested whether infants who could sit independently at 6 months compared to infants who could not sit at 6 months differed in how much time they spent restrained at 5 months. Preliminary results trended towards showing that less restrained time (either in a device or by a parent) may be linked with the acquisition of sitting, which will be confirmed when the final sample is collected.
