@@ -38,7 +38,7 @@ library(knitr)
 :::
 ::: {.content-visible when-format="html"}
 {{< fa envelope title="Email" >}}  [franchak@ucr.edu](mailto:franchak@ucr.edu) 
-{{< fa file-pdf title="Download" >}} [Download CV]("https://padlab.ucr.edu/Franchak_cv.pdf")
+{{< fa file-pdf title="Download" >}} [Download CV](https://padlab.ucr.edu/Franchak_cv.pdf)
 :::
 
 Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abbr = F)), mday(today()), year(today()))`
