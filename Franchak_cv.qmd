@@ -83,8 +83,8 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
 ### Extramural
  | 
 |--|--------|
-| 2022-2025 | James S. McDonnell Foundation Opportunity Award: *Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys.* **John Franchak, PI, $250,000 3-year project.** |
-| 2020-2024 | NSF BCS-1941449: *Developmental cascades: How motor development alters everyday learning*. **John Franchak, PI, $754,957 4-year total.** |
+| 2022-2025 | James S. McDonnell Foundation Opportunity Award: [*Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys.*](https://doi.org/10.37717/2022-3803) **John Franchak, PI, $250,000 3-year project.** |
+| 2020-2024 | NSF BCS-1941449: [*Developmental cascades: How motor development alters everyday learning*](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1941449&HistoricalAwards=false). **John Franchak, PI, $754,957 4-year total.** |
 | 2018-2023	| NICHD R01-HD-094830: *PLAY (Play and Learning Across a Year)*. Karen Adolph, PI, $6,341,419 total award. **John Franchak, sub-award PI, $18,527 5-year total.** |
 | 2018-2022	| NSF IIS-1763966: *CHS: Medium: Collaborative research: Designing virtual worlds for children - A developmental study of how children act, perceive, and reason spatially*. Robert Bodenheimer, PI, $539,504 total award. **John Franchak, consultant, $24,000 4-year total.** |	
 | 2018-2021	| NSF BCS-1749594: *Picture book reading: Investigating a key source of linguistic input for early language development*. Jessica Montag, PI, $427,933 total award. **John Franchak, consultant, $5000 3-year total.** |
@@ -318,11 +318,11 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 ### Student Advisees
 
 | **Doctoral:**
-| Kellan Kadooka (2022)  
-| Brianna McGee (2022)  
 | Chuan Luo (current) 
 | Hailey Rousey (current)
 | Yushan Guo (current)
+| Kellan Kadooka (2022)  
+| Brianna McGee (2022) 
 
 | **Masters:**
 | Jenna Monson (2018) 

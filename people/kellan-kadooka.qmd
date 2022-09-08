@@ -1,6 +1,7 @@
 ---
 title: "Kellan Kadooka"
 image: kellan-kadooka.jpg
+draft: true
 order: 2016
 about:
   template: trestles

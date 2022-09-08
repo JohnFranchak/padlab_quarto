@@ -6,7 +6,7 @@ image: /images/jsmf.png
 date: "08/16/2022"
 ---
 
-The Perception, Action, and Development Lab was awarded a 3-year, $250,000 Opportunity Award from the James S. McDonnell Foundation's [Understanding Human Cognition](https://www.jsmf.org/programs/uhc/) program to carry out a new project, "Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys". 
+The Perception, Action, and Development Lab was awarded a 3-year, $250,000 Opportunity Award from the James S. McDonnell Foundation's [Understanding Human Cognition](https://www.jsmf.org/programs/uhc/) program to carry out a new project, ["Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys"](https://www.jsmf.org/grants/2022-3803/). 
 
 For the past few years, the lab has been using ecological momentary assessment (EMA) to measure infants' everyday experiences by prompting parents throughout the day to respond to short surveys about infants' body position, object manipulation, and activity. We published one paper showing how the proportion of time infants spend held and supine decreases while time spent sitting and upright increases over the first year of life ([Franchak, 2019](/publications/2019-Franchak-Infancy.pdf)), and at the recent ICIS Dr. Franchak [presented](/posts/2022-07-10-ema-talk.qmd) longitudinal work showing how motor and object experiences change when infants learn to walk. Although EMA is a promising technique for characterizing infants' experiences across the day without direct observation, it's limiting to only know the answers to a few text-based questions.
 

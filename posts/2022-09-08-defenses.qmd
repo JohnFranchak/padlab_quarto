@@ -1,0 +1,11 @@
+---
+title: "Two New PhDs"
+description: "Doctoral Defenses of Brianna McGee and Kellan Kadooka"
+author: "PADLAB"
+date: "09/08/2022"
+---
+
+In summer 2022, the Perception, Action, and Development Lab celebrated its first two doctorates awarded. On June 21, 2022, Brianna McGee defended her dissertation, "The influence of target regularity and task on screen-based and real-world visual exploration". On September 1, 2022, Kellan Kadooka defended his dissertation, "Developmental changes in prioritization of visual attention to features and goal-directed manual actions."
+
+![Dr. Brianna McGee and Dr. Kellan Kadooka](2022-images/phds.jpg){width="75%" fig-align="center"}
+
