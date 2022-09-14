@@ -202,14 +202,14 @@ presentations %>% filter(type %in% c("Organizing")) %>%
 ### Conference Papers
 ::: {.content-visible when-format="pdf"}
 ```{r}
-presentations %>% filter(type %in% c("Paper")) %>% 
+presentations %>% filter(type %in% c("Paper")) %>% arrange(desc(year)) %>% 
   mutate(citation = sprintf("%d.  %s (%d, %s). *%s*. %s %s.", row_number(), authors, year, month, title, what, venue)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
 ::: {.content-visible when-format="html"}
 ```{r}
-presentations %>% filter(type %in% c("Paper")) %>% 
+presentations %>% filter(type %in% c("Paper")) %>% arrange(desc(year)) %>% 
   mutate(citation = sprintf("%s (%d, %s). *%s*. %s %s.", authors, year, month, title, what, venue)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
@@ -218,14 +218,14 @@ presentations %>% filter(type %in% c("Paper")) %>%
 ### Conference Posters
 ::: {.content-visible when-format="pdf"}
 ```{r}
-presentations %>% filter(type %in% c("Poster")) %>% 
+presentations %>% filter(type %in% c("Poster")) %>% arrange(desc(year)) %>% 
   mutate(citation = sprintf("%d.  %s (%d, %s). *%s*. %s %s.", row_number(), authors, year, month, title, what, venue)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
 ::: {.content-visible when-format="html"}
 ```{r}
-presentations %>% filter(type %in% c("Poster")) %>% 
+presentations %>% filter(type %in% c("Poster")) %>% arrange(desc(year)) %>% 
   mutate(citation = sprintf("%s (%d, %s). *%s*. %s %s.", authors, year, month, title, what, venue)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
@@ -235,14 +235,14 @@ presentations %>% filter(type %in% c("Poster")) %>%
 \renewcommand{\arraystretch}{1.25}
 ::: {.content-visible when-format="pdf"}
 ```{r}
-presentations %>% filter(type %in% c("Colloquium")) %>% 
+presentations %>% filter(type %in% c("Colloquium")) %>% arrange(desc(year)) %>% 
   mutate(citation = sprintf("%d. %s. (%d)", row_number(), venue, year)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
 ::: {.content-visible when-format="html"}
 ```{r}
-presentations %>% filter(type %in% c("Colloquium")) %>% 
+presentations %>% filter(type %in% c("Colloquium")) %>% arrange(desc(year)) %>% 
   mutate(citation = sprintf("(%d) %s.", year, venue)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
