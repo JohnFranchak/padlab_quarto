@@ -20,7 +20,12 @@ website:
       - News.qmd
       - Publications.qmd
       - Tools.qmd
-      - People.qmd
+      - text: "People"
+        menu:
+          - text: "Prof. John Franchak"
+            file: people/john-franchak.qmd
+          - text: "All PADLAB Members"
+            file: People.qmd
       - Contact.qmd
     right:
       - icon: github

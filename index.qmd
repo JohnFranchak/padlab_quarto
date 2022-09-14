@@ -6,7 +6,7 @@ title: ""
 
 ![](images/logo-wide.png)
 
-The Perception, Action, & Development Lab is directed by [Dr. John Franchak](people/john-franchak.qmd) in the UC Riverside [Department of Psychology](https://psychology.ucr.edu/). Dr. Franchak advises students in the [Developmental](https://psychology.ucr.edu/faculty-research/areas-of-study/#tab-id-3) and [Cognition and Cognitive Neuroscience](https://psychology.ucr.edu/faculty-research/areas-of-study/#tab-id-2) areas of the Psychology Department. The lab's research is funded by grants from the [National Science Foundation](posts/2020-07-31-nsf.qmd) and [James S. McDonnell Foundation]()
+The Perception, Action, & Development Lab is directed by [Dr. John Franchak](people/john-franchak.qmd) in the UC Riverside [Department of Psychology](https://psychology.ucr.edu/). Dr. Franchak advises students in the [Developmental](https://psychology.ucr.edu/faculty-research/areas-of-study/#tab-id-3) and [Cognition and Cognitive Neuroscience](https://psychology.ucr.edu/faculty-research/areas-of-study/#tab-id-2) areas of the Psychology Department. The lab's research is funded by grants from the [National Science Foundation](posts/2020-07-31-nsf.qmd) and [James S. McDonnell Foundation](posts/2022-08-11-jsmf.qmd)
 
 ## What do we study?
 
