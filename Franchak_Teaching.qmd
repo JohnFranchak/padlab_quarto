@@ -1,0 +1,69 @@
+--- 
+execute:
+  echo: false
+  warning: false
+format:
+  html:
+    toc-location: left
+    toc-depth: 4
+    email-obfuscation: javascript
+  pdf: 
+    fontfamily: tgpagella
+    geometry:
+      - top=24mm
+      - left=24mm
+      - bottom=24mm
+      - right=24mm
+      - heightrounded
+    fontenc: T1
+    colorlinks: true
+    block-headings: false
+    include-in-header: 
+      text: |
+        \usepackage{array,colortbl}
+        \arrayrulecolor{white}
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhead{}
+        \fancyhead[LO,LE]{\textbf{John Franchak - Teaching Statement}}
+        \fancyhead[RO,RE]{\thepage}
+        \fancyfoot{}
+        \RedeclareSectionCommand[
+          beforeskip=0pt,
+          afterskip=-1.25ex plus .1ex]{paragraph}
+        \RedeclareSectionCommand[
+          beforeskip=0pt,
+          afterskip=1pt]{subsection}
+---
+
+::: {.content-visible when-format="html"}
+# John Franchak - Teaching Statement 
+{{< fa file-pdf title="Download" >}} [Download Teaching Statement](https://padlab.ucr.edu/Franchak_Teaching.pdf)
+:::
+
+\thispagestyle{fancy}
+
+# Classroom Instruction 
+
+As an assistant professor at UC Riverside, I have had the pleasure of teaching both undergraduate courses---including larger lectures and smaller seminars---and doctoral courses. Student evaluations for my courses have been consistently positive and score above the mean for the psychology department (which is above the mean for the campus as a whole). I value and enjoy the privilege of teaching and appreciate the challenge of tinkering with my courses to improve students’ experiences and learning. I am prepared and excited to teach courses in **developmental psychology, research methods, infant development, cognitive development, perception, motor control, and programming skills** (R, Matlab) at undergraduate and graduate levels.
+
+Each year at UCR I have taught the undergraduate research methods course, which involves a lecture with 120-140 students and oversight of 6-7 teaching assistants who run weekly, writing-intensive laboratory sections. Research methods is not a class that most students are excited to take---it is the final lower division course that students must pass to take more specialized courses. Moreover, many students are intimidated by the material. However, it is a course that I relish teaching because I have the opportunity to surprise students by showing them why they *should* care about research methodology---which is important not only for psychology majors but for anyone who needs to evaluate research claims that are encountered everyday life. After the shift to remote instruction during the COVID-19 pandemic, I sought to make the online course stronger by pursuing a UCR XCITE Remote Course Conversion Grant. I was awarded an $8000 grant to enhance the class: I completed the Online Learning Consortium's Foundation Course Certificate and worked with an instructional designer to make the course more engaging online through social reading technology and interactive virtual labs. 
+
+I have also taught two undergraduate seminars (20-30 students) in more specialized topics: "Perceptual-Motor Development" and "Infancy". With smaller undergraduate classes I use a hybrid lecture/seminar approach. I briefly lecture to provide breadth on a topic and then lead a class discussion to get into the details of readings. To improve students' ability to critically read and understand empirical papers, I implemented "group reading presentations" in which students meet in groups of 4-5 to plan and present 5-minute Powerpoint presentations. For the presentations, each student covers one of the sections (e.g., motivation, method, results, implications), but putting together an effective presentation requires students to communicate with each other to figure out how each section corresponds with and supports the others. Although students initially balked at the idea of getting up in front of class 5-6 times per quarter to give oral presentations, by the end of the course it was their favorite feature of the class. Students became more confident at presenting and more competent in analyzing research articles. For example, one student evaluation commented, "His class was out of my comfort zone because we did multiple presentations and I don't like public speaking. But it definitely changed my confidence."
+
+I have been active in trying to fill gaps in the curriculum to provide new opportunities for students. I developed and gained catalog approval for two undergraduate courses: "Infancy", an upper-division elective (50-70 students) that focuses on perceptual, motor, cognitive, social, and emotional development from birth to 2 years, and "Laboratory in Motor Control", in which students use video coding, kinematic and inertial measurements, and eye tracking to design and conduct their own studies. 
+
+For graduate courses, I have taught the core course in Cognitive Development three times, which all developmental psychology graduate students are required to take (and which students in other areas take for breadth).  I have developed and taught two graduate seminars, "Vision in Everyday Behavior" and "Developmental Cascades". I believe that student learning in graduate coursework depends in part on how much effort they are willing to put into reading and participation. To ensure that students are well-prepared for class, I avoid open-ended student-led discussions in favor of more regimented article presentations and discussion leading. Discussion leaders give timed Powerpoint presentations about 2-3 articles and then lead discussions afterwards. Besides ensuring that discussion leaders are better organized, creating and sharing presentation slides with the class helps students with later studying for qualifying exams (and potentially teaching). 
+
+Most recently, I developed a new graduate course "Principles of Data Science" that provided an advanced tutorial in R programming and covered best practices for data sharing and open science. Weekly programming lessons focused on concepts that improve coding efficiency and maintenance; students worked on a project throughout the term to take an existing analysis project and implement newly-learned programming skills to automate and improve the reliability of their analysis workflow.
+<!-- SHARED MATERIALS -->
+
+# Mentoring 
+
+Throughout my career, I have been passionate about mentoring undergraduate research. In my lab at UCR, I advised 88 undergraduate research assistants (about 12-15 per year). Students are involved in every aspect of the research process: scheduling participants, running experimental sessions, attending project meetings, coding and analyzing data, and preparing presentations and manuscripts. My lab runs multiple professional development workshops each year for undergraduate research assistants---most of whom are first-generation college students and/or from racial/ethnic groups underrepresented in STEM fields---and many of our graduates go on to pursue graduate and professional degrees. This past summer, I mentored a summer intern through the California Alliance for Minority Participation (CAMP). In addition, I mentored an undergraduate student who taught an "R Course"---a pass/fail course that other undergraduate take for credit ("Evidence-based study practices to improve academic experience").
+
+<!-- GAB AND OTHER UPDATES-->
+I have advised four undergraduate honors theses; three thesis advisees co-authored articles (Labinger et al., 2018, *PLoS ONE*; Franchak & Somoano, 2018, *EBR*; Franchak et al., 2021,  *PLoS ONE*) and the fourth co-authored a symposium talk at the Society for Research in Child Development. Five other undergraduate advisees earned Undergraduate Excellence Student Minigrants to fund independent projects in my lab, and one additional student was awarded a prestigious Chancellor’s Research Fellowship to fund his project and pay a stipend. 
+
+<!-- UPDATE NUMBERS -->
+I am currently advising three doctoral students in my laboratory who are all at the dissertation stage. My goals in graduate mentorship are to 1) support the development of independent, critical thinking, 2) foster students’ ability to learn new methods and technologies outside of classroom education, and 3) help students learn to evaluate themselves professionally (e.g., understanding strengths and weaknesses, time management, organizational skills, self-critiques of writing). To ensure that there is sufficient time to both meet about research and professional development, I schedule weekly project meetings (with all project personnel) and advising meetings (one-on-one) with my students. In total, my undergraduate and graduate advisees at UCR have contributed 15 conference presentations, published 6 journal articles, and authored 2 additional articles submitted or in revision. 
