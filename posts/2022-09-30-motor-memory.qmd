@@ -1,0 +1,16 @@
+---
+title: "Article In Press"
+description: "Eye-Head-Body Coordination in the Motor-Memory Trade-Off"
+author: "PADLAB"
+date: "09/30/2022"
+---
+
+A new article, *Eye-Head-Body Coordination in the Motor-Memory Trade-Off*, was accepted at the journal *Collabra: Psychology* with authors [Chuan Luo](/people/chuan-luo.qmd) and [John Franchak](/people/john-franchak.qmd). A pre-print is available [here](/publications/2022-LuoFranchak-Collabra.pdf).
+
+We used a combination of mobile eye tracking and inertial sensing to measure eye, head, and body rotations while participants looked back and forth between a model and workspace to copy a pattern, using the classic [model-copying task](https://doi.org/10.1162/jocn.1995.7.1.66) from Ballard, Hayhoe, & Pelz (1995). By varying 1) how far participants had to turn to gather information about the model they were copying and 3) the complexity of the pattern to vary the difficulty of memory, we were able to investigate the trade off between looking and memorizing.  
+
+![An example trial in which the multi-colored model was positioned at 90◦ on the right side.](2022-images/puzzle-task.jpg){width="75%"}
+
+We found that participants chose to rely more on making frequent looks to the model as opposed to memorizing the model. But, participants were more willing to memorize when the model required a large turn of the eyes, head, and body at 180º compared with an easy-to-view model at 45º. We found that participants looked at the model more frequently when it was close compared to when it was far. Thus, participants relied more on memory to reduce expending motor effort.
+
+![Number of model looks to models at 45º, 90º, 135º, and 180º.](2022-images/puzzle-results.png){width="75%"}
