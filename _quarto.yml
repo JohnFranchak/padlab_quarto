@@ -5,7 +5,7 @@ project:
 
 website:
   title: "Perception, Action, and Development Lab"
-  google-analytics: UA-61037683-2
+  google-analytics: "G-QC34BLK3LZ"
   favicon: images/favicon.svg
   page-footer: "Copyright 2022, John Franchak" 
   
