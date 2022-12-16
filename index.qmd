@@ -49,6 +49,6 @@ The Perception, Action, & Development Lab is directed by [Dr. John Franchak](peo
 
 We are accepting applications for undergraduate research assistants on a rolling basis. Please fill out the [form](https://forms.gle/QJgJk5CZxzj8qufr5), and we will get back to you when we have openings. 
 
-Dr. Franchak plans to accept a doctoral student for the 2023-2024 academic year. If you are a prospective graduate student, feel free to email him to express your interest in applying.
+<!-- Dr. Franchak plans to accept a doctoral student for the 2023-2024 academic year. If you are a prospective graduate student, feel free to email him to express your interest in applying. -->
 
 <a rel="me" href="https://fediscience.org/@johnfranchak"></a> 

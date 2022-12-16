@@ -128,7 +128,8 @@ refs  %>%
 ```{r}
 refs %>% filter(type %in% c("Journal","Proceedings")) %>% 
   mutate(numbers = str_c(", ", numbers)) %>% 
-  mutate(numbers = replace_na(numbers, ".")) %>% 
+  mutate(numbers = replace_na(numbers, "."),
+         year = as.numeric(year)) %>% 
   mutate(citation = sprintf("%d.  %s (%d). [%s](https://padlab.ucr.edu/publications/%s) *%s*%s", row_number(), authors, year, title, url, venue, numbers)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
@@ -136,7 +137,7 @@ refs %>% filter(type %in% c("Journal","Proceedings")) %>%
 ::: {.content-visible when-format="html"}
 ```{r}
 refs %>% filter(type %in% c("Journal","Proceedings")) %>% 
-  mutate(numbers = str_c(", ", numbers)) %>% 
+  mutate(numbers = str_c(", ", numbers), year = as.numeric(year)) %>% 
   mutate(numbers = replace_na(numbers, ".")) %>% 
   mutate(citation = sprintf("[{{< fa file-pdf >}}](https://padlab.ucr.edu/publications/%s)  %s (%d). %s *%s*%s", url, authors, year, title, venue, numbers)) %>% 
   select(citation) %>% kable(col.names = "")
@@ -148,7 +149,7 @@ refs %>% filter(type %in% c("Journal","Proceedings")) %>%
 ```{r}
 refs %>% filter(type %in% c("Chapter")) %>% 
   mutate(numbers = str_c(", ", numbers)) %>% 
-  mutate(numbers = replace_na(numbers, "")) %>% 
+  mutate(numbers = replace_na(numbers, ""), year = as.numeric(year)) %>% 
   mutate(citation = sprintf("%d.  %s (%d). [%s](https://padlab.ucr.edu/publications/%s) *%s*%s", row_number(), authors, year, title, url, venue, numbers)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
@@ -157,7 +158,7 @@ refs %>% filter(type %in% c("Chapter")) %>%
 ```{r}
 refs %>% filter(type %in% c("Chapter")) %>% 
   mutate(numbers = str_c(", ", numbers)) %>% 
-  mutate(numbers = replace_na(numbers, "")) %>% 
+  mutate(numbers = replace_na(numbers, ""), year = as.numeric(year)) %>% 
   mutate(citation = sprintf("[{{< fa file-pdf >}}](https://padlab.ucr.edu/publications/%s) %s (%d). %s *%s*%s", url, authors, year, title, venue, numbers)) %>% 
   select(citation) %>% kable(col.names = "")
 ```

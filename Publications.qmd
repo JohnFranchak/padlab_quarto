@@ -20,8 +20,9 @@ refs <- read_csv("publications/publications.csv") %>%
 ```
 
 ```{r}
-refs_clean <- refs %>%  
-  mutate(citation = sprintf("%s (%d). %s %s.", authors, year, title, venue), .after = url) %>% 
+refs_clean <- refs %>% 
+  mutate(year = as.numeric(year),
+         citation = sprintf("%s (%d). %s %s.", authors, year, title, venue), .after = url) %>% 
   select(-editors, -numbers, -title, -venue) %>% 
   relocate(type, .after = citation) %>%
   relocate(year, .before = authors) %>%
