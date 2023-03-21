@@ -1,0 +1,14 @@
+---
+title: "Job Opportunity"
+description: "The PADLAB is looking to hire a full-time research coordinator in Spring 2023 to work on NSF-funded projects of infants' daily experiences"
+author: "PADLAB"
+date: "03/21/2023"
+draft: false
+---
+
+The UCR Perception, Action, and Development laboratory (padlab.ucr.edu) is looking to hire a 30-hour/week research coordinator to help run an NSF-funded study of infants' everyday visual, auditory, and motor experiences. The position would last 1 year with the possibility of renewal and will receive full benefits (30+ hours is considered full time). Part of the research coordinator's responsibilities includes making visits to participants' homes to drop off recording equipment in the Riverside County area, so fully remote work is not possible for this position. 
+
+The research coordinator will have opportunities to master a variety of recording techniques---wearable inertial sensors, head-mounted eye trackers, and LENA audio recorders---and gain experience with in-demand machine learning analyses. To see the full list of responsibilities/requirements and to apply to the position, please visit the [UCR Jobs portal](https://irecruitportal.ucr.edu/irecruit/!Controller?action=jobs_webui.show_page&page=jobs_detail&requisition_id=29304616&profile_id=&module=jobs). Expected starting pay is \$23.92/hour (approximately \$37k annually plus benefits). Start date is flexible, but we are aiming to hire someone by the end of the spring. Please direct any questions about the position to [John Franchak](mailto:franchak@ucr.edu).
+
+![](/images/lab_photo.jpg){width="75%" fig-align="center"}
+
