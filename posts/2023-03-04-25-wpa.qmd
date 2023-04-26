@@ -1,0 +1,25 @@
+---
+title: "2023 WPA"
+description: "PADLAB members presented four posters at the 2023 Western Psychological Association conference"
+author: "PADLAB"
+date: "04/25/2023"
+image: /posts/2023-images/WPA.png
+draft: false
+---
+
+The annual meeting of the Western Psychological Association was held in Riverside, CA. Members of the Perception, Action, and Development Lab and collaborators contributed four posters. 
+
+Maximilian Tang, Hailey Rousey, Chuan Luo, and John Franchak presented ["Predicting Infant Body Position in Naturalistic Environments Using Inertial Sensors"](2023-images/Tang-et-al-2023-WPA.pdf)
+
+![](2023-images/Tang.jpg){width="100%" fig-align="center"}
+Yushan Guo, Maximilian Tang, and John Franchak presented ["Feasibility of Video Ecological Momentary Assessment for Measuring Infant Behavior"](2023-images/Guo-et-al-2023-WPA.pdf)
+
+![](2023-images/Guo.jpg){width="100%" fig-align="center"}
+
+Juelle Ford, Aylin Luna, Kellan Kadooka, Caitlin Fausey, and John Franchak presented ["Discovering Individual Differences in Infant Activity Through Ecological Momentary Assessment"](2023-images/Ford-et-al-2023-WPA.pdf)
+
+![](2023-images/Ford.jpg){width="100%" fig-align="center"}
+
+Hailey Rousey, Maximilian Tang, Chuan Luo, and John Franchak presented ["Examining the Relation Between Language Input and Infant Body Position Across the Entire Day"](2023-images/Rousey-et-al-2023-WPA.pdf)
+
+![](2023-images/Rousey.jpg){width="100%" fig-align="center"}
