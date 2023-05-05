@@ -59,12 +59,12 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
 | 2001-2005| B.A., Cognitive Science, **University of Virginia** |
 : {tbl-colwidths="[15,85]"}
 
-<!-- # Research Interests -->
-<!-- - Perceptual-motor development (posture, locomotion, reaching) -->
-<!-- - Visual exploration in infants', children's, and adults' everyday behaviors -->
-<!-- - Development of visual attention while viewing complex, dynamic media -->
-<!-- - Motor learning and control (affordances, visual guidance of walking and reaching)  -->
-<!-- - Ambulatory assessment (mobile eye tracking, accelerometry, ecological momentary assessment) -->
+# Research Interests
+- Perceptual-motor development (posture, locomotion, reaching)
+- Visual exploration in infants', children's, and adults' everyday behaviors
+- Development of visual attention while viewing complex, dynamic media
+- Motor learning and control (affordances, visual guidance of walking and reaching)
+- Ambulatory assessment (mobile eye tracking, machine learning classification of motion sensors, ecological momentary assessment)
 
 # Honors and Awards
 | | |
@@ -96,7 +96,8 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
 ### Intramural
  | 
 |--|--------|
-| Pending | UCR Center for Health Disparities Research FIRST Pilot Grant: *Sociocultural and emotion regulation processes that contextualize health disparities in Latinx children's anxiety*. Elizabeth Davis, PI, $50,000 total award. **John Franchak, co-PI**. |
+| Pending | UCR Office of Technology Partnerships Proof-of-Concept Grant: *DailyMove: Machine-Learning Classification for Research and Clinical Analysis of Infants’ Naturalistic Movements*. **John Franchak, PI**, $50,000 total award. |
+| 2022-2023 | UCR Center for Health Disparities Research FIRST Pilot Grant: *Sociocultural and emotion regulation processes that contextualize health disparities in Latinx children's anxiety*. Elizabeth Davis, PI, $50,000 total award. **John Franchak, co-PI**. |
 |2021-2022 | UCR Exploration Center for Innovative Teaching & Engagement: Remote Course Conversion Grant. **John Franchak, PI, $8,000 1-year total**. |
 |2021-2022 | UCR Center for Health Disparities Research Interdisciplinary Research Working Group Award: *Contextualizing Latinx children’s developing psychopathology: An interdisciplinary investigation of sociocultural and psychological processes contributing to health disparities in anxiety*. Elizabeth Davis, PI $2,500 1-year total. **John Franchak, co-PI**. |
 | 2019-2021	| UCR Regents Faculty Development Fellowship: *Characterizing everyday opportunities for learning in the second year of life*. **John Franchak, PI, $5,000 2-year total**. |
@@ -118,7 +119,7 @@ presentations <- read_csv("publications/presentations.csv") %>%
 ```{r}
 refs  %>%  
   filter(type %in% c("Prep")) %>% 
-  mutate(citation = sprintf("%s (under review). %s", authors, title)) %>% 
+  mutate(citation = sprintf("%s (%s). %s", authors, year, title)) %>% 
   select(citation) %>% 
   kable(col.names = "") 
 ```
@@ -289,12 +290,16 @@ presentations %>% filter(type %in% c("Colloquium")) %>% arrange(desc(year)) %>%
 adhoc <- read_csv("publications/adhoc.csv") %>% arrange(journal) %>% unlist()
 col1 <- adhoc[1:ceiling(length(adhoc)/2)]
 col2 <- adhoc[{ceiling(length(adhoc)/2)+1}:length(adhoc)]
+if (length(col2) < length(col1)) {
+  col2 <- c(col2, "")
+}
 tibble(col1, col2) %>% kable(col.names = c("",""))
 ```
 \renewcommand{\arraystretch}{1.5}
 
 ### Professional Affiliations
 
+| Division 7, American Psychological Association 
 | Cognitive Development Society 
 | International Congress on Infant Studies 
 | International Society for Developmental Psychobiology 
