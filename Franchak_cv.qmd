@@ -61,10 +61,10 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
 
 # Research Interests
 - Perceptual-motor development (posture, locomotion, reaching)
-- Visual exploration in infants', children's, and adults' everyday behaviors
-- Development of visual attention while viewing complex, dynamic media
+- Wearable sensing of infants' everyday physical activity using machine learning
+- Ecological momentary assessment of infants' daily activities via caregiver smartphone surveys and video recordings
+- Development of visual attention using mobile eye tracking and screen-based eye tracking
 - Motor learning and control (affordances, visual guidance of walking and reaching)
-- Ambulatory assessment (mobile eye tracking, machine learning classification of motion sensors, ecological momentary assessment)
 
 # Honors and Awards
 | | |
