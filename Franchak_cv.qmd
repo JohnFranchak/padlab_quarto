@@ -96,7 +96,6 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
 ### Intramural
  | 
 |--|--------|
-| Pending | UCR Office of Technology Partnerships Proof-of-Concept Grant: *DailyMove: Machine-Learning Classification for Research and Clinical Analysis of Infants’ Naturalistic Movements*. **John Franchak, PI**, $50,000 total award. |
 | 2022-2023 | UCR Center for Health Disparities Research FIRST Pilot Grant: *Sociocultural and emotion regulation processes that contextualize health disparities in Latinx children's anxiety*. Elizabeth Davis, PI, $50,000 total award. **John Franchak, co-PI**. |
 |2021-2022 | UCR Exploration Center for Innovative Teaching & Engagement: Remote Course Conversion Grant. **John Franchak, PI, $8,000 1-year total**. |
 |2021-2022 | UCR Center for Health Disparities Research Interdisciplinary Research Working Group Award: *Contextualizing Latinx children’s developing psychopathology: An interdisciplinary investigation of sociocultural and psychological processes contributing to health disparities in anxiety*. Elizabeth Davis, PI $2,500 1-year total. **John Franchak, co-PI**. |
