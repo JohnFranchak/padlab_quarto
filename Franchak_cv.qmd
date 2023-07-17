@@ -265,6 +265,7 @@ presentations %>% filter(type %in% c("Colloquium")) %>% arrange(desc(year)) %>%
 \renewcommand{\arraystretch}{1.25}
 | | |
 |-|--------|
+| 2024 | Panel Reviewer, International Congress on Infant Studies | 
 | 2022- | Associate Editor, *Developmental Psychology* | 
 | 2022 | Member, National Science Foundation Review Panel |
 | 2021 | Member, National Science Foundation Review Panel |
@@ -311,7 +312,7 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 ### Courses Taught
 
 | **Undergraduate:** 
-| PSYC 12: Psychological Methods: Research Procedures (W15, F15, F16, F17, S19, S20, U20, F20, U21, F21, U22, S23) 
+| PSYC 12: Psychological Methods: Research Procedures (W15, F15, F16, F17, S19, S20, U20, F20, U21, F21, U22, S23, U23, F23) 
 | PSYC 166A: Infancy (F19, S23) 
 | PSYC 169: Seminar: Perceptual-Motor Development (F14) 
 | PSYC 169: Seminar: Infant Development (S17) 
@@ -325,9 +326,10 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 ### Student Advisees
 
 | **Doctoral:**
-| Chuan Luo (current) 
+| Zachary Kelly (current)
 | Hailey Rousey (current)
 | Yushan Guo (current)
+| Chuan Luo (2023) 
 | Kellan Kadooka (2022)  
 | Brianna McGee (2022) 
 
@@ -361,6 +363,10 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 \renewcommand{\arraystretch}{1.25}
 | | |
 |-|--------|
+| 2023- | Member, UCR Senate Committee on Information Technology |
+| 2023- | Member, UCR Institutional Review Board |
+| 2023 | Member, UCR Chancellor's Distinguished Fellowship Advisory Board |
+| 2023 | Member, UCR Undergraduate Research & Creative Activities Symposium Faculty Advisory Board |
 | 2022 | Member, UCR Psychology ad hoc Instructional Technology Committee |
 | 2019- | Member, UC Riverside Academic Integrity Committee |
 | 2019- | Psychology Department Colloquium Series Organizer |

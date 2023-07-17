@@ -2,6 +2,7 @@
 title: "Chuan Luo"
 image: chuan-luo.jpg
 order: 2017
+draft: true
 about:
   template: trestles
   links:

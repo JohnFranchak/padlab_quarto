@@ -1,0 +1,18 @@
+---
+title: "Zachary Kelly"
+image: zachary-kelly.jpg
+order: 2022.25
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:null@ucr.edu
+---
+
+[**Doctoral Student**]{.text-primary}
+
+**Office:** Olmsted 2136 <br/>
+
+**Biography**
+

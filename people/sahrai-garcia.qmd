@@ -1,0 +1,19 @@
+---
+title: "Sahrai Garcia"
+image: sahrai-garcia.jpg
+order: 2023
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:sgarc079@ucr.edu
+---
+
+[**Research Coordinator**]{.text-primary}
+
+**Office:** Olmsted A0126 <br/>
+
+**Biography**
+
+Sahrai Garcia is a Research Coordinator in the Perception, Action, & Development Lab. 
