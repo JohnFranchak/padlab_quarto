@@ -1,0 +1,11 @@
+---
+title: "Two New Lab Members"
+description: "Sahrai Garcia and Zachary Kelly Join the PADLAB"
+author: "PADLAB"
+date: "07/17/2023"
+---
+
+In summer 2023, the Perception, Action, and Development Lab welcomed two new members. [Sahrai Garcia](/people/sahrai-garcia.qmd) is a graduate of UC Irvine and joined the lab as a research coordinator. [Zachary Kelly](/people/zachary-kelly.qmd) is a graduate of Louisiana State University and joined the lab as a doctoral student.
+
+![Sahrai Garcia and Zachary Kelly](2023-images/sahrai-zachary.jpg){width="75%" fig-align="center"}
+

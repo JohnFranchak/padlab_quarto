@@ -1,0 +1,12 @@
+---
+title: "Article In Press"
+description: "Performance variability and affordance perception: Practice effects on perceptual judgments for walking versus throwing"
+author: "PADLAB"
+date: "07/10/2023"
+---
+
+A new article, *Performance variability and affordance perception: Practice effects on perceptual judgments for walking versus throwing*, was accepted at the journal *Experimental Brain Research* with authors Christina Hospodar (New York University), [John Franchak](/people/john-franchak.qmd), and Karen Adolph (New York University). A pre-print is available [here](/publications/2023-Hospodaretal-EBR).
+
+## Paper Abstract
+
+To judge whether an action is possible, people must perceive “affordances”—the fit between features of the environment and aspects of their own bodies and motor skills that make the action possible or not. But for some actions, performance is inherently variable. That is, people cannot consistently perform the same action under the same environmental conditions with the same level of success. Decades of research show that practice performing an action improves perception of affor- dances. However, prior work did not address whether practice with more versus less variable actions is equally effective at improving perceptual judgments. Thirty adults judged affordances for walking versus throwing a beanbag through narrow doorways before and after 75 practice trials walking and throwing beanbags through doorways of different widths. We fit a “success” function through each participant’s practice data in each task and calculated performance variability as the slope of the function. Performance for throwing was uniformly more variable than for walking. Accordingly, absolute judgment error was larger for throwing than walking at both pretest and posttest. However, absolute error reduced proportionally in both tasks with practice, suggesting that practice improves perceptual judgments equally well for more and less variable actions. Moreover, individual differences in variability in performance were unrelated to absolute, constant, and variable error in perceptual judgments. Overall, results indicate that practice is beneficial for calibrating perceptual judgments, even when practice provides mixed feedback about success under the same environmental conditions.
