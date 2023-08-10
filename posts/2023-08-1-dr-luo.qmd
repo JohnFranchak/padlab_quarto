@@ -1,0 +1,11 @@
+---
+title: "Chuan Luo Dissertation Defense"
+description: "Congratulations to Dr. Luo!"
+author: "PADLAB"
+date: "07/23/2023"
+---
+
+In July 2023, the Perception, Action, and Development Lab celebrated the successful dissertation defense of Dr. Chuan Luo. Dr. Luo's dissertation, titled "Movements or Memorization: A Trade-Off in a Copying Task", investigated the roles of eye, body, and head movements when trying to efficiently gather visual information. Following her departure from UC Riverside, Dr. Luo is starting as an Assistant Professor in the [Department of Psychology](https://catalog.sbu.edu/undergraduate/arts-sciences/psychology/) at St. Bonaventure University in New York. 
+
+![Chuan Luo hooded by John Franchak (left) and Dean Shaun Bowler (right)](2023-images/dr-luo.jpg){width="50%" fig-align="left"}
+
