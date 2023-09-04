@@ -19,7 +19,10 @@ website:
         file: index.qmd
       - News.qmd
       - Publications.qmd
-      - Tools.qmd
+      - text: "Open Science"
+        menu:
+          - Tools.qmd
+          - Datasets.qmd
       - text: "People"
         menu:
           - text: "Prof. John Franchak"
