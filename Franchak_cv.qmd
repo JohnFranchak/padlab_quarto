@@ -130,7 +130,9 @@ refs %>% filter(type %in% c("Journal","Proceedings")) %>%
   mutate(numbers = str_c(", ", numbers)) %>% 
   mutate(numbers = replace_na(numbers, "."),
          year = as.numeric(year)) %>% 
-  mutate(citation = sprintf("%d.  %s (%d). [%s](https://padlab.ucr.edu/publications/%s) *%s*%s", row_number(), authors, year, title, url, venue, numbers)) %>% 
+  mutate(citation = ifelse(inpress == 0,
+                           sprintf("%d.  %s (%d). [%s](https://padlab.ucr.edu/publications/%s) *%s*%s", row_number(), authors, year, title, url, venue, numbers),
+                           sprintf("%d.  %s (in press). [%s](https://padlab.ucr.edu/publications/%s) *%s*%s", row_number(), authors, title, url, venue, numbers))) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
@@ -139,7 +141,9 @@ refs %>% filter(type %in% c("Journal","Proceedings")) %>%
 refs %>% filter(type %in% c("Journal","Proceedings")) %>% 
   mutate(numbers = str_c(", ", numbers), year = as.numeric(year)) %>% 
   mutate(numbers = replace_na(numbers, ".")) %>% 
-  mutate(citation = sprintf("[{{< fa file-pdf >}}](https://padlab.ucr.edu/publications/%s)  %s (%d). %s *%s*%s", url, authors, year, title, venue, numbers)) %>% 
+  mutate(citation = ifelse(inpress == 0,
+                           sprintf("[{{< fa file-pdf >}}](https://padlab.ucr.edu/publications/%s)  %s (%d). %s *%s*%s", url, authors, year, title, venue, numbers),
+                           sprintf("[{{< fa file-pdf >}}](https://padlab.ucr.edu/publications/%s)  %s (in press). %s *%s*%s", url, authors, title, venue, numbers))) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
@@ -150,7 +154,9 @@ refs %>% filter(type %in% c("Journal","Proceedings")) %>%
 refs %>% filter(type %in% c("Chapter")) %>% 
   mutate(numbers = str_c(", ", numbers)) %>% 
   mutate(numbers = replace_na(numbers, ""), year = as.numeric(year)) %>% 
-  mutate(citation = sprintf("%d.  %s (%d). [%s](https://padlab.ucr.edu/publications/%s) *%s*%s", row_number(), authors, year, title, url, venue, numbers)) %>% 
+  mutate(citation = ifelse(inpress == 0,
+                           sprintf("%d.  %s (%d). [%s](https://padlab.ucr.edu/publications/%s) *%s*%s", row_number(), authors, year, title, url, venue, numbers),
+                           sprintf("%d.  %s (in press). [%s](https://padlab.ucr.edu/publications/%s) *%s*%s", row_number(), authors, title, url, venue, numbers))) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
@@ -159,7 +165,9 @@ refs %>% filter(type %in% c("Chapter")) %>%
 refs %>% filter(type %in% c("Chapter")) %>% 
   mutate(numbers = str_c(", ", numbers)) %>% 
   mutate(numbers = replace_na(numbers, ""), year = as.numeric(year)) %>% 
-  mutate(citation = sprintf("[{{< fa file-pdf >}}](https://padlab.ucr.edu/publications/%s) %s (%d). %s *%s*%s", url, authors, year, title, venue, numbers)) %>% 
+  mutate(citation = ifelse(inpress == 0,
+                           sprintf("[{{< fa file-pdf >}}](https://padlab.ucr.edu/publications/%s) %s (%d). %s *%s*%s", url, authors, year, title, venue, numbers),
+                           sprintf("[{{< fa file-pdf >}}](https://padlab.ucr.edu/publications/%s) %s (in press). %s *%s*%s", url, authors, title, venue, numbers))) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
