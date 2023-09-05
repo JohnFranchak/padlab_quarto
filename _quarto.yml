@@ -21,8 +21,14 @@ website:
       - Publications.qmd
       - text: "Open Science"
         menu:
-          - Tools.qmd
-          - Datasets.qmd
+          - text: "Software Tools"
+            file: Tools.qmd
+          - text: "Shared Datasets"
+            file: Datasets.qmd
+          - text: "Data Science Course"
+            file: course_materials.qmd
+          - text: "Head-Mounted Eye Tracking Tutorial"
+            href: https://github.com/ICIS-HMET-Workshop/workshop_materials_2022
       - text: "People"
         menu:
           - text: "Prof. John Franchak"

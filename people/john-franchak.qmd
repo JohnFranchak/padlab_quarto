@@ -17,9 +17,6 @@ about:
     - icon: twitter
       text: Twitter
       href: https://twitter.com/JohnFranchak
-    - icon: mastodon
-      text: Mastodon
-      href: https://fediscience.org/web/@johnfranchak
     - icon: github
       text: Github
       href: https://github.com/JohnFranchak
