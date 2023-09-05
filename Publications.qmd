@@ -27,6 +27,10 @@ refs_clean <- refs %>%
   relocate(type, .after = citation) %>%
   relocate(year, .before = authors) %>%
   relocate(abstract, .after = year)
+
+refs_clean <- refs_clean %>% 
+  mutate(year = as.character(year),
+         year = ifelse(inpress == 1, "in press", year))
          
 reactable(refs_clean, 
           filterable = TRUE, 
@@ -46,7 +50,7 @@ reactable(refs_clean,
                   }, details = function(index) {
                                   paste("Abstract: ", refs[index, "abstract"])
                                   }),
-              year = colDef(show = TRUE, maxWidth  = 70,
+              year = colDef(show = TRUE, maxWidth  = 75,
                 filterInput = function(values, name) {
                   tags$select(
                   # Set to undefined to clear the filter
