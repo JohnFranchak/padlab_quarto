@@ -1,0 +1,20 @@
+---
+title: "Article In Press"
+description: "Long-form recording of infant body position in the home using wearable inertial sensors"
+author: "PADLAB"
+date: "09/03/2023"
+---
+
+A new article, *Long-form recording of infant body position in the home using wearable inertial sensors*, was accepted at the journal *Behavior Research Methods* with authors [John Franchak](/people/john-franchak.qmd), [Maximilian Tang](/people/maximilian-tang.qmd), [Hailey Rousey](/people/hailey-rousey.qmd), and [Chuan Luo](/people/chuan-luo.qmd). A pre-print is available [here](/publications/2024-FranchakTangRouseyLuo-BRM.pdf). The paper was written as a reproducible manuscript; the full data and code required to regenerate the paper are [here](https://github.com/JohnFranchak/body_position_classification_ms). We also shared a full example of how to process these data, complete with video, annotations, and sensor [data](https://nyu.databrary.org/volume/1580) and a repository of R [scripts](https://github.com/JohnFranchak/body_position_classification_example) to run the machine learning classifier. 
+
+Our goal is to characterize infants' everyday motor behaviors using mobile, unobtrusive devices to gather full-day, real-time data that can be automatically scored. In [prior work](/publications/2021-FranchakScottLuo-Frontiers.pdf), we showed that infants' body position (supine, prone, sitting, upright, held by caregiver) could be classified from wearable inertial sensors using machine learning in a laboratory test. The aim of the current study was to validate long-form recordings of infant position in the home. Using over 100 hours of video recordings synchronized with inertial sensor data from infants, we demonstrated that body position classifications are sufficiently accurate to measure infant behavior.
+
+![Infant wearing four inertial sensors in a custom pair of leggings, along with a LENA audio recorder.](2023-images/brm-garment.jpg){width="50%"}
+
+We checked the accuracy by comparing the amount of time that a human coder tagged each behavior in comparison to the model predictions based on the sensor data. With the exception of a few outliers, agreement was strong---durations from human coders were strongly correlated with model predictions. Although the accuracy is not any better than past work, what's important is the context---these data were collected in the home without researcher supervision as infants and caregivers went about their regular activities---suggesting that the method can be applied to natural behavior.
+
+![Correlation between human-coded and model-predicted body position](2023-images/brm-correlations.png){width="50%"}
+
+For example, we can use model predictions of sensor data---collected continuously across the entire day---to estimate how long each infant spent sitting, upright, held, prone, and supine. Those estimates, like past work, show that with age infants spend more time sitting and upright and less time supine.
+
+![Age differences in full-day body position time](2023-images/brm-time.png){width="50%"}

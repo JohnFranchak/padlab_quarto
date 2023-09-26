@@ -1,0 +1,21 @@
+---
+title: "Article in press"
+description: "Longitudinal relations between independent walking, body position, and object experiences in home life"
+author: "PADLAB"
+date: "09/15/2023"
+---
+
+A new article, "Longitudinal relations between independent walking, body position, and object experiences in home life" was accepted at *Developmental Psychology*. The article was authored by John Franchak, Kellan Kadooka, and [Caitlin Fausey](https://psychology.uoregon.edu/profile/fausey). This was a fully open and reproducible manuscript, and the data and code required to compile the manuscript are available on [OSF](https://doi.org/10.17605/OSF.IO/YPD95). A preprint is available [here](/publications/2024-FranchakKadookaFausey-DevPsych.pdf).
+
+In the article, we analyzed changes in the time infants spend in different body positions and holding objects after they learn to walk independently. We used ecological momentary assessment (EMA) to ask caregivers to look at their infants multiple times per day in response to text message prompts; caregivers acted as reporters to tell us what infants were doing at the moment. Caregivers reported behaviors over 4 days when infants were 10, 11, 12, and 13 months old so that we could see what changed in infants who began to walk over that period. We measured four body positions---supine, prone, sitting, and upright---and whether infants were restrained---held by caregivers or confined to seating devices. 
+
+![Figure. If infants were locomoting or stationary, caregivers answered a follow-up question about infants' body position](2022-images/ema-questions.png){width="75%" fig-align="center"}
+
+Even at the same age, infants who could walk had different motor experiences compared with infants who could not. Walkers spent less time prone, less time sitting, and less time restrained (held by caregivers or placed in a seating device). What increased was how much time walkers spent upright, standing or walking on two feet.
+
+![Figure. Extrapolated changes in time spent in different activities for 10-month-old non-walkers, 13-month-old non-walkers, and 13-month-old walkers](2022-images/summary-body-position.png){width="75%" fig-align="center"}
+
+Learning to walk changed the context of everyday object holding. Although the time spent holding objects did not change with age or with walking ability (all infants held objects for about 4.5 hours/day), walking infants spent more time holding objects in an upright position, but non-walkers held objects far more while sitting. 
+
+![Figure. Extrapolated changes object holding for non-walkers vs. walkers](2022-images/summary-objects.png){width="75%" fig-align="center"}
+

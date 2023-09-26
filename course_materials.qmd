@@ -1,0 +1,14 @@
+---
+title: "Course Materials"
+---
+
+Prof. Franchak has taught two iterations of a graduate course, *Principles of Data Science*, which aims to help students improve their data processing and analysis pipelines. Here's the course description:
+
+> Most quantitative courses (importantly) focus on the final steps of data analysis---conducting and understanding statistical tests. However, much of the work in data science is taking raw data, often from multiple, incompatible sources, and processing those data into a usable form. This course will emphasize the importance of robust, documented, and automated workflows for processing data to save time, reduce errors, improve reproducibility, and facilitate collaboration among multiple researchers. We will also spend time on data visualization and communication---an important part of creating, checking, and collaborating on data workflows. We will use the R programming language, Github, and Rmarkdown to work through examples, but the focus is on concepts/best practices that can be applied to any software or programming language. The course is open to students who have little programming experience or experience with R. The goal is for students at all levels of programming experience to set goals to improve their data science skills.
+
+| All course materials are shared in two sets of Github repositories: 
+- [Older Version](https://github.com/PSYC-259-Data-Science) 
+- [Newer Version](https://github.com/psych-259-data-science-2022) 
+
+
+Both course versions cover similar material. The *older version* has lecture videos and covers more advanced topics. The *newer version* just has slides/code, but covers more of the basics about R programming. 

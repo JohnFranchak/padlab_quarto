@@ -1,0 +1,20 @@
+---
+title: "Datasets"
+execute:
+  echo: false
+  warning: false
+---
+
+```{r}
+#|output: false
+#|echo: false
+library(tidyverse)
+library(lubridate)
+library(knitr)
+```
+
+```{r}
+read_csv("publications/datasets.csv") %>% arrange(desc(year)) %>% 
+  mutate(citation = sprintf("(%d) *%s* %s. [```doi:%s```](%s)", year, title, venue, doi, paste0("https://doi.org/",doi))) %>% 
+  select(citation) %>% kable(col.names = "")
+```

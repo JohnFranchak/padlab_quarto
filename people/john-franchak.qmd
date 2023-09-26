@@ -23,6 +23,9 @@ about:
     - icon: envelope
       text: Email
       href: mailto:franchak@ucr.edu
+    - icon: square-fill
+      text: Bluesky
+      href: https://bsky.app/profile/johnfranchak.bsky.social
 ---
 
 [**Principal Investigator**]{.text-primary}
