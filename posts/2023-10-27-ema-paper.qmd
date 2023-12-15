@@ -2,10 +2,10 @@
 title: "Article in press"
 description: "Longitudinal relations between independent walking, body position, and object experiences in home life"
 author: "PADLAB"
-date: "09/15/2023"
+date: "10/27/2023"
 ---
 
-A new article, "Longitudinal relations between independent walking, body position, and object experiences in home life" was accepted at *Developmental Psychology*. The article was authored by John Franchak, Kellan Kadooka, and [Caitlin Fausey](https://psychology.uoregon.edu/profile/fausey). This was a fully open and reproducible manuscript, and the data and code required to compile the manuscript are available on [OSF](https://doi.org/10.17605/OSF.IO/YPD95). A preprint is available [here](/publications/2024-FranchakKadookaFausey-DevPsych.pdf).
+A new article, "Longitudinal relations between independent walking, body position, and object experiences in home life" was accepted at *Developmental Psychology*. The article was authored by John Franchak, Kellan Kadooka, and [Caitlin Fausey](https://psychology.uoregon.edu/profile/fausey). This was a fully reproducible manuscript, and the data and code required to compile the manuscript are available on [OSF](https://doi.org/10.17605/OSF.IO/YPD95). A preprint is available [here](/publications/2024-FranchakKadookaFausey-DevPsych.pdf).
 
 In the article, we analyzed changes in the time infants spend in different body positions and holding objects after they learn to walk independently. We used ecological momentary assessment (EMA) to ask caregivers to look at their infants multiple times per day in response to text message prompts; caregivers acted as reporters to tell us what infants were doing at the moment. Caregivers reported behaviors over 4 days when infants were 10, 11, 12, and 13 months old so that we could see what changed in infants who began to walk over that period. We measured four body positions---supine, prone, sitting, and upright---and whether infants were restrained---held by caregivers or confined to seating devices. 
 
