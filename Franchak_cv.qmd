@@ -69,6 +69,7 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
 # Honors and Awards
 | | |
 |-|--------|
+| 2023		| Faculty of the Year, **Psychology Department, University of California, Riverside** |
 | 2020		| Visiting Scholar, **McPherson Eye Research Institute, University of Wisconsin-Madison** |
 | 2015		| Rising Star, **Association for Psychological Science** |
 | 2014		| Intel Best Paper Award *This hand is my hand: A probabilistic approach to hand disambiguation in egocentric video*, **IEEE Computer Vision and Pattern Recognition** |
@@ -241,19 +242,19 @@ presentations %>% filter(type %in% c("Poster")) %>% arrange(desc(year)) %>%
 ```
 :::
 
-### Invited Colloquia
+### Invited Talks and Colloquia
 \renewcommand{\arraystretch}{1.25}
 ::: {.content-visible when-format="pdf"}
 ```{r}
 presentations %>% filter(type %in% c("Colloquium")) %>% arrange(desc(year)) %>% 
-  mutate(citation = sprintf("%d. %s. (%d)", row_number(), venue, year)) %>% 
+  mutate(citation = sprintf("%d. %s%s. (%d)", row_number(), ifelse(is.na(what), "", paste0(what, " ")), venue, year)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
 ::: {.content-visible when-format="html"}
 ```{r}
 presentations %>% filter(type %in% c("Colloquium")) %>% arrange(desc(year)) %>% 
-  mutate(citation = sprintf("(%d) %s.", year, venue)) %>% 
+  mutate(citation = sprintf("(%d) %s%s.", year, ifelse(is.na(what), "", paste0(what, " ")), venue)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 :::
@@ -273,12 +274,14 @@ presentations %>% filter(type %in% c("Colloquium")) %>% arrange(desc(year)) %>%
 \renewcommand{\arraystretch}{1.25}
 | | |
 |-|--------|
+| 2024 | Member, National Eye Institute Grant Review Panel |
+| 2024 | Area Chair, IEEE International Conference on Learning and Development |
 | 2024 | Panel Reviewer, International Congress on Infant Studies | 
 | 2024 | Panel Reviewer, Cognitive Development Society |
 | 2022- | Associate Editor, *Developmental Psychology* | 
 | 2022 | Member, National Science Foundation Review Panel |
 | 2021 | Member, National Science Foundation Review Panel |
-| 2020- | Review Editor, Perception Science Editorial Board, *Frontiers in Psychology* and *Frontiers in Neuroscience* |
+| 2020-2023 | Review Editor, Perception Science Editorial Board, *Frontiers in Psychology* and *Frontiers in Neuroscience* |
 | 2022 | Panel Reviewer, International Congress on Infant Studies | 
 | 2020 | Panel Reviewer, Society for Research in Child Development |
 | 2020 | Scientific Committee, International Conference on Perception and Action (conference cancelled)|
@@ -322,12 +325,12 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 
 | **Undergraduate:** 
 | PSYC 12: Psychological Methods: Research Procedures (W15, F15, F16, F17, S19, S20, U20, F20, U21, F21, U22, S23, U23, F23) 
-| PSYC 166A: Infancy (F19, S23) 
+| PSYC 166A: Infancy (F19, S23, S24) 
 | PSYC 169: Seminar: Perceptual-Motor Development (F14) 
 | PSYC 169: Seminar: Infant Development (S17) 
 
 | **Graduate:** 
-| PSYC 207C: Processes of Cognitive Development (S16, S18, S21, S22) 
+| PSYC 207C: Processes of Cognitive Development (S16, S18, S21, S22, S24) 
 | PSYC 258: Seminar: Vision in Everyday Behavior (S17) 
 | PSYC 258: Seminar: Cascades in Development (W20) 
 | PSYC 259: Principles of Data Science (W21, W22) 
@@ -374,13 +377,16 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 |-|--------|
 | 2023- | Member, UCR Senate Committee on Information Technology |
 | 2023- | Member, UCR Institutional Review Board |
+| 2023- | Chair, UCR Psychology Developmental Area |
+| 2023 | Faculty mentor, UCR Graduate Student Mentorship Program |
+| 2023 | Member, Faculty Search Committee (Dept. of Psychology) | 
 | 2023 | Member, UCR Chancellor's Distinguished Fellowship Advisory Board |
 | 2023 | Member, UCR Undergraduate Research & Creative Activities Symposium Faculty Advisory Board |
 | 2022 | Member, UCR Psychology ad hoc Instructional Technology Committee |
-| 2019- | Member, UC Riverside Academic Integrity Committee |
+| 2019-2023 | Member, UC Riverside Academic Integrity Committee |
 | 2019- | Psychology Department Colloquium Series Organizer |
 | 2018 | Judge, Undergraduate Research Symposium |
-| 2017- | Member, Undergraduate Minigrant Review Committee |
+| 2017-2023 | Member, Undergraduate Minigrant Review Committee |
 | 2017 | R'Course Facilitator |
 | 2016-2017 | Member, Graduate Admissions Committee (Dept. of Psychology) |
 | 2015- | Chair, Child Studies @ UCR, [childstudies.ucr.edu](https://childstudies.ucr.edu)|
