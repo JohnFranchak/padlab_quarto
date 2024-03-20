@@ -1,0 +1,30 @@
+---
+title: "2024 CDS Meeting"
+description: "PADLAB members presented five posters at the 2024 Cognitive Development Society meeting"
+author: "PADLAB"
+date: "03/20/2024"
+draft: false
+---
+
+![](2024-images/CDS-Pasadena.jpg){width="50%" fig-align="center"}
+
+The annual meeting of the Cognitive Development Society was held in Pasadena, CA. Members of the Perception, Action, and Development Lab and collaborators contributed five posters. 
+
+Aylin Luna, Kari Kretch, and John Franchak presented ["Predictors of Skill Expression in Infants’ Everyday Behavior"](2024-images/Luna_CDS_2024.pdf)
+
+![](2024-images/Luna_CDS_2024.jpg){width="100%" fig-align="center"}
+
+Hailey Rousey, Maximilian Tang, Sahrai Garcia, and John Franchak presented ["Exploring the Relation Between Infany Body Position and Adult Language Input Across the Day"](2024-images/Rousey_2024_CDS.pdf)
+
+![](2024-images/Rousey_CDS_2024.jpg){width="100%" fig-align="center"}
+
+Yushan Guo, Maximilian Tang, and John Franchak presented ["Characterizing Infant Object Experience through Repeated Video Sampling Across the Day"](2024-images/Guo_2024_CDS.pdf)
+
+![](2024-images/Guo_CDS_2024.jpg){width="100%" fig-align="center"}
+
+Maximilian Tang, Hailey Rousey, Sahrai Garcia, and John Franchak presented ["Does Infant Vocalization Increase when Sitting in Daily Life?"](2024-images/Tang_2024_CDS.pdf)
+
+![](2024-images/Tang_CDS_2024.jpg){width="100%" fig-align="center"}
+Allyson Kuznia, Jena Miko, Kayla McComb, Caitlin Fausey, and John Franchak presented ["The everyday objects that younger and older USA infants hold"](2024-images/Kuznia_2024_CDS.pdf)
+
+![](2024-images/Kuznia_CDS_2024.jpg){width="100%" fig-align="center"}
