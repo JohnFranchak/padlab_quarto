@@ -1,0 +1,12 @@
+---
+title: "Pilot Grant Awarded"
+description: "Wearable technology for measuring everyday experience in infants with cerebral palsy"
+author: "PADLAB"
+date: "01/11/2024"
+---
+
+The PADLAB is excited to start working on a new project in collaboration with [Dr. Kari Kretch](https://pt.usc.edu/faculty/kari-kretch-phd-pt-dpt/). Dr. Kretch runs the [Learning, Development, & Rehabilitation Lab](https://sites.usc.edu/ldrlab/) at USC and is the Principal Investigator of the grant, with [Dr. Franchak](/people/john-franchak.qmd) working as a co-Investigator. 
+
+The project, [Wearable technology for measuring everyday experience in infants with cerebral palsy](https://www.sralab.org/cstar/2023-awardee-kari-kretch-pt-dpt-phd), is funded through the Center for Smart Use of Technologies to Assess Real-World Outcomes (C-STAR) Pilot Project Program. The focus of the planned work is to understand how impairments in motor function for infants with cerebral palsy (CP) may result in different opportunities for exploration in the everyday home environment. By using the PADLAB's [wearable sensing method](/posts/2023-imu-method.qmd), Dr. Kretch and the members of the LDR Lab will collect full-day data to characterize naturalistic movement in infants with CP. 
+
+![](2024-images/abilitylab.png){width="25%"}
