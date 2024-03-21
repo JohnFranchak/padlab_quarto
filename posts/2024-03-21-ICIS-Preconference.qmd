@@ -1,0 +1,26 @@
+---
+title: "ML Workshop and Listserv"
+description: "Measuring complex infant behaviours using machine learning and computer vision"
+author: "John Franchak"
+date: "03/21/2024"
+draft: false
+---
+
+Are you interested in applying machine learning and/or computer vision techniques in your research? Sam Wass, Sinead Rocha, Trinh Nguyen, and [John Franchak](/people/john-franchak.qmd) are organizing a full-day pre-conference workshop “Measuring complex infant behaviours using machine learning and computer vision” at ICIS 2024 Glasgow. If you’re interested but can’t make it, please keep reading! We are launching a new listserv "developmental-ml-cv" and we would love for you to join the online discussion whether or not you join us in Glasgow (sign up in the form below).
+
+The [workshop](https://infantstudies.org/program/) will be held on July 8, 2024 from 9:00am-4:00pm. We will share a precise schedule closer to the event, but the general overview is:
+
+* Talks from invited speakers about using ML/CV methods 
+  + John Franchak (UC Riverside) 
+  + Quynh Trinh Nguyen (Italian Institute of Technology) 
+  + Ori Ossmy (Birkbeck, University of London) 
+  + Sinead Rocha (Goldsmiths, University of London) 
+  + Przemysław Tomalski (Polish Academy of Sciences) 
+  + Sam Wass (University of East London) 
+* Flash talks from attendees (respond in the form below if you are interested in presenting) 
+* Demos of wearable sensors and ML/CV analysis pipelines 
+* Small group discussions around areas/methods of interest to help researchers get started/share tips and ideas 
+
+If you are interested in attending the pre-conference OR would like to join the email listserv, please fill out this [form](https://forms.gle/8cXPh34KdU8GHPmLA). If you are attending the pre-conference, please make sure you register along with your ICIS registration (filling out our form won't officially register you). If you would like to be considered for a flash talk during the pre-conference, we ask that you submit the form by April 15, 2024 so that we can finalize the workshop schedule. 
+
+![](/posts/2024-images/ICIS.png){width="25%" fig-align="center"}
