@@ -10,7 +10,6 @@ website:
   page-footer: "Copyright 2024, John Franchak" 
   
   navbar:
-    background: primary
     logo: images/icon-plain.png
     title: false
     search: true
