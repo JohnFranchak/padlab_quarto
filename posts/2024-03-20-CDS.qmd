@@ -2,13 +2,15 @@
 title: "2024 CDS Meeting"
 description: "PADLAB members presented five posters at the 2024 Cognitive Development Society meeting"
 author: "PADLAB"
-date: "03/20/2024"
+date: "03/22/2024"
 draft: false
 ---
 
 ![](2024-images/CDS-Pasadena.jpg){width="50%" fig-align="center"}
 
 The annual meeting of the Cognitive Development Society was held in Pasadena, CA. Members of the Perception, Action, and Development Lab and collaborators contributed five posters. 
+
+![](2024-images/PADLAB_AT_CDS.jpg){width="100%" fig-align="center"}
 
 Aylin Luna, Kari Kretch, and John Franchak presented ["Predictors of Skill Expression in Infants’ Everyday Behavior"](2024-images/Luna_CDS_2024.pdf)
 

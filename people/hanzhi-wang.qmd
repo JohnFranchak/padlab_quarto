@@ -1,16 +1,17 @@
 ---
-title: "Yushan Guo"
-image: yushan-guo.jpeg
-order: 2022
+title: "Hanzhi Wang"
+image: hanzhi-wang.jpg
+order: 2024
 about:
   template: trestles
   links:
     - icon: envelope
       text: Email
-      href: mailto:yguo159@ucr.edu
+      href: mailto:null@ucr.edu
 ---
 
 [**Doctoral Student**]{.text-primary}
+[(incoming Fall 2024)]{.text-secondary}
 
 **Office:** Olmsted 2136 <br/>
 

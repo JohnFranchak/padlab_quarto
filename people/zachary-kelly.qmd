@@ -7,7 +7,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:null@ucr.edu
+      href: mailto:zkell003@ucr.edu
 ---
 
 [**Doctoral Student**]{.text-primary}
