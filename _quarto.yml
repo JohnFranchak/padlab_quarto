@@ -45,8 +45,9 @@ website:
 
 format:
   html:
-    theme: lumen
-    css: styles.css
+    theme: 
+      - lumen
+      - custom.scss
     toc: true
 
 
