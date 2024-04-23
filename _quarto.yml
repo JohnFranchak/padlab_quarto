@@ -35,6 +35,8 @@ website:
           - text: "All PADLAB Members"
             file: People.qmd
       - Contact.qmd
+      - text: "Participate"
+        href: https://redcap.ucr.edu/surveys/?s=RPFCEENWTJNRKR34&source_tracking=padlab
     right:
       - icon: github
         href: https://github.com/JohnFranchak/padlab_quarto

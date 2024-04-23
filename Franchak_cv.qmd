@@ -86,7 +86,7 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
  | 
 |--|--------|
 | 2022-2026 | James S. McDonnell Foundation Opportunity Award: [*Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys.*](https://doi.org/10.37717/2022-3803) **John Franchak, PI, $250,000 4-year total.** |
-| 2022-2026 | James S. McDonnell Foundation Opportunity Award: [*Sensorimotor cascades: Integrating real-time movement dynamics during the sleep and awake periods of human infants.*]() Drew Abney, PI, $250,000 4-year-total. **John Franchak, consultant.** |
+| 2022-2026 | James S. McDonnell Foundation Opportunity Award: [*Sensorimotor cascades: Integrating real-time movement dynamics during the sleep and awake periods of human infants.*](https://doi.org/10.37717/2022-3861) Drew Abney, PI, $250,000 4-year-total. **John Franchak, consultant.** |
 | 2023-2024 | Center for Smart Use of Technologies to Measure Real World Outcomes (CSTAR) Pilot Project Grant: [*Wearable technology for measuring everyday experience in infants with cerebral palsy.*](https://www.sralab.org/cstar/2023-awardee-kari-kretch-pt-dpt-phd) Kari Kretch, PI, $39,400 2-year total. **John Franchak, co-PI** |
 | 2020-2024 | NSF BCS-1941449: [*Developmental cascades: How motor development alters everyday learning*](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1941449&HistoricalAwards=false). **John Franchak, PI, $754,957 4-year total.** |
 | 2018-2023	| NICHD R01-HD-094830: *PLAY (Play and Learning Across a Year)*. Karen Adolph, PI, $6,341,419 total award. **John Franchak, sub-award PI, $18,527 5-year total.** |
@@ -312,6 +312,7 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 
 ### Professional Affiliations
 
+| DARCLE (Daylong Audio Recordings of Children's Linguistic Environments)
 | Division 7, American Psychological Association 
 | Cognitive Development Society 
 | International Congress on Infant Studies 
