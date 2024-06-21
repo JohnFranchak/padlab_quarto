@@ -1,0 +1,11 @@
+---
+title: "Successful Second-Year Projects"
+description: "MA Defenses of Yushan Guo and Hailey Rousey"
+author: "PADLAB"
+date: "05/28/2024"
+---
+
+In Spring 2024, the Perception, Action, and Development Lab celebrated two doctoral students finishing their second-year projects in the Cognition and Cognitive Neuroscience area. On May 8, 2024, Yushan Guo defended his paper, "Walking-Related Changes in Infants' Postural Experiences and Motor Contexts for Object Experiences". On May 29, 2024, Hailey Rousey defended her paper, "Examining the Relation Between Full-Day Infant Body Position and Language Input."
+
+![Yushan Guo and Hailey Rousey](2024-images/syps.jpg){width="75%" fig-align="center"}
+

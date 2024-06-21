@@ -1,0 +1,14 @@
+---
+title: "Article In Press"
+description: "An update to the development of motor behavior"
+author: "PADLAB"
+date: "04/22/2024"
+---
+
+A new article,  *An update of the development of motor behavior*, was accepted at the journal *Wiley Interdisciplinary Reviews: Cognitive Science* with authors [John Franchak](/people/john-franchak.qmd) and Karen Adolph (New York University). A pre-print is available [here](/publications/2024-FranchakAdolph-WIREs.pdf).
+
+## Paper Abstract
+
+This primer describes research on the development of motor behavior. We focus on infancy when basic action systems are acquired—posture, locomotion, manual actions, and facial actions—and we adopt a developmental systems perspective to understand the causes and consequences of developmental change. Experience facilitates improvements in motor behavior and infants accumulate immense amounts of varied everyday experience with all the basic action systems. At every point in development, perception guides behavior by providing feedback about the results of just prior movements and information about what to do next. Across development, new motor behaviors provide new inputs for perception. Thus, motor development opens up new opportunities for acquiring knowledge and acting on the world, instigating cascades of developmental changes in perceptual, cognitive, and social domains.
+
+![](2024-images/wires.jpg){width="100%" fig-align="center"}

@@ -1,0 +1,27 @@
+---
+title: "2024 UCR URS"
+description: "PADLAB members four posters at the 2024 Undergraduate Research Symposium"
+author: "PADLAB"
+date: "05/11/2024"
+draft: false
+---
+
+![](2024-images/ugrs.webp){width="100%" fig-align="center"}
+
+Four PADLAB undergraduates presented at the 2024 [UCR Undergraduate Research and Creative Activities Symposium](https://engage.ucr.edu/symposium), showcasing their work in the lab over the academic year.
+
+Jocelyn Lam presented "Exploring predictors of infants' daily object holding".
+
+![](2024-images/Jocelyn_UCR_2024.jpeg){width="100%" fig-align="center"}
+
+Kaylee Cheung presented "Does infant body position vary depending on the presence of siblings?".
+
+![](2024-images/Kaylee_URS_2024.jpeg){width="100%" fig-align="center"}
+Ilayna Garcia presented "Exploring video ecological momentary assessment for early detection of infant motor development".
+
+![](2024-images/Ilayna_URS_2024.jpeg){width="100%" fig-align="center"}
+
+Rashmi Chandrasekar presented "Effective sequences in infant position transitions".
+
+![](2024-images/Rashmi_URS_2024.jpeg){width="100%" fig-align="center"}
+
