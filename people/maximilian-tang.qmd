@@ -2,6 +2,7 @@
 title: "Maximilian Tang"
 image: maximilian-tang.jpg
 order: 2022.5
+draft: true
 about:
   template: trestles
   links:

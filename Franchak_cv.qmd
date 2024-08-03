@@ -275,6 +275,7 @@ presentations %>% filter(type %in% c("Colloquium")) %>% arrange(desc(year)) %>%
 \renewcommand{\arraystretch}{1.25}
 | | |
 |-|--------|
+| 2025 | Panel Reviewer, Society for Research in Child Development | 
 | 2024 | Member, National Eye Institute Grant Review Panel |
 | 2024 | Area Chair, IEEE International Conference on Learning and Development |
 | 2024 | Panel Reviewer, International Congress on Infant Studies | 
