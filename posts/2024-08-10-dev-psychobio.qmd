@@ -1,0 +1,15 @@
+---
+title: "Article In Press"
+description: "Developmental changes in how head orientation structures infants’ visual attention"
+author: "PADLAB"
+date: "08/10/2024"
+---
+
+A new article,  *Developmental changes in how head orientation structures infants’ visual attention*, was accepted at the journal *Developmental Psychobiology* with authors [John Franchak](/people/john-franchak.qmd), Linda Smith (Indiana University), and Chen Yu (UT Austin). A pre-print is available [here](/publications/2024-FranchakSmithYu-DevPsychobio.pdf).
+
+## Paper Abstract
+
+Most studies of developing visual attention are conducted using screen-based tasks in which
+infants move their eyes to select where to look. However, real-world visual exploration entails active movements of both eyes and head to bring relevant areas in view. Thus, relatively little is known about how infants coordinate their eyes and heads to structure their visual experiences. Infants were tested every 3 months from 9 to 24 months while they played with their caregiver and three toys while sitting in a highchair at a table. Infants wore a head-mounted eye tracker that measured eye movement towards each of the visual targets (caregiver’s face and toys) and how targets were oriented within the head-centered field of view. With age, infants increasingly aligned novel toys in the center of their head-centered field of view at the expense of their caregiver’s face. Both faces and toys were better centered in view during longer looking events, suggesting that infants of all ages aligned their eyes and head to sustain attention. The bias in infants’ head-centered field of view could not be accounted for by manual action: Held toys were more poorly centered compared with non-held toys. We discuss developmental factors— attentional, motoric, cognitive, and social—that may explain why infants increasingly adopted biased viewpoints with age.
+
+![](2024-images/devpsychobio.jpg){width="50%" fig-align="center"}

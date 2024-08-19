@@ -16,6 +16,8 @@ listing:
 :::
 
 ## Lab Alumni
+- Maximilian Tang (research staff)
+- Sahrai Garcia (research staff)
 - Chuan Luo (doctoral student)
 - Kellan Kadooka (doctoral student)
 - Brianna McGee (doctoral student)

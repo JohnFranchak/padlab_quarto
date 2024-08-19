@@ -341,6 +341,7 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 ### Student Advisees
 
 | **Doctoral:**
+| Hanzhi Wang (current)
 | Zachary Kelly (current)
 | Hailey Rousey (current)
 | Yushan Guo (current)
@@ -361,6 +362,10 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 | Dina van der Zalm (2008, as a graduate mentor) 
 
 | **Undergraduate Research Grants Mentored:**
+| Jocelyn Lam (2024), UCR Student Minigrant
+| Kaylee Cheung (2024), UCR Student Minigrant
+| Ilayna Garcia (2024), UCR Student Minigrant
+| Rashmi Chandrasekar (2024), UCR Student Minigrant
 | Juelle Ford (2022), UCR Student Minigrant
 | Faizah Ahmed (2022), UCR Student Minigrant
 | Vivian Huynh (2022), UCR Student Minigrant

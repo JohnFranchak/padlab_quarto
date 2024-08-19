@@ -1,0 +1,11 @@
+---
+title: "New Lab Member"
+description: "Hanzhi Wang joins the PADLAB"
+author: "PADLAB"
+date: "08/19/2024"
+---
+
+In summer 2024, the Perception, Action, and Development Lab welcomed a new member. [Hanzhi Wang](/people/hanzhi-wang.qmd) is a graduate of Zheijiang University with a BS in Psychology and joined the lab as a doctoral student.
+
+![Hanzhi Wang](/people/hanzhi-wang.jpg){width="50%" fig-align="left"}
+
