@@ -383,6 +383,7 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 \renewcommand{\arraystretch}{1.25}
 | | |
 |-|--------|
+| 202- | Member, UCR Information Technology Space Solution Advisory Board |
 | 2023- | Member, UCR Senate Committee on Information Technology |
 | 2023- | Member, UCR Institutional Review Board |
 | 2023- | Chair, UCR Psychology Developmental Area |
