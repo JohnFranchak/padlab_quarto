@@ -36,7 +36,7 @@ about:
 
 **Biography**
 
-Dr. Franchak earned a BA in Cognitive Science from the University of Virginia in 2005 and a PhD in Experimental Psychology from New York University in 2011. Afterwards, Dr. Franchak completed postdoctoral fellowships at New York University (2011-2013) and Indiana University (2013-2014) before joining the UCR Department of Psychology in 2014. Dr. Franchak was named a Rising Star by the Association for Psychological Science in 2015 and a Visiting Scholar by the McPherson Eye Research Institute in 2020. In 2022, he was promoted to Associate Professor at UC Riverside. 
+Dr. Franchak earned a BA in Cognitive Science from the University of Virginia in 2005 and a PhD in Experimental Psychology from New York University in 2011. Afterwards, Dr. Franchak completed postdoctoral fellowships at New York University (2011-2013) and Indiana University (2013-2014) before joining the UCR Department of Psychology in 2014. Dr. Franchak was named a Rising Star by the Association for Psychological Science in 2015 and a Visiting Scholar by the McPherson Eye Research Institute in 2020. In 2022, he was promoted to Associate Professor. He is a member of the Developmental Area, Cognitive and Cognitive Neuroscience Area, and Quantitative Specialized Subfield in the UCR Department of Psychology.
 
 ```{r}
 #| echo: false
