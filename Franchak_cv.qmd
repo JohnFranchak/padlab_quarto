@@ -85,6 +85,7 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
 ### Extramural
  | 
 |--|--------|
+| 2024-2029 | National Institute of Diabetes and Digestive and Kidney Diseases: [*Automated assessment of infant sleep/wake states, physical activity, and household noise using a multimodal wearable device and deep learning models.*](https://reporter.nih.gov/project-details/10981817) Nancy McElwain, PI. **John Franchak, consultant.** |
 | 2022-2026 | James S. McDonnell Foundation Opportunity Award: [*Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys.*](https://doi.org/10.37717/2022-3803) **John Franchak, PI, $250,000 4-year total.** |
 | 2022-2026 | James S. McDonnell Foundation Opportunity Award: [*Sensorimotor cascades: Integrating real-time movement dynamics during the sleep and awake periods of human infants.*](https://doi.org/10.37717/2022-3861) Drew Abney, PI, $250,000 4-year-total. **John Franchak, consultant.** |
 | 2023-2024 | Center for Smart Use of Technologies to Measure Real World Outcomes (CSTAR) Pilot Project Grant: [*Wearable technology for measuring everyday experience in infants with cerebral palsy.*](https://www.sralab.org/cstar/2023-awardee-kari-kretch-pt-dpt-phd) Kari Kretch, PI, $39,400 2-year total. **John Franchak, co-PI** |
@@ -328,15 +329,16 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 
 | **Undergraduate:** 
 | PSYC 12: Psychological Methods: Research Procedures (W15, F15, F16, F17, S19, S20, U20, F20, U21, F21, U22, S23, U23, F23) 
-| PSYC 166A: Infancy (F19, S23, S24) 
+| PSYC 166A: Infancy (F19, S23, S24, F24) 
 | PSYC 169: Seminar: Perceptual-Motor Development (F14) 
 | PSYC 169: Seminar: Infant Development (S17) 
+| PSYC 182: Laboratory in Psychology (S25)
 
 | **Graduate:** 
 | PSYC 207C: Processes of Cognitive Development (S16, S18, S21, S22, S24) 
 | PSYC 258: Seminar: Vision in Everyday Behavior (S17) 
 | PSYC 258: Seminar: Cascades in Development (W20) 
-| PSYC 259: Principles of Data Science (W21, W22) 
+| PSYC 259: Principles of Data Science (W21, W22, W25) 
 
 ### Student Advisees
 
@@ -362,6 +364,8 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 | Dina van der Zalm (2008, as a graduate mentor) 
 
 | **Undergraduate Research Grants Mentored:**
+| Abigail Smith (2025), UCR Student Minigrant
+| Kaylee Cheung (2025), UCR Student Minigrant
 | Jocelyn Lam (2024), UCR Student Minigrant
 | Kaylee Cheung (2024), UCR Student Minigrant
 | Ilayna Garcia (2024), UCR Student Minigrant
@@ -383,17 +387,19 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 \renewcommand{\arraystretch}{1.25}
 | | |
 |-|--------|
-| 202- | Member, UCR Information Technology Space Solution Advisory Board |
+| 2025- | Member, Quantitative Specialized Subfield |
+| 2024- | Member, UCR Psychology Executive Committee |
+| 2024- | Member, UCR Information Technology Space Solution Advisory Board |
 | 2023- | Member, UCR Senate Committee on Information Technology |
 | 2023- | Member, UCR Institutional Review Board |
 | 2023- | Chair, UCR Psychology Developmental Area |
-| 2023 | Faculty mentor, UCR Graduate Student Mentorship Program |
+| 2023- | Faculty mentor, UCR Graduate Student Mentorship Program |
 | 2023 | Member, Faculty Search Committee (Dept. of Psychology) | 
 | 2023 | Member, UCR Chancellor's Distinguished Fellowship Advisory Board |
 | 2023 | Member, UCR Undergraduate Research & Creative Activities Symposium Faculty Advisory Board |
 | 2022 | Member, UCR Psychology ad hoc Instructional Technology Committee |
+| 2019-2024 | Psychology Department Colloquium Series Organizer |
 | 2019-2023 | Member, UC Riverside Academic Integrity Committee |
-| 2019- | Psychology Department Colloquium Series Organizer |
 | 2018 | Judge, Undergraduate Research Symposium |
 | 2017-2023 | Member, Undergraduate Minigrant Review Committee |
 | 2017 | R'Course Facilitator |
