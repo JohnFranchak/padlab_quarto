@@ -15,6 +15,8 @@ library(knitr)
 
 ```{r}
 read_csv("publications/datasets.csv") %>% arrange(desc(year)) %>% 
-  mutate(citation = sprintf("(%d) *%s* %s. [```doi:%s```](%s)", year, title, venue, doi, paste0("https://doi.org/",doi))) %>% 
+  mutate(link = ifelse(str_detect(doi, "http"), doi, paste0("https://doi.org/",doi))) %>% 
+  mutate(doi = ifelse(str_detect(doi, "http"), doi, paste0("doi:",doi))) %>% 
+  mutate(citation = sprintf("(%d) *%s* %s. [```%s```](%s)", year, title, venue, doi, link)) %>% 
   select(citation) %>% kable(col.names = "")
 ```

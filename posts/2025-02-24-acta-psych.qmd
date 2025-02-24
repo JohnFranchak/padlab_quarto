@@ -1,0 +1,14 @@
+---
+title: "Article Published"
+description: "Risky actions: Why and how to estimate variability in motor performance"
+author: "PADLAB"
+date: "02/24/2025"
+---
+
+A new article,  *Risky actions: Why and how to estimate variability in motor performance*, was published in the journal *Acta Psychological* with authors [John Franchak](/people/john-franchak.qmd), Christina Hospodar (University of Southern California), and Karen Adolph (New York University). The article is part of a special issue, "Interacting with the Physical World Around Us: Understanding the Perception of Risk", edited by Drs. Elizabeth O’Neal, Jodie Plumert, and Lana Karasik. An open-access PDF is available [here](/publications/2025-FranchakHospodarAdolph-ActaPsych.pdf).
+
+## Paper Abstract
+
+We describe the difficulties of measuring variability in performance, a critical but largely ignored problem in studies of risk perception. The problem seems intractable if a large number of successful and unsuccessful trials are infeasible. We offer a solution based on estimates of task-specific variability pooled across the sample. Using a dataset of adult performance in throwing and walking tasks, we show that mischaracterizing the slope leads to unacceptably large errors in estimates of performance levels that undermine analyses of risk perception. We introduce a “pooled-slope” solution that approximates estimates of individual variability in performance and outperforms arbitrary assumptions about performance variability within and across tasks. We discuss the advantages of objectively measuring performance based on the rate of successful attempts—modeled via psychometric functions—for improving comparisons of risk across participants, tasks, and studies.
+
+![](2025-images/ActaPsychologica.jpg){width="75%" fig-align="center"}

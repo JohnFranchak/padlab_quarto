@@ -180,7 +180,9 @@ refs %>% filter(type %in% c("Chapter")) %>%
 ### Shared Datasets
 ```{r}
 read_csv("publications/datasets.csv") %>% arrange(desc(year)) %>% 
-  mutate(citation = sprintf("(%d) *%s* %s. [```doi:%s```](%s)", year, title, venue, doi, paste0("https://doi.org/",doi))) %>% 
+  mutate(link = ifelse(str_detect(doi, "http"), doi, paste0("https://doi.org/",doi))) %>% 
+  mutate(doi = ifelse(str_detect(doi, "http"), doi, paste0("doi:",doi))) %>% 
+  mutate(citation = sprintf("(%d) *%s* %s. [```%s```](%s)", year, title, venue, doi, link)) %>% 
   select(citation) %>% kable(col.names = "")
 ```
 
@@ -281,7 +283,7 @@ presentations %>% filter(type %in% c("Colloquium")) %>% arrange(desc(year)) %>%
 | 2024 | Area Chair, IEEE International Conference on Learning and Development |
 | 2024 | Panel Reviewer, International Congress on Infant Studies | 
 | 2024 | Panel Reviewer, Cognitive Development Society |
-| 2022- | Associate Editor, *Developmental Psychology* | 
+| 2022-2024 | Associate Editor, *Developmental Psychology* | 
 | 2022 | Member, National Science Foundation Review Panel |
 | 2021 | Member, National Science Foundation Review Panel |
 | 2020-2023 | Review Editor, Perception Science Editorial Board, *Frontiers in Psychology* and *Frontiers in Neuroscience* |
