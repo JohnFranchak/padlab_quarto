@@ -31,7 +31,7 @@ refs_clean <- refs %>%
 refs_clean <- refs_clean %>% 
   mutate(year = as.character(year),
          year = ifelse(inpress == 1, "in press", year),
-         doi = ifelse(is.na(doi), "publications.html", doi),
+         doi = ifelse(is.na(doi), "Publications.html", doi),
          url = ifelse(is.na(url),doi,str_glue("publications/{url}")))
   
          

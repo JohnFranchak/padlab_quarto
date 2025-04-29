@@ -1,0 +1,24 @@
+---
+title: "2025 UCR URS"
+description: "PADLAB members three posters at the 2025 Undergraduate Research Symposium"
+author: "PADLAB"
+date: "04/29/2025"
+draft: false
+---
+
+![](2025-images/ugrs.png){width="100%" fig-align="center"}
+
+Three PADLAB undergraduates presented at the 2025 [UCR Undergraduate Research and Creative Activities Symposium](https://engage.ucr.edu/symposium), showcasing their work in the lab over the academic year.
+
+Katie Vo presented "The effects of cognitive load on 3D visual search".
+
+![](2025-images/katie_urgs.jpeg){width="100%" fig-align="center"}
+
+Kaylee Cheung presented "Comparing two systems for measuring infant body position".
+
+![](2025-images/kaylee_ugrs.jpeg){width="100%" fig-align="center"}
+Abigail Smith presented "Observing the link between object holding and language development in infants' everyday experiences".
+
+![](2025-images/abbie_urgs.jpeg){width="100%" fig-align="center"}
+
+
