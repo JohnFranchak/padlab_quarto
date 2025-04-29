@@ -30,8 +30,78 @@ refs_clean <- refs %>%
 
 refs_clean <- refs_clean %>% 
   mutate(year = as.character(year),
-         year = ifelse(inpress == 1, "in press", year))
+         year = ifelse(inpress == 1, "in press", year),
+         doi = ifelse(is.na(doi), "publications.html", doi),
+         url = ifelse(is.na(url),doi,str_glue("publications/{url}")))
+  
          
+# reactable(refs_clean, 
+#           filterable = TRUE, 
+#           searchable = TRUE, 
+#           defaultSorted = c("year"), 
+#           defaultSortOrder = "desc", 
+#           elementId = "cars-select", 
+#           showPageSizeOptions = TRUE,
+#           pageSizeOptions = c(20, 40, 60, 80),
+#           paginationType = "jump",
+#           defaultPageSize = 20,
+#           defaultColDef = colDef(show = FALSE, name = ""),
+#           columns = list(
+#               abstract = colDef(show = TRUE, maxWidth = 22, filterable = FALSE,
+#                   cell = function(value, index) {
+#                   s <- ""
+#                   }, details = function(index) {
+#                                   paste("Abstract: ", refs[index, "abstract"])
+#                                   }),
+#               year = colDef(show = TRUE, maxWidth  = 75,
+#                 filterInput = function(values, name) {
+#                   tags$select(
+#                   # Set to undefined to clear the filter
+#                   onchange = sprintf("Reactable.setFilter('cars-select', '%s', event.target.value || undefined)", name),
+#                   # "All" has an empty value to clear the filter, and is the default option
+#                   tags$option(value = "", "All"),
+#                   lapply(unique(values), tags$option),
+#                   "aria-label" = sprintf("Filter %s", name),
+#                   style = "width: 100%; height: 28px;"
+#                 )}),
+#               authors = colDef(show = TRUE, minWidth = 350, filterable = FALSE, 
+#                                       cell = function(value, index) {
+#                                         title <- refs$title[index]
+#                                         div(
+#                                             div(title),
+#                                             div(style = "font-weight: 200", value),
+#                                             div(style = "font-weight: 200", refs$venue[index]),
+#                                           )}),
+#               url = colDef(maxWidth = 23, show = TRUE, filterable = FALSE, cell = function(value, index) {
+#                 if (is.na(refs[index, "url"])) {
+#                   url <- as.character(refs[index, "doi"])
+#                   htmltools::tags$a(href = url, target = "_blank", '\U29C9')
+#                 } else {
+#                   url <- sprintf("publications/%s", refs[index, "url"])
+#                   htmltools::tags$a(href = url, target = "_blank", '\U2193')
+#                 }
+#               }),
+#           type = colDef(maxWidth = 115, show = TRUE,
+#             filterInput = function(values, name) {
+#             tags$select(
+#             # Set to undefined to clear the filter
+#             onchange = sprintf("Reactable.setFilter('cars-select', '%s', event.target.value || undefined)", name),
+#             # "All" has an empty value to clear the filter, and is the default option
+#             tags$option(value = "", "All"),
+#             lapply(unique(values), tags$option),
+#             "aria-label" = sprintf("Filter %s", name),
+#             style = "width: 100%; height: 28px;"
+#           )}
+#     )
+#   ))
+```
+
+```{r}
+create_link_icon <- function(url) {
+  url <- as.character(url)
+  htmltools::tags$a(href = url, target = "_blank", '\U2193')
+}
+
 reactable(refs_clean, 
           filterable = TRUE, 
           searchable = TRUE, 
@@ -69,15 +139,10 @@ reactable(refs_clean,
                                             div(style = "font-weight: 200", value),
                                             div(style = "font-weight: 200", refs$venue[index]),
                                           )}),
-              url = colDef(maxWidth = 23, show = TRUE, filterable = FALSE, cell = function(value, index) {
-                if (is.na(refs[index, "url"])) {
-                  url <- as.character(refs[index, "doi"])
-                  htmltools::tags$a(href = url, target = "_blank", '\U29C9')
-                } else {
-                  url <- sprintf("publications/%s", refs[index, "url"])
-                  htmltools::tags$a(href = url, target = "_blank", '\U2193')
-                }
-              }),
+          url = colDef(maxWidth = 30, show = TRUE, filterable = FALSE,
+                       cell = function(value) {
+                          create_link_icon(value) # Apply the function to each URL
+                        }),
           type = colDef(maxWidth = 115, show = TRUE,
             filterInput = function(values, name) {
             tags$select(
@@ -91,5 +156,6 @@ reactable(refs_clean,
           )}
     )
   ))
+
 ```
 :::
