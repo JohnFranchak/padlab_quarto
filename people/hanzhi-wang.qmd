@@ -7,7 +7,10 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:null@ucr.edu
+      href: mailto:hwang567@ucr.edu
+    - icon: file-text
+      text: CV
+      href: https://drive.google.com/file/d/1u9ohaPkjngqq9FARXy1xmLMUre6_rbXN/view?usp=sharing
 ---
 
 [**Doctoral Student**]{.text-primary}
@@ -16,3 +19,4 @@ about:
 
 **Biography**
 
+Hanzhi Wang is a graduate student in the Department of Psychology at UC Riverside. She earned her B.S. in Psychology from Zhejiang University, China in 2024. She is interested in characterizing ever-changing regularities in infant everyday learning experiences, and how that informs humans of learning in general.
