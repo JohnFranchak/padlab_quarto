@@ -8,6 +8,9 @@ about:
     - icon: envelope
       text: Email
       href: mailto:hrous002@ucr.edu
+    - icon: file-text
+      text: CV
+      href: https://docs.google.com/document/d/1pADHi2MOFCq1Tf0ejFBiOYBPmVSQxZM8/edit?usp=sharing&ouid=108357663660970111028&rtpof=true&sd=true 
 ---
 
 [**Doctoral Student**]{.text-primary}
@@ -16,6 +19,6 @@ about:
 
 **Biography**
 
-Hailey Rousey is a first year graduate student in Psychology at the University of California, Riverside. Prior she earned a AA-T in Psychology from Fresno City College (2018) and a BA in Psychology from California State University, Fresno (2022). She is interested in researching infant motor, perception, and cognitive development.
+Hailey Rousey is a third-year Ph.D. student in Psychology at the University of California, Riverside. She previously earned an AA-T in Psychology from Fresno City College (2018) and a BA in Psychology from California State University, Fresno (2022). Her research explores how infants’ motor development relates to their emerging language and cognitive skills.
 
 

@@ -330,21 +330,22 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 ### Courses Taught
 
 | **Undergraduate:** 
-| PSYC 12: Psychological Methods: Research Procedures (W15, F15, F16, F17, S19, S20, U20, F20, U21, F21, U22, S23, U23, F23) 
+| PSYC 12: Psychological Methods: Research Procedures (W15, F15, F16, F17, S19, S20, U20, F20, U21, F21, U22, S23, U23, F23, U25, W26) 
 | PSYC 166A: Infancy (F19, S23, S24, F24) 
 | PSYC 169: Seminar: Perceptual-Motor Development (F14) 
 | PSYC 169: Seminar: Infant Development (S17) 
-| PSYC 182: Laboratory in Psychology (S25)
+| PSYC 182: Laboratory in Psychology (S26)
 
 | **Graduate:** 
 | PSYC 207C: Processes of Cognitive Development (S16, S18, S21, S22, S24) 
 | PSYC 258: Seminar: Vision in Everyday Behavior (S17) 
 | PSYC 258: Seminar: Cascades in Development (W20) 
-| PSYC 259: Principles of Data Science (W21, W22, W25) 
+| PSYC 259: Principles of Data Science (W21, W22) 
 
 ### Student Advisees
 
 | **Doctoral:**
+| Aylin Luna (current)
 | Hanzhi Wang (current)
 | Zachary Kelly (current)
 | Hailey Rousey (current)
@@ -367,7 +368,7 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 
 | **Undergraduate Research Grants Mentored:**
 | Abigail Smith (2025), UCR Student Minigrant
-| Kaylee Cheung (2025), UCR Student Minigrant
+| Kaylee Cheung (2025), UCR Student Minigrant, Best Poster Award at the Undergraduate Research Symposium
 | Jocelyn Lam (2024), UCR Student Minigrant
 | Kaylee Cheung (2024), UCR Student Minigrant
 | Ilayna Garcia (2024), UCR Student Minigrant
@@ -390,12 +391,12 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 | | |
 |-|--------|
 | 2025- | Member, Quantitative Specialized Subfield |
-| 2024- | Member, UCR Psychology Executive Committee |
+| 2024-2025 | Member, UCR Psychology Executive Committee |
 | 2024- | Member, UCR Information Technology Space Solution Advisory Board |
 | 2023- | Member, UCR Senate Committee on Information Technology |
 | 2023- | Member, UCR Institutional Review Board |
-| 2023- | Chair, UCR Psychology Developmental Area |
-| 2023- | Faculty mentor, UCR Graduate Student Mentorship Program |
+| 2023-2025 | Chair, UCR Psychology Developmental Area |
+| 2023-2025 | Faculty mentor, UCR Graduate Student Mentorship Program |
 | 2023 | Member, Faculty Search Committee (Dept. of Psychology) | 
 | 2023 | Member, UCR Chancellor's Distinguished Fellowship Advisory Board |
 | 2023 | Member, UCR Undergraduate Research & Creative Activities Symposium Faculty Advisory Board |
