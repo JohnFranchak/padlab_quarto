@@ -1,0 +1,15 @@
+---
+title: "Best Poster Award"
+description: "Kaylee Cheung Awarded for UGRS Poster"
+author: "PADLAB"
+date: "05/13/2025"
+draft: false
+---
+
+![](2025-images/Kaylee-Award.jpeg){width="25%" fig-align="center"}
+
+Kaylee Cheung's Undergraduate Research Symposium Presentation, "Comparing Two Systems for Measuring Infant Body Position", received the best presentation award for a student from the College of Natural and Agricultural Sciences. Ms. Cheung and Dr. Franchak attended a celebratory luncheon with the Vice Provost and Dean of Undergraduate Education, Louie Rodriguez, and other awardees. 
+
+![](2025-images/kaylee_ugrs_2.jpeg){width="50%" fig-align="center"}
+
+

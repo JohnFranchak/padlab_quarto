@@ -1,0 +1,18 @@
+---
+title: "2025 SRCD Meeting"
+description: "PADLAB members presented a talk and a poster at the 2025 SRCD meeting"
+author: "PADLAB"
+date: "05/01/2025"
+draft: false
+---
+
+![](2025-images/SRCD-Minneapolis.png){width="75%" fig-align="center"}
+
+The annual meeting of the Society for Research in Child Development was held in Minneapolis. Hailey Rousey presented a talk, "Skill acquisition vs. skill expression: Relating infants’ motor development and daily language input". Her talk was part of a symposium, "Early sensorimotor experiences in infant’s language development in diverse contexts using mixed methods", organized by Drs. Minxuan He and Eric Walle.
+
+![](2025-images/Hailey-SRCD.jpg){width="100%" fig-align="center"}
+
+Yushan Guo presented a poster, "Characterizing Infant Everyday Postural Experiences through Repeated Video Sampling."
+
+![](2025-images/Yushan-SRCD.jpg){width="100%" fig-align="center"}
+

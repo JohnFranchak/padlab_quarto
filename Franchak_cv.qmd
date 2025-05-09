@@ -390,10 +390,11 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 \renewcommand{\arraystretch}{1.25}
 | | |
 |-|--------|
+| 2026- | Chair, UCR Senate Committee on Information Technology |
 | 2025- | Member, Quantitative Specialized Subfield |
 | 2024-2025 | Member, UCR Psychology Executive Committee |
 | 2024- | Member, UCR Information Technology Space Solution Advisory Board |
-| 2023- | Member, UCR Senate Committee on Information Technology |
+| 2023-2025 | Member, UCR Senate Committee on Information Technology |
 | 2023- | Member, UCR Institutional Review Board |
 | 2023-2025 | Chair, UCR Psychology Developmental Area |
 | 2023-2025 | Faculty mentor, UCR Graduate Student Mentorship Program |
