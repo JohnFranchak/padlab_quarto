@@ -1,0 +1,14 @@
+---
+title: "New Article Accepted"
+description: "Learning to efficiently gather visual information using the eyes, head, and body"
+author: "PADLAB"
+date: "05/15/2025"
+---
+
+A new article,  *Learning to efficiently gather visual information using the eyes, head, and body*, was accepted in the journal [*Collabra: Psychology*](https://online.ucpress.edu/collabra) with authors Chuan Luo (former PADLAB graduate student) and [John Franchak](/people/john-franchak.qmd). An open-access PDF is available [here](/publications/2025-LuoFranchak-Collabra.pdf).
+
+## Paper Abstract
+
+People move their eyes, head, and body to gather visual information for everyday tasks. However, it is unknown whether and how people adjust their eye-head-body movements over time to adapt to task parameters. This study investigated how people changed their information-gathering strategy—how they moved their eyes, head, and body to look—after repeated practice (Experiment 1) and after exposure to new strategies (Experiment 2). In Experiment 1, participants were asked to copy models over repeated trials to test the effect of practice. We recorded participants’ eye-head-body movements while copying models. We calculated how frequently they looked at the models, the total time used to complete each trial, and the eye-head-body rotations during model looks. The results showed that people looked less frequently and reduced the effortful body movement to improve efficiency after repeated practice. The same task was used in Experiment 2 except that we restricted participants’ head movement while copying the models and then removed the restriction to induce strategy change. The results showed that participants opted for a less effortful strategy during head restriction and retained the effort-saving strategy after head restriction was removed.
+
+![](2025-images/Collabra.png){width="75%" fig-align="center"}
