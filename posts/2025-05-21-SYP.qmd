@@ -1,0 +1,11 @@
+---
+title: "Successful Second-Year Project"
+description: "MA Defense of Zachary Kelly"
+author: "PADLAB"
+date: "05/21/2025"
+---
+
+In Spring 2025, the Perception, Action, and Development Lab celebrated doctoral student Zachary Kelly's successful second-year project defense in the Cognition and Cognitive Neuroscience area. On May 21, 2025, Zachary presented his project, "The Effects of Cognitive Load on Full-Body Gaze Control During 3D Visual Search", in the Cognitive Proseminar. 
+
+![Zachary Kelly presenting](2025-images/Zach-SYP.jpeg){width="95%" fig-align="center"}
+
