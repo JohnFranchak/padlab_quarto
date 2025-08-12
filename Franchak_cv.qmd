@@ -85,7 +85,7 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
 ### Extramural
  | 
 |--|--------|
-| 2025-2028 | National Science Foundation BCS-2521429: *Collaborative Research: A longitudinal investigation of caregiving, everyday motor experiences, and motor skill development using wearable sensing*. **John Franchak, PI, $423,915 3-year-total**.
+| 2025-2028 | National Science Foundation BCS-2521429: [*Collaborative Research: A longitudinal investigation of caregiving, everyday motor experiences, and motor skill development using wearable sensing*](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2521429&HistoricalAwards=false). **John Franchak, PI, $423,915 3-year-total**.
 | 2024-2029 | National Institute of Diabetes and Digestive and Kidney Diseases 1R01DK138866-01A1: [*Automated assessment of infant sleep/wake states, physical activity, and household noise using a multimodal wearable device and deep learning models.*](https://reporter.nih.gov/project-details/10981817) Nancy McElwain, PI. **John Franchak, consultant.** |
 | 2022-2026 | James S. McDonnell Foundation Opportunity Award: [*Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys.*](https://doi.org/10.37717/2022-3803) **John Franchak, PI, $250,000 4-year total.** |
 | 2022-2026 | James S. McDonnell Foundation Opportunity Award: [*Sensorimotor cascades: Integrating real-time movement dynamics during the sleep and awake periods of human infants.*](https://doi.org/10.37717/2022-3861) Drew Abney, PI, $250,000 4-year-total. **John Franchak, consultant.** |

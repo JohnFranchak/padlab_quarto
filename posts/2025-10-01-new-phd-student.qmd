@@ -1,0 +1,11 @@
+---
+title: "New PhD Student"
+description: "Aylin Luna joins the developmental area"
+author: "PADLAB"
+date: "10/01/2025"
+---
+
+In Fall 2025, the Perception, Action, and Development Lab celebrated [Aylin Luna](/people/aylin-luna.qmd) joining UCR as a doctoral student in the developmental area. Aylin worked as a research coordinator in the PADLAB for three years prior to transitioning into the graduate program.
+
+![Aylin Luna](/people/aylin-luna.jpg){width="50%" fig-align="left"}
+
