@@ -393,6 +393,7 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 | | |
 |-|--------|
 | 2026- | Chair, UCR Senate Committee on Information Technology |
+| 2025- | Member, UC Riverside Artificial Intelligence Research and Education Institute |
 | 2025- | Member, Quantitative Specialized Subfield |
 | 2024-2025 | Member, UCR Psychology Executive Committee |
 | 2024- | Member, UCR Information Technology Space Solution Advisory Board |
