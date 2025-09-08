@@ -49,6 +49,7 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
 
  | 
 |--|--------|
+| 2025- | Faculty Affiliate, Artificial Intelligence Research and Education Institute, **University of California, Riverside** |
 | 2022- | Associate Professor, Dept. of Psychology, **University of California, Riverside** |
 | 2014-2022 | Assistant Professor, Dept. of Psychology, **University of California, Riverside** |
 | 2013-2014 | Post-Doctoral Fellow, Dept. of Psychological and Brain Sciences, **Indiana University** (Sponsors: Chen Yu & Linda Smith) |
@@ -61,7 +62,7 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
 
 # Research Interests
 - Perceptual-motor development (posture, locomotion, reaching)
-- Wearable sensing of infants' everyday physical activity using machine learning
+- Wearable sensing of infants' everyday physical activity using machine learning and artificial intelligence
 - Ecological momentary assessment of infants' daily activities via caregiver smartphone surveys and video recordings
 - Development of visual attention using mobile eye tracking and screen-based eye tracking
 - Motor learning and control (affordances, visual guidance of walking and reaching)
@@ -74,7 +75,7 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
 | 2015		| Rising Star, **Association for Psychological Science** |
 | 2014		| Intel Best Paper Award *This hand is my hand: A probabilistic approach to hand disambiguation in egocentric video*, **IEEE Computer Vision and Pattern Recognition** |
 | 2013		| Postdoctoral Fellowship, NICHD Training Grant, 5T32HD7475-17, *Training Program in Integrative Developmental Process*, **Indiana University** |
-| 2012		| Best Methodological Paper, *Understanding the development of motion processing by characterizing optic flow experienced by infants and their mothers*, **International Conference on Learning and Development** |
+| 2012		| Best Methodological Paper, *Understanding the development of motion processing by characterizing optic flow experienced by infants and their mothers*, **IEEE International Conference on Learning and Development** |
 | 2011		| Martin Braine Dissertation Award, **New York University** |
 | 2010		| Best Paper Award *Head-mounted eye-tracking of infants’ natural interactions:  A new method*, **ACM Eye Tracking Research & Applications** |
 | 2009		| Sandra G. Wiener Student Investigator Award, **International Society for Developmental Psychobiology** |
@@ -82,13 +83,21 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
 
 # Grant Support
 
-### Extramural
+## Current Support
+
  | 
 |--|--------|
 | 2025-2028 | National Science Foundation BCS-2521429: [*Collaborative Research: A longitudinal investigation of caregiving, everyday motor experiences, and motor skill development using wearable sensing*](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2521429&HistoricalAwards=false). **John Franchak, PI, $423,915 3-year-total**.
 | 2024-2029 | National Institute of Diabetes and Digestive and Kidney Diseases 1R01DK138866-01A1: [*Automated assessment of infant sleep/wake states, physical activity, and household noise using a multimodal wearable device and deep learning models.*](https://reporter.nih.gov/project-details/10981817) Nancy McElwain, PI. **John Franchak, consultant.** |
 | 2022-2026 | James S. McDonnell Foundation Opportunity Award: [*Characterizing infants' everyday motor and object experiences through computer vision analysis of caregiver-captured video surveys.*](https://doi.org/10.37717/2022-3803) **John Franchak, PI, $250,000 4-year total.** |
 | 2022-2026 | James S. McDonnell Foundation Opportunity Award: [*Sensorimotor cascades: Integrating real-time movement dynamics during the sleep and awake periods of human infants.*](https://doi.org/10.37717/2022-3861) Drew Abney, PI, $250,000 4-year-total. **John Franchak, consultant.** |
+
+## Past Support
+
+### Extramural
+
+ | 
+|--|--------|
 | 2023-2024 | Center for Smart Use of Technologies to Measure Real World Outcomes (CSTAR) Pilot Project Grant: [*Wearable technology for measuring everyday experience in infants with cerebral palsy.*](https://www.sralab.org/cstar/2023-awardee-kari-kretch-pt-dpt-phd) Kari Kretch, PI, $39,400 2-year total. **John Franchak, co-PI** |
 | 2020-2024 | National Science Foundation BCS-1941449: [*Developmental cascades: How motor development alters everyday learning*](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1941449&HistoricalAwards=false). **John Franchak, PI, $754,957 4-year total.** |
 | 2018-2023	| NICHD R01-HD-094830: *PLAY (Play and Learning Across a Year)*. Karen Adolph, PI, $6,341,419 total award. **John Franchak, sub-award PI, $18,527 5-year total.** |
@@ -329,6 +338,10 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 
 # Teaching and Advising
 
+### Certifications
+| 2025, C.I.M.E.R. Mentoring Training, UC Riverside Graduate Division
+| 2022, Online Teaching Certificate Program, Online Learning Consortium
+
 ### Courses Taught
 
 | **Undergraduate:** 
@@ -393,8 +406,10 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 | | |
 |-|--------|
 | 2026- | Chair, UCR Senate Committee on Information Technology |
-| 2025- | Member, UC Riverside Artificial Intelligence Research and Education Institute |
+| 2026- | Member, UCR Senate Executive Council |
+| 2026- | Member, University Committee on Academic Computing and Communications (UCACC) |
 | 2025- | Member, Quantitative Specialized Subfield |
+| 2025- | Chair, UCR Psychology Graduate First-Year Community Building Mentorship Program|
 | 2024-2025 | Member, UCR Psychology Executive Committee |
 | 2024- | Member, UCR Information Technology Space Solution Advisory Board |
 | 2023-2025 | Member, UCR Senate Committee on Information Technology |
