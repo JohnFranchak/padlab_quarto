@@ -30,9 +30,9 @@ library(tidyverse)
 library(lubridate)
 library(knitr)
 ```
-| Department of Psychology
-| University of California, Riverside  
-| 900 University Avenue, Riverside, CA 92521
+<!-- | Department of Psychology -->
+<!-- | University of California, Riverside   -->
+<!-- | 900 University Avenue, Riverside, CA 92521 -->
 
 ::: {.content-visible when-format="pdf"}
 | email: [franchak@ucr.edu](mailto:franchak@ucr.edu)
