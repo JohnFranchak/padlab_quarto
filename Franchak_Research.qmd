@@ -43,25 +43,26 @@ format:
 
 \thispagestyle{fancy}
 
-Active exploration---how people obtain information through purposeful interaction with the environment---is a key construct in theories of perception and development. The overarching goal of my research program is to understand the real-time and developmental processes that underlie how people gather perceptual information when engaged in the activities of daily living: guiding motor actions, observing scenes, and engaging in social interactions. In my lab, I currently pursue two main lines of research: 
+Active exploration---how people obtain information through purposeful interaction with the environment---is a key construct in theories of perception and development. My research program unravels the real-time and developmental processes that underlie how people gather perceptual information while they engage in the activities of daily living: guiding motor actions, observing scenes, and engaging in social interactions. In my lab, I currently pursue two main lines of research: 
 
 1. How motor exploration shapes real-life opportunities for learning
 2. The development of visual exploration
 
-Furthermore, I have made significant methodological contributions, such as creating a machine-learning classification system for automatically measuring infants' body position in the home from wearable inertial sensors and pioneering the first mobile eye-tracking method for studying infants’ naturalistic visual exploration.
+To accomplish these aims, I develop new technological and computational approaches to studying behavior, such as creating a machine-learning classification system for automatically measuring infants' body position in the home from wearable inertial sensors and pioneering the first mobile eye-tracking method for studying infants’ naturalistic visual exploration.
 <!-- I support open science by developing and sharing research software and by contributing datasets to Databrary and OSF repositories. -->
 
 ## Line 1: Motor exploration shapes real-life opportunities for learning
 
-Infants' opportunities for learning about objects and people in daily life depend on what they see. If the motor system influences visual exploration, what are the potential consequences for development? In a position paper (Franchak, 2020, *Curr. Opin. Psych.*), I hypothesized that differences in the time that infants spend in different body positions---creating different opportunities for seeing faces and objects---may facilitate later development of language and spatial cognition.
+Infants' opportunities for learning about objects and people in daily life depend on how they move. In a position paper (Franchak, 2020, *Curr. Opin. Psych.*), I hypothesized that differences in the time that infants spend in different body positions---creating different opportunities for cognitive and social interactions---may facilitate later development of language and spatial cognition.
 
 #### Detecting infants' motor experiences with inertial sensing
 
-To better characterize infants' everyday motor experiences, my mentees and I developed and validated a new technique using wearable inertial sensors and machine learning classification to continuously measure infants' body position in the home (Franchak, Scott, & Luo, 2021, *Frontiers in Psychology*). Currently, data collection is ongoing in the 3rd year of a **4-year, $755k NSF Developmental Sciences grant** to use the new inertial sensing method combined with day-long audio recording to test whether changes in body position following the onset of independent sitting and independent walking facilitate vocabulary development. These rich, multi-modal datasets are openly shared on Databrary to create testbeds for constraining theories and generating hypotheses about developmental mechanisms based on home experiences. 
-- BRM paper
-- Dataset description
+To characterize infants' everyday motor experiences, my mentees and I developed a new technique using wearable inertial sensors and machine learning classification to continuously measure infants' body position in the home (Franchak et al., 2021, *Frontiers in Psych.*; Franchak et al, 2024, *Beh. Res. Methods*). A **4-year, $755k NSF Developmental Sciences grant** allowed us to collect a corpus of over 850 hours of infants' real-time movement and wearable audio recording (LENA) in the home. The openly-shared (dataset)[https://nyu.databrary.org/volume/1637] establishes a public testbed for training new AI approaches for classifying movement and a large dataset for answering novel questions about infants' everyday motor behavior. My doctoral students and I have two papers under review that use the dataset to show how motor development changes the pace of everyday activities (Franchak et al., *under review*) and how infants' exposure to adults' speech depends on infants' moment-to-moment body position (Rousey et al., *under review*).
+
+
 - NEW GRANT and CP grant subaward, new movement opportunities model
-- Workshops and data sharing
+- Workshops 
+
 
 
 #### Measuring infants' daily experiences with ecological momentary assessment
