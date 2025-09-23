@@ -25,8 +25,8 @@ format:
         \usepackage{fancyhdr}
         \pagestyle{fancy}
         \fancyhead{}
-        \fancyhead[LO,LE]{\textbf{John Franchak - Research Statement}}
-        \fancyhead[RO,RE]{\thepage}
+        \fancyhead[LO,LE]{\textbf{\sffamily John Franchak - Research Statement}}
+        \fancyhead[RO,RE]{\sffamily \thepage}
         \fancyfoot{}
         \RedeclareSectionCommand[
           beforeskip=0pt,
@@ -52,7 +52,7 @@ Infants' opportunities for learning about words, objects, and people in daily li
 
 #### Detecting infants' motor experiences with inertial sensing
 
-To characterize infants' everyday motor experiences, my mentees and I developed a new technique using wearable inertial sensors and machine learning classification to continuously measure infants' body position (e.g., sitting, standing) second-by-second in the home (Franchak et al., 2021, *Frontiers in Psych.*; Franchak et al, 2024, *Beh. Res. Methods*). A **4-year NSF Developmental Sciences grant** funded our collection of a corpus of 850 hours of infants' full-day movement and LENA audio recording. The openly-shared (dataset)[https://nyu.databrary.org/volume/1637] established a public testbed for training new AI approaches for classifying movement and a novel dataset for answering questions about infants' everyday experiences. My doctoral students and I have two papers under review that use our dataset to show how motor development changes the pace of everyday activities (Franchak et al., *under review*) and how infants' exposure to adults' speech depends on infants' body position (Rousey et al., *revision under review*).
+To characterize infants' everyday motor experiences, my mentees and I developed a new technique using wearable inertial sensors and machine learning classification to continuously measure infants' body position (e.g., sitting, standing) second-by-second in the home (Franchak et al., 2021, *Frontiers in Psych.*; Franchak et al, 2024, *Beh. Res. Methods*). A **4-year NSF Developmental Sciences grant** funded our collection of a corpus of 850 hours of infants' full-day movement and LENA audio recording. The openly-shared dataset established a public testbed for training new AI approaches for classifying movement and a novel dataset for answering questions about infants' everyday experiences. My doctoral students and I have two papers under review that use our dataset to show how motor development changes the pace of everyday activities (Franchak et al., under review) and how infants' exposure to adults' speech depends on infants' body position (Rousey et al., revision under review, *Dev. Sci.*).
 
 My future directions focus on a recently-awarded **3-year NSF Developmental Sciences grant**, in which I will lead a collaborative project to collect week-long wearable sensing data from infants across the United States. By mailing sensors to families and longitudinally measuring motor skill outcomes (prone, sitting, and standing) using a continuous, clinically-relevant measure (the Alberta Infant Motor Scale), the new study will test how specific skill improvements are predicted by everyday movement. Another collaborative grant with Prof. Kari Kretch (Univ. of Southern California) uses the sensing method to measure daily motor experiences in infants with cerebral palsy, with an aim to translate measurements of typical and atypical movement to future clinical diagnosis and intervention. 
 <!-- new movement opportunities model; Workshops  -->

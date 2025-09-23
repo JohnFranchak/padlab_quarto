@@ -25,8 +25,8 @@ format:
         \usepackage{fancyhdr}
         \pagestyle{fancy}
         \fancyhead{}
-        \fancyhead[LO,LE]{\textbf{John Franchak - Teaching Statement}}
-        \fancyhead[RO,RE]{\thepage}
+        \fancyhead[LO,LE]{\textbf{\sffamily John Franchak - Teaching Statement}}
+        \fancyhead[RO,RE]{\sffamily \thepage}
         \fancyfoot{}
         \RedeclareSectionCommand[
           beforeskip=0pt,

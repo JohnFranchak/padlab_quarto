@@ -18,7 +18,7 @@ format:
         \usepackage{fancyhdr}
         \pagestyle{fancy}
         \fancyhead{}
-        \fancyhead[LO,LE]{\textbf{\sffamily Franchak CV}}
+        \fancyhead[LO,LE]{\textbf{\sffamily John Franchak - Curriculum Vitae}}
         \fancyhead[RO,RE]{\sffamily \thepage}
         \fancyfoot{}
         \addtokomafont{section}{\LARGE}
