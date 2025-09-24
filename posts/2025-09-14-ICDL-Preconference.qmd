@@ -1,0 +1,14 @@
+---
+title: "ICDL ML Workshop"
+description: "Machine learning for tracking early behavior and environments"
+author: "PADLAB"
+date: "09/16/2025"
+draft: false
+---
+
+PADLAB PI [John Franchak](https://padlab.ucr.edu/people/john-franchak.html) co-organized a pre-conference workshop with [Sam Wass](https://www.isey.org/isey-staff/sam-wass) and [Melina Knabe](https://www.la.utexas.edu/users/dil/team.html). The workshop "Machine Learning for Tracking Early Behavior and Environments" took place on September 16, 2025 as part of the [IEEE International Conference on Development and Learning](https://icdl2025.fel.cvut.cz/) in Prague, Czechia. The workshop featured 15 speakers with interdisciplinary expertise in perception, sleep, movement, language, emotion, and social interaction. Prof. Franchak gave a talk in the first session entitled "Full-day recordings of infant motor behavior" with doctoral students Hanzhi Wang and Hailey Rousey as co-authors. 
+
+More information about the workshop is available [here](https://johnfranchak.github.io/icdl_mlcv_workshop_2025/index.html).
+
+
+![](/posts/2025-images/icdl_2025.png){width="45%" fig-align="left"}
