@@ -1,0 +1,55 @@
+--- 
+execute:
+  echo: false
+  warning: false
+format:
+  html:
+    toc-location: left
+    toc-depth: 4
+    email-obfuscation: javascript
+  pdf: 
+    sansfont: "Helvetica"
+    geometry:
+      - top=24mm
+      - left=24mm
+      - bottom=24mm
+      - right=24mm
+      - heightrounded
+    fontenc: T1
+    colorlinks: true
+    block-headings: false
+    include-in-header: 
+      text: |
+        \usepackage{array,colortbl}
+        \arrayrulecolor{white}
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhead{}
+        \fancyhead[LO,LE]{\textbf{\sffamily John Franchak - Service Statement}}
+        \fancyhead[RO,RE]{\sffamily \thepage}
+        \fancyfoot{}
+        \RedeclareSectionCommand[
+          beforeskip=0pt,
+          afterskip=-1.25ex plus .1ex]{paragraph}
+        \RedeclareSectionCommand[
+          beforeskip=0pt,
+          afterskip=1pt]{subsection}
+---
+
+\thispagestyle{fancy}
+
+This statement describes my professional and university service over the past five years.
+
+# Professional Service 
+
+In service to the profession, I have been an active federal grant review panelist. I was a National Science Review Panel member in 2021, 2022, and 2025, and I was a National Eye Institute Panel member in 2024. I served as an Associate Editor of a top journal in my field, Developmental Psychology, editing about 15 manuscripts per year from 2022-2024, and I served as a Review Editor for Frontiers in Psychology from 2020-2023. In addition, I review approximately 15 manuscripts per year as an ad hoc reviewer, spanning outlets in developmental psychology, mobile health, and behavioral methodology. I am the Methods Panel Co-Chair for the upcoming International Congress on Infant Studies, and I was an Area Chair for the 2024 IEEE International Conference on Development and Learning. Additionally, I was a panel reviewer for a major society conference each year over the past five years (International Congress on Infant Studies, Society for Research in Child Development, and Cognitive Development Society).
+
+I have communicated about my work and methodological contributions through a variety of venues as an invited colloquium speaker and as part of invited conference programs (IEEE ICDL and Understanding Vision). I was the lead organizer of preconference workshops on machine learning and computer vision at the 2025 IEEE International Conference on Development and Learning and the 2024 International Congress on Infant Studies. I co-organized a preconference workshop on wearable eye tracking at the 2022 International Congress on Infant Studies. Through Databrary, OSF, Zenodo, and CodeOcean, I have openly shared data and analysis code for every paper I published. 
+
+# University Service 
+
+In service to my university, I have served as a member of the Senate Committee on Information Technology since 2023, where I advise in monthly meetings on IT policy. Starting in 2026, I will be the chair of the IT committee at the campus level and a member of the system-wide IT committee for the University of California. Over the past five years, I served on the advisory boards for the Chancellor’s Research Fellowship and the Undergraduate Research & Creative Activities Symposium, meeting once or twice a year to discuss updates to the format of the symposium. I have been a member of the Human Subject Institutional Review Board since 2023. From 2023-2025, I mentored two cohorts of first year graduate students as part of the Graduate Student Mentoring Program to better support the transition to graduate study in students from diverse backgrounds. Unfortunately, that program ended in Spring 2025. This fall, I started and am overseeing a new peer mentoring program for first year psychology graduate students. 
+
+In service to the department, I served as the head of the Developmental Area from 2023-2025. From 2019-2024, I served as the Psychology department colloquium organizer. I have continuously served as the chair of the UCR Child Studies Database since the Fall of 2015, when I created a shared database that contains contact information for infant and child research participants. This database is used by 6 different labs in the Department of Psychology, one lab in the Department of Bioengineering, and one lab in the Graduate School of Education. 
+
+
