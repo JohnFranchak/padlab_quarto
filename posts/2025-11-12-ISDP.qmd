@@ -1,0 +1,21 @@
+---
+title: "2025 ISDP Meeting"
+description: "PADLAB members presented two posters at ISDP meeting"
+author: "PADLAB"
+date: "11/12/2025"
+draft: false
+---
+
+![](2025-images/ISDP-2025.webp){width="75%" fig-align="center"}
+
+The annual meeting of the International Society for Developmental Psychobiology was held in San Diego. Two PADLAB doctoral students, Hanzhi Wang and Aylin Luna, presented posters on the opening night. 
+
+![](2025-images/ISDP_HanzhiAylin.jpeg){width="50%" fig-align="center"} 
+ 
+Hanzhi Wang presented a poster, "Quantifying Infants' Everyday Opportunities for Movement in the Home", with Hailey Rousey and Prof. John Franchak as co-authors. 
+ 
+![](2025-images/ISDP_HanzhiWang.png){width="100%" fig-align="left"} 
+ 
+Aylin Luna presented a poster, "Cross-Sectional Patterns in Infants' Daily Experiences in the First Two Years", with Prof. Kari Kretch (USC) and Prof. John Franchak as co-authors. 
+
+![](2025-images/ISDP_AylinLuna.png){width="100%" fig-align="left"}
