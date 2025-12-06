@@ -5,7 +5,7 @@ author: "PADLAB"
 date: "12/05/2025"
 ---
 
-The Perception, Action, and Development Lab published two articles in the journal *Developmental Science*. The first article, *Within-day variations in infant body position predict caregiver speech input*, was authored by doctoral student [Hailey Rousey](/people/hailey-rousey.qmd), former staff members Maximilian Tang and Sahrai Garcia, and [John Franchak](/people/john-franchak.qmd). The second article, *Infants' daily routines shape opportunities for perceptual-motor exploration*, was authored by [John Franchak](/people/john-franchak.qmd), Juelle Ford (former undergraduate student), Prof. Caitlin Fausey (University of Oregon), and doctoral student [Aylin Luna](/people/aylin-luna.qmd). Open-access PDFs are available on the [publications page](/publications.qmd).
+The Perception, Action, and Development Lab published two articles in the journal *Developmental Science*. The first article, *Within-day variations in infant body position predict caregiver speech input*, was authored by doctoral student [Hailey Rousey](/people/hailey-rousey.qmd), former staff members Maximilian Tang and Sahrai Garcia, and [John Franchak](/people/john-franchak.qmd). The second article, *Infants' daily routines shape opportunities for perceptual-motor exploration*, was authored by [John Franchak](/people/john-franchak.qmd), Juelle Ford (former undergraduate student), Prof. Caitlin Fausey (University of Oregon), and doctoral student [Aylin Luna](/people/aylin-luna.qmd). Open-access PDFs are available on the [publications page](/Publications.qmd).
 
 ## Paper Abstract: *Within-day variations in infant body position predict caregiver speech input*
 
