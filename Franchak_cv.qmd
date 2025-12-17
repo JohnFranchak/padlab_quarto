@@ -375,6 +375,7 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 | Jenna Monson (2018) 
 
 | **Undergraduate Honors Theses:**
+| Abigail Smith (current)
 | Madelyn Caufield (2020) 
 | Eli Labinger (2018)
 | Frank Somoano (2017) 
