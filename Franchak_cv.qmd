@@ -409,8 +409,9 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 | | |
 |-|--------|
 | 2026- | Chair, UCR Senate Committee on Information Technology |
+| 2026- | Member, UCR Senate-Administration Artificial Intelligence Council |
 | 2026- | Member, UCR Senate Executive Council |
-| 2026- | Member, University Committee on Academic Computing and Communications (UCACC) |
+| 2026- | Member, University of California Committee on Academic Computing and Communications (UCACC) |
 | 2026- | Member, UCR Psychology Department Graduate Education and Well-being Committee |
 | 2025- | Member, Quantitative Specialized Subfield |
 | 2025- | Chair, UCR Psychology Graduate First-Year Community Building Mentorship Program|
