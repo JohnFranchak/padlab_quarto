@@ -7,7 +7,7 @@ website:
   title: "Perception, Action, and Development Lab"
   google-analytics: "G-QC34BLK3LZ"
   favicon: images/favicon.svg
-  page-footer: "Copyright 2025, John Franchak" 
+  page-footer: "Copyright 2026, John Franchak" 
   
   navbar:
     logo: images/icon-plain.png
@@ -44,6 +44,13 @@ website:
         href: https://bsky.app/profile/johnfranchak.bsky.social
       - icon: envelope
         href: mailto:padlab.UCR@gmail.com
+      
+  announcement:
+    icon: calendar-check
+    dismissable: true
+    content: "The lab is hiring a staff researcher in Winter/Spring of 2026. Please check the [job posting](https://jobsportal.ucr.edu/jobs/36954340) for more details."
+    type: secondary
+    position: below-navbar
 
 format:
   html:
