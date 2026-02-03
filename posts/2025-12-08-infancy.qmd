@@ -1,0 +1,14 @@
+---
+title: "Article Accepted in Infancy"
+description: "New findings about infant sitting development"
+author: "PADLAB"
+date: "12/8/2025"
+---
+
+Perception, Action, and Development Lab members co-authored a new article in the journal *Infancy*. The article, *Infant sitting status, sitting age, and everyday positioning experience across the transition to independent sitting*, was authored by Prof. Kari Kretch (University of Southern California), PADLAB doctoral student [Aylin Luna](/people/aylin-luna.qmd), Prof. Caitlin Fausey (University of Oregon), and [John Franchak](/people/john-franchak.qmd). An open-access PDF is available on the [publications page](/Publications.qmd).
+
+## Paper Abstract:
+
+Positioning—the body’s physical configuration and relations to supports and restraints—is a fundamental aspect of infants’ everyday experiences. How do everyday positioning experiences change with the acquisition of postural skills like sitting? This study investigated relations between sitting status (whether infants have achieved a sitting milestone), sitting age (amount of time before or after that milestone), and everyday positioning experience. Forty-three infants participated at 4, 5, 6, and/or 7 months of chronological age. Everyday experience was measured using Ecological Momentary Assessment: Caregivers reported infants’ current position repeatedly throughout their daily activities. The best predictors of everyday sitting experience were chronological age and overall sitting age, calculated from the first day infants sat using hands for support; hands-free sitting age, calculated from the first day infants sat without hands, did not uniquely contribute. Sitting experience supplanted supine experience, which decreased with overall sitting age; the effect of overall sitting age on prone experience varied with chronological age. Time restrained by an adult decreased only with chronological age, and time restrained by a device was not related to chronological or sitting age. Results suggest that the continuous development of sitting skill changes the positioning composition of infants’ everyday unrestrained floor time.  
+
+![](2025-images/infancy.png){width="75%" fig-align="left"}
