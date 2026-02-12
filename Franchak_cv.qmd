@@ -384,7 +384,16 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 | Larissa Gabelman (2009, as a graduate mentor) 
 | Dina van der Zalm (2008, as a graduate mentor) 
 
+| **Undergraduate Sponsored Summer Internships:**
+| Rabyana Iqbal (2025), UCR Mentoring Summer Research Internship Program Advisee
+| Isabel Kang (2023), UCR Research in Science and Engineering Summer Internship Advisee
+| Lynn Domond (2022), UCR Research in Science and Engineering Summer Internship Advisee
+| Juelle Ford (2021), UCR Student Minigrant, UCR Research in Science and Engineering Summer Internship Advisee
+
 | **Undergraduate Research Grants Mentored:**
+| Rabyana Iqbal (2026), UCR Student Minigrant
+| Mark Shimuzu (2026), UCR Student Minigrant
+| Anna Medvedeva (2026), UCR Student Minigrant
 | Abigail Smith (2025), UCR Student Minigrant
 | Kaylee Cheung (2025), UCR Student Minigrant, Best Poster Award at the Undergraduate Research Symposium
 | Jocelyn Lam (2024), UCR Student Minigrant

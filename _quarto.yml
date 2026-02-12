@@ -44,13 +44,6 @@ website:
         href: https://bsky.app/profile/johnfranchak.bsky.social
       - icon: envelope
         href: mailto:padlab.UCR@gmail.com
-      
-  announcement:
-    icon: calendar-check
-    dismissable: true
-    content: "The lab is hiring a staff researcher in Winter/Spring of 2026. Please check the [job posting](https://jobsportal.ucr.edu/jobs/36954340) for more details."
-    type: secondary
-    position: below-navbar
 
 format:
   html:
