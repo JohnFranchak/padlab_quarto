@@ -1,0 +1,14 @@
+---
+title: "Article Accepted in Infancy"
+description: "Posture transitions in daily life"
+author: "PADLAB"
+date: "2/13/2026"
+---
+
+Perception, Action, and Development Lab members authored a new article in the journal *Infancy*. The article, *Walking-related changes in infants’ everyday experiences of postural transitions: A longitudinal assessment*, was authored by PADLAB doctoral student [Yushan Gyo](/people/yushan-guo.qmd), former PADLAB staff member Maximilian Tang, and [John Franchak](/people/john-franchak.qmd). An open-access PDF is available on the [publications page](/Publications.qmd).
+
+## Paper Abstract:
+
+Postural transitions occur when infants switch from one posture to another, such as from prone to sitting. Postural transitions facilitate perceptual-motor exploration because different postures afford unique learning opportunities. However, extant studies on postural transitions are limited to laboratory play sessions, so it is unknown how frequently transitions occur in daily life. In the present study, we assessed infants’ daily experiences with postural transitions. In particular, we tested whether the frequency of transitions and the type of transitions change with infants’ increasing walking experience. We developed a novel video-based ecological momentary assessment (vEMA) to longitudinally collect videos of infants’ activities throughout the day in their home environment at 11 and 13 months of age. We identified postural transitions in the resulting 3210 video observations collected from N = 44 infants across the United States, which revealed that the frequency and type of transitions differed according to walking experience. The frequency of postural transitions decreased with accumulated walking experience. Infants with greater walking experience more frequently engaged in transitions involving upright postures in their daily lives. 
+
+![](2026-images/infancy.png){width="75%" fig-align="left"}
