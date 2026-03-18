@@ -290,6 +290,7 @@ presentations %>% filter(type %in% c("Colloquium")) %>% arrange(desc(year)) %>%
 \renewcommand{\arraystretch}{1.25}
 | | |
 |-|--------|
+| 2026 | Panel Co-Chair, International Congress on Infant Studies |
 | 2025 | Member, National Science Foundation Review Panel |
 | 2025 | Panel Reviewer, Society for Research in Child Development | 
 | 2024 | Member, National Eye Institute Grant Review Panel |
@@ -388,7 +389,7 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 | Rabyana Iqbal (2025), UCR Mentoring Summer Research Internship Program Advisee
 | Isabel Kang (2023), UCR Research in Science and Engineering Summer Internship Advisee
 | Lynn Domond (2022), UCR Research in Science and Engineering Summer Internship Advisee
-| Juelle Ford (2021), UCR Student Minigrant, UCR Research in Science and Engineering Summer Internship Advisee
+| Juelle Ford (2021), UCR Research in Science and Engineering Summer Internship Advisee
 
 | **Undergraduate Research Grants Mentored:**
 | Rabyana Iqbal (2026), UCR Student Minigrant
@@ -422,7 +423,7 @@ tibble(col1, col2) %>% kable(col.names = c("",""))
 | 2026- | Member, UCR Senate Executive Council |
 | 2026- | Member, University of California Committee on Academic Computing and Communications (UCACC) |
 | 2026- | Member, UCR Psychology Department Graduate Education and Well-being Committee |
-| 2025- | Member, Quantitative Specialized Subfield |
+| 2025- | Member, Psychology Department Quantitative Specialized Subfield |
 | 2025- | Chair, UCR Psychology Graduate First-Year Community Building Mentorship Program|
 | 2024-2025 | Member, UCR Psychology Executive Committee |
 | 2023-2025 | Member, UCR Senate Committee on Information Technology |
