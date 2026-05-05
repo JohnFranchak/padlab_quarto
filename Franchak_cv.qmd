@@ -285,6 +285,12 @@ presentations %>% filter(type %in% c("Colloquium")) %>% arrange(desc(year)) %>%
 
 # Professional Activities and Service
 
+### Leadership Positions
+| | |
+|-|--------|
+| 2026-2028 | Communications Chair, International Congress on Infant Studies |
+: {tbl-colwidths="[15,85]"}
+
 ### Reviewer Positions
 
 \renewcommand{\arraystretch}{1.25}
