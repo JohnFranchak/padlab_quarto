@@ -1,0 +1,13 @@
+---
+title: "New Lab Space"
+description: "The lab moves to a new space"
+author: "PADLAB"
+date: "02/01/2026"
+---
+
+In February 2026, the Perception, Action, and Development Lab moved into a newly-renovated, larger lab space in the basement of Olmsted Hall, Room A0130. 
+
+![Behavioral Testing Room](2026-images/testing-room.jpg){width="100%" fig-align="left"}
+
+![Remote Eye Tracking Room](2026-images/et-room.jpg){width="100%" fig-align="left"}
+
