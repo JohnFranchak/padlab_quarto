@@ -2,8 +2,6 @@
 title: "Contact"
 ---
 
-**Lab phone:** 951.827.5295 
-
 **Lab email:** [padlab.UCR@gmail.com](mailto:padlab.UCR@gmail.com)
 
 **Mailing address**<br/>
@@ -13,7 +11,7 @@ University of California, Riverside <br/>
 Riverside, CA 92521 <br/>
 
 **Lab address**<br/>
-Olmsted Hall, Rooms 2136 <br/>
+Olmsted Hall, Room A0130 <br/>
 Riverside, CA 92507 <br/>
 Parking: Lot 6 on West Campus Drive <br/>
 

@@ -1,0 +1,20 @@
+---
+title: "Iran Valladares Fuentes"
+image: iran-valladares-fuentes.jpeg
+draft: false
+order: 2026
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:iranv@ucr.edu
+---
+
+[**Research Coordinator**]{.text-primary}
+
+**Office:** Olmsted A0130 <br/>
+
+**Biography**
+
+Iran Valladares Fuentes is a Research Coordinator in the Perception, Action, & Development Lab. 
