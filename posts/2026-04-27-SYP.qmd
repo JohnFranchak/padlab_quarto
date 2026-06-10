@@ -1,0 +1,12 @@
+---
+title: "Successful Second-Year Project"
+description: "MA Defense of Hanzhi Wang"
+author: "PADLAB"
+date: "04/27/2026"
+---
+
+In Spring 2026, the Perception, Action, and Development Lab celebrated doctoral student Hanzhi Wang's successful second-year project defense. On April 27, 2026, Hanzhi presented her project, "The Temporal Structure of Infant Daily Restrained Experiences", in the Developmental Proseminar. 
+
+![Hanzhi Wang presenting](2026-images/Hanzhi-SYP-1.jpeg){width="49%" fig-align="left"}
+![](2026-images/Hanzhi-SYP-2.jpeg){width="49%" fig-align="right"}
+
