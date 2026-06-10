@@ -59,6 +59,6 @@ For older posts, browse the [news](News.qmd) section.
 
 We are accepting applications for undergraduate research assistants on a rolling basis. Please fill out the [form](https://forms.gle/QJgJk5CZxzj8qufr5), and we will get back to you when we have openings. 
 
-Dr. Franchak does not plan to accept a doctoral student for the 2026-2027 academic year.
+<!-- Dr. Franchak does not plan to accept a doctoral student for the 2026-2027 academic year. -->
 
 <a rel="me" href="https://fediscience.org/@johnfranchak"></a> 

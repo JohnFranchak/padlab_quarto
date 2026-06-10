@@ -1,0 +1,27 @@
+---
+title: "2026 UCR URS"
+description: "PADLAB members presented four posters at the 2026 Undergraduate Research Symposium"
+author: "PADLAB"
+date: "04/24/2026"
+draft: false
+---
+
+![](2026-images/URS.png){width="75%" fig-align="center"}
+
+Five PADLAB undergraduate researchers, Anna Medvedeva, Mark Shimizu, Rabyana Iqbal, Abigail Smith, and Nola Perefil, presented their work at the 20th Annual [UCR Undergraduate Research & Creative Activities Symposium](https://engage.ucr.edu/symposium), showcasing their projects and contributions over the academic year.
+
+### Mark Shimizu
+
+![](2026-images/mark-URS.jpeg){width="100%" fig-align="center"}
+
+### Rabyana Iqbal
+
+![](2026-images/rabyana-URS.jpeg){width="100%" fig-align="center"}
+
+### Abigail Smith
+
+![](2026-images/abbie-URS.jpeg){width="100%" fig-align="center"}
+
+### Nola Perefil
+
+![](2026-images/nola-URS.jpeg){width="100%" fig-align="center"}

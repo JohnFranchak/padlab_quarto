@@ -1,0 +1,11 @@
+---
+title: "New Research Coordinator"
+description: "Iran Valladares Fuentes joins the lab"
+author: "PADLAB"
+date: "5/01/2026"
+---
+
+In Spring 2026, [Iran Valladares Fuentes](/people/iran-valladares-fuentes.qmd) joined the Perception, Action, and Development Lab to work as the research coordinator for the new [NSF project](/posts/2025-08-12-nsf.qmd).
+
+![Iran Valladares Fuentes](/people/iran-valladares-fuentes.jpeg){width="50%" fig-align="left"}
+
