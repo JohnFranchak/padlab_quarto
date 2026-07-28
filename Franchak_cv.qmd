@@ -52,7 +52,7 @@ Last updated: `r sprintf("%s %d, %d", as.character(month(today(), label = T, abb
  | 
 |--|--------|
 | 2025- | Faculty Affiliate, Artificial Intelligence Research and Education Institute, **University of California, Riverside** |
-| 2022- | Associate Professor, Dept. of Psychology, **University of California, Riverside** |
+| 2022- | Associate Professor, Dept. of Psychological and Brain Sciences, **University of California, Riverside** |
 | 2014-2022 | Assistant Professor, Dept. of Psychology, **University of California, Riverside** |
 | 2013-2014 | Post-Doctoral Fellow, Dept. of Psychological and Brain Sciences, **Indiana University** (Sponsors: Chen Yu & Linda Smith) |
 | 2011-2013 | Post-Doctoral Researcher, Dept. of Psychology, **New York University** (Sponsors: Karen Adolph & David Heeger)|
