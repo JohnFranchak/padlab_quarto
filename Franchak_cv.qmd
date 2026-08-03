@@ -295,7 +295,7 @@ presentations %>% filter(type %in% c("Colloquium")) %>% arrange(desc(year)) %>%
 ### Leadership Positions
 | | |
 |-|--------|
-| 2026-2028 | Communications Chair, International Congress on Infant Studies |
+| 2026-2032 | Communications Chair, International Congress on Infant Studies |
 : {tbl-colwidths="[15,85]"}
 
 ### Reviewer Positions
