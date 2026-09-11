@@ -1,6 +1,7 @@
 ---
 title: "Sahrai Garcia"
 image: sahrai-garcia.jpg
+render: false
 draft: true
 order: 2023
 about:

@@ -3,6 +3,7 @@ title: "Juelle Ford"
 image: juelle-ford.jpeg
 draft: true
 order: 2022.85
+render: false
 about:
   template: trestles
   links:

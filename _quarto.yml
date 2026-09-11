@@ -2,7 +2,15 @@ project:
   type: website
   output-dir: htdocs
   resources: publications
-
+  render:
+    - "*.qmd"
+    - "!Franchak_Research.qmd"
+    - "!Franchak_Teaching.qmd"
+    - "!Franchak_Service.qmd"
+    - "!Franchak_Research_2022.qmd"
+    - "!Franchak_Research_2page.qmd"
+    - "!people/inactive/*.qmd"
+    
 website:
   title: "Perception, Action, and Development Lab"
   google-analytics: "G-QC34BLK3LZ"
@@ -40,8 +48,12 @@ website:
     right:
       - icon: github
         href: https://github.com/JohnFranchak/padlab_quarto
-      - icon: twitter
+      - icon: bluesky
         href: https://bsky.app/profile/johnfranchak.bsky.social
+      - icon: instagram
+        href: https://www.instagram.com/ucr_padlab/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/john-franchak-b14b34408/
       - icon: envelope
         href: mailto:padlab.UCR@gmail.com
 

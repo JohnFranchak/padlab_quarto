@@ -20,9 +20,12 @@ about:
     - icon: envelope
       text: Email
       href: mailto:franchak@ucr.edu
-    - icon: square-fill
+    - icon: bluesky
       text: Bluesky
       href: https://bsky.app/profile/johnfranchak.bsky.social
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/john-franchak-b14b34408/
 ---
 
 [**Principal Investigator**]{.text-primary}
